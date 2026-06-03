@@ -5,11 +5,27 @@
 ## 起動
 
 ```sh
-cd /Users/haruki/Desktop/english-vocab-trainer
+cd /home/haruki/Desktop/english-vocab-trainer
 python3 -m http.server 8000
 ```
 
 ブラウザで `http://127.0.0.1:8000` または `http://localhost:8000` を開きます。
+
+## 外部公開
+
+外出先や別ネットワークから使う場合は、GitHub Pagesで公開します。
+
+公開URL:
+
+```txt
+https://haruki113.github.io/english-vocab-trainer/
+```
+
+`main` ブランチにpushすると、`.github/workflows/pages.yml` がGitHub Pagesへ自動デプロイします。
+初回だけGitHubのリポジトリ設定で `Settings` -> `Pages` -> `Build and deployment` のSourceを `GitHub Actions` にしてください。
+
+公開対象は `index.html`、`app.js`、`styles.css`、`data/vocab.json`、`robots.txt` に限定しています。
+`robots.txt` と `noindex` メタタグで検索避けをしていますが、アクセス制限ではありません。
 
 ## データ形式
 

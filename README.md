@@ -5,27 +5,11 @@
 ## 起動
 
 ```sh
-cd /home/haruki/Desktop/english-vocab-trainer
-python3 -m http.server 8000 --bind 0.0.0.0
+cd /Users/haruki/Desktop/english-vocab-trainer
+python3 -m http.server 8000
 ```
 
-このPCでは `http://127.0.0.1:8000` または `http://localhost:8000` を開きます。
-
-同じWi-Fiにいるスマホからは、PCのIPアドレスを使って `http://<PCのIP>:8000` を開きます。
-例: `http://172.22.9.180:8000`
-
-## 外部公開
-
-外出先や別ネットワークからいつでも使う場合は、GitHub Pagesで公開します。
-
-公開URL:
-
-```txt
-https://haruki113.github.io/english-vocab-trainer/
-```
-
-`main` ブランチにpushすると、`.github/workflows/pages.yml` がGitHub Pagesへ自動デプロイします。
-初回だけGitHubのリポジトリ設定で `Settings` -> `Pages` -> `Build and deployment` のSourceを `GitHub Actions` にしてください。
+ブラウザで `http://127.0.0.1:8000` または `http://localhost:8000` を開きます。
 
 ## データ形式
 

@@ -2399,6 +2399,306 @@
         "cset2600",
         "451-600"
       ]
+    },
+    {
+      "id": "test-5-001",
+      "english": "clarify",
+      "japanese": "問題を解く前に自分の考えを明らかにしておく必要がある。",
+      "example_en": "You need to clarify your thought before you solve the problem.",
+      "example_ja": "問題を解く前に自分の考えを明らかにしておく必要がある。",
+      "tags": [
+        "test-5",
+        "cset2600",
+        "601-750"
+      ]
+    },
+    {
+      "id": "test-5-002",
+      "english": "contains",
+      "japanese": "この缶には20リットルの石油が入っている。",
+      "example_en": "This can contains 20 liters of oil.",
+      "example_ja": "この缶には20リットルの石油が入っている。",
+      "tags": [
+        "test-5",
+        "cset2600",
+        "601-750"
+      ]
+    },
+    {
+      "id": "test-5-003",
+      "english": "shine",
+      "japanese": "月は自分自身で光っているのではない。",
+      "example_en": "The moon does not shine by itself.",
+      "example_ja": "月は自分自身で光っているのではない。",
+      "tags": [
+        "test-5",
+        "cset2600",
+        "601-750"
+      ]
+    },
+    {
+      "id": "test-5-004",
+      "english": "process",
+      "japanese": "このモデルの生産過程を見せてください。",
+      "example_en": "Show me the production process of this model.",
+      "example_ja": "このモデルの生産過程を見せてください。",
+      "tags": [
+        "test-5",
+        "cset2600",
+        "601-750"
+      ]
+    },
+    {
+      "id": "test-5-005",
+      "english": "material",
+      "japanese": "彼らはセラミック材料を効率的に処理する方法を開発した。",
+      "example_en": "They developed an effective means of processing the ceramic material.",
+      "example_ja": "彼らはセラミック材料を効率的に処理する方法を開発した。",
+      "tags": [
+        "test-5",
+        "cset2600",
+        "601-750"
+      ]
+    },
+    {
+      "id": "test-5-006",
+      "english": "patent",
+      "japanese": "彼女は自分の発明で特許を取った。",
+      "example_en": "She got a patent for her invention.",
+      "example_ja": "彼女は自分の発明で特許を取った。",
+      "tags": [
+        "test-5",
+        "cset2600",
+        "601-750"
+      ]
+    },
+    {
+      "id": "test-5-007",
+      "english": "colleague",
+      "japanese": "彼女の同僚たちはいつも彼女の研究活動を支えてくれた。",
+      "example_en": "Her colleague have always supported her research work.",
+      "example_ja": "彼女の同僚たちはいつも彼女の研究活動を支えてくれた。",
+      "tags": [
+        "test-5",
+        "cset2600",
+        "601-750"
+      ]
+    },
+    {
+      "id": "test-5-008",
+      "english": "issue",
+      "japanese": "コンピュータネットワークのユーザーにとってセキュリティは大きな問題だ。",
+      "example_en": "Security is an important issue for users of computer networks.",
+      "example_ja": "コンピュータネットワークのユーザーにとってセキュリティは大きな問題だ。",
+      "tags": [
+        "test-5",
+        "cset2600",
+        "601-750"
+      ]
+    },
+    {
+      "id": "test-5-009",
+      "english": "species",
+      "japanese": "これらの犬はすべて同じ種に属する。",
+      "example_en": "All these dogs are of the same species.",
+      "example_ja": "これらの犬はすべて同じ種に属する。",
+      "tags": [
+        "test-5",
+        "cset2600",
+        "601-750"
+      ]
+    },
+    {
+      "id": "test-5-010",
+      "english": "pain",
+      "japanese": "この手術はほとんど痛みがありません。",
+      "example_en": "This operation gives you almost no pain.",
+      "example_ja": "この手術はほとんど痛みがありません。",
+      "tags": [
+        "test-5",
+        "cset2600",
+        "601-750"
+      ]
+    },
+    {
+      "id": "test-5-011",
+      "english": "organ",
+      "japanese": "体の中の臓器を支えるための筋肉もある。",
+      "example_en": "We have some muscles to support organ inside our body.",
+      "example_ja": "体の中の臓器を支えるための筋肉もある。",
+      "tags": [
+        "test-5",
+        "cset2600",
+        "601-750"
+      ]
+    },
+    {
+      "id": "test-5-012",
+      "english": "relief",
+      "japanese": "その患者は医者に痛みを軽くしてくれるよう頼んだ。",
+      "example_en": "The patient asked the doctor for relief from the pain.",
+      "example_ja": "その患者は医者に痛みを軽くしてくれるよう頼んだ。",
+      "tags": [
+        "test-5",
+        "cset2600",
+        "601-750"
+      ]
+    },
+    {
+      "id": "test-5-013",
+      "english": "terms",
+      "japanese": "これらは工学の分野でよく使われる用語です。",
+      "example_en": "These are the terms that are often used in the field of engineering.",
+      "example_ja": "これらは工学の分野でよく使われる用語です。",
+      "tags": [
+        "test-5",
+        "cset2600",
+        "601-750"
+      ]
+    },
+    {
+      "id": "test-5-014",
+      "english": "council",
+      "japanese": "彼女はその協議会の一員だ。",
+      "example_en": "She is a member of the council.",
+      "example_ja": "彼女はその協議会の一員だ。",
+      "tags": [
+        "test-5",
+        "cset2600",
+        "601-750"
+      ]
+    },
+    {
+      "id": "test-5-015",
+      "english": "universe",
+      "japanese": "アインシュタインの理論は宇宙の研究では非常に重要である。",
+      "example_en": "Einstein's theory is very important for studying the universe.",
+      "example_ja": "アインシュタインの理論は宇宙の研究では非常に重要である。",
+      "tags": [
+        "test-5",
+        "cset2600",
+        "601-750"
+      ]
+    },
+    {
+      "id": "test-5-016",
+      "english": "terrestrial",
+      "japanese": "方角を知るためには地球の磁気を利用する鳥がいる。",
+      "example_en": "Some birds use terrestrial magnetism to know the direction.",
+      "example_ja": "方角を知るためには地球の磁気を利用する鳥がいる。",
+      "tags": [
+        "test-5",
+        "cset2600",
+        "601-750"
+      ]
+    },
+    {
+      "id": "test-5-017",
+      "english": "eternal",
+      "japanese": "科学によって永遠の命が得られるとは思わない。",
+      "example_en": "I don't think science can give you eternal life.",
+      "example_ja": "科学によって永遠の命が得られるとは思わない。",
+      "tags": [
+        "test-5",
+        "cset2600",
+        "601-750"
+      ]
+    },
+    {
+      "id": "test-5-018",
+      "english": "transparent",
+      "japanese": "この液体は無色透明です。",
+      "example_en": "This liquid is colorless and transparent.",
+      "example_ja": "この液体は無色透明です。",
+      "tags": [
+        "test-5",
+        "cset2600",
+        "601-750"
+      ]
+    },
+    {
+      "id": "test-5-019",
+      "english": "twist",
+      "japanese": "そのふたを取るには軽くねじるだけでよい。",
+      "example_en": "You only have to twist the cap lightly to remove it.",
+      "example_ja": "そのふたを取るには軽くねじるだけでよい。",
+      "tags": [
+        "test-5",
+        "cset2600",
+        "601-750"
+      ]
+    },
+    {
+      "id": "test-5-020",
+      "english": "structure",
+      "japanese": "この建物の構造は耐震基準に合致していない。",
+      "example_en": "The structure of this building does not meet the quake resistance standards.",
+      "example_ja": "この建物の構造は耐震基準に合致していない。",
+      "tags": [
+        "test-5",
+        "cset2600",
+        "601-750"
+      ]
+    },
+    {
+      "id": "test-5-021",
+      "english": "expected",
+      "japanese": "今年は予期したより多くの台風が来た。",
+      "example_en": "We had more typhoons than we had expected this year.",
+      "example_ja": "今年は予期したより多くの台風が来た。",
+      "tags": [
+        "test-5",
+        "cset2600",
+        "601-750"
+      ]
+    },
+    {
+      "id": "test-5-022",
+      "english": "continued",
+      "japanese": "彼は夜遅くまで勉強を続けた。",
+      "example_en": "He continued studying till late at night.",
+      "example_ja": "彼は夜遅くまで勉強を続けた。",
+      "tags": [
+        "test-5",
+        "cset2600",
+        "601-750"
+      ]
+    },
+    {
+      "id": "test-5-023",
+      "english": "melt",
+      "japanese": "氷は華氏32度すなわち摂氏0度で溶け始める。",
+      "example_en": "Ice begins to melt at thirty-two degrees Fahrenheit, or zero degrees Celsius.",
+      "example_ja": "氷は華氏32度すなわち摂氏0度で溶け始める。",
+      "tags": [
+        "test-5",
+        "cset2600",
+        "601-750"
+      ]
+    },
+    {
+      "id": "test-5-024",
+      "english": "nitrogen",
+      "japanese": "空気の80パーセント近くは窒素である。",
+      "example_en": "Almost 80 percent of the air is nitrogen.",
+      "example_ja": "空気の80パーセント近くは窒素である。",
+      "tags": [
+        "test-5",
+        "cset2600",
+        "601-750"
+      ]
+    },
+    {
+      "id": "test-5-025",
+      "english": "lattice",
+      "japanese": "この分子の構造は格子構造だ。",
+      "example_en": "The structure of this molecule is a lattice.",
+      "example_ja": "この分子の構造は格子構造だ。",
+      "tags": [
+        "test-5",
+        "cset2600",
+        "601-750"
+      ]
     }
   ],
   "tests": [
@@ -6442,6 +6742,516 @@
             "test-4",
             "cset2600",
             "451-600"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "test-5",
+      "title": "R8(AZ1)_COSET2600 単語テスト［601番～750番］",
+      "question_count": 25,
+      "source_files": [
+        "tmp/R8(AZ1)_COSET2600 単語テスト［601番～750番］.html"
+      ],
+      "questions": [
+        {
+          "id": "test5-q001",
+          "number": 1,
+          "item_id": "test-5-001",
+          "answer_language": "en",
+          "prompt_en": "You need to ( ) your thought before you solve the problem.",
+          "prompt_ja": "問題を解く前に自分の考えを明らかにしておく必要がある。",
+          "choices": [
+            "contain",
+            "claim",
+            "provide",
+            "clarify"
+          ],
+          "answer": "clarify",
+          "tags": [
+            "test-5",
+            "cset2600",
+            "601-750"
+          ]
+        },
+        {
+          "id": "test5-q002",
+          "number": 2,
+          "item_id": "test-5-002",
+          "answer_language": "en",
+          "prompt_en": "This can ( ) 20 liters of oil.",
+          "prompt_ja": "この缶には20リットルの石油が入っている。",
+          "choices": [
+            "claims",
+            "contains",
+            "absorbs",
+            "provides"
+          ],
+          "answer": "contains",
+          "tags": [
+            "test-5",
+            "cset2600",
+            "601-750"
+          ]
+        },
+        {
+          "id": "test5-q003",
+          "number": 3,
+          "item_id": "test-5-003",
+          "answer_language": "en",
+          "prompt_en": "The moon does not ( ) by itself.",
+          "prompt_ja": "月は自分自身で光っているのではない。",
+          "choices": [
+            "shine",
+            "bake",
+            "burn",
+            "polish"
+          ],
+          "answer": "shine",
+          "tags": [
+            "test-5",
+            "cset2600",
+            "601-750"
+          ]
+        },
+        {
+          "id": "test5-q004",
+          "number": 4,
+          "item_id": "test-5-004",
+          "answer_language": "en",
+          "prompt_en": "Show me the production ( ) of this model.",
+          "prompt_ja": "このモデルの生産過程を見せてください。",
+          "choices": [
+            "float",
+            "process",
+            "effect",
+            "factory"
+          ],
+          "answer": "process",
+          "tags": [
+            "test-5",
+            "cset2600",
+            "601-750"
+          ]
+        },
+        {
+          "id": "test5-q005",
+          "number": 5,
+          "item_id": "test-5-005",
+          "answer_language": "en",
+          "prompt_en": "They developed an effective means of processing the ceramic ( ).",
+          "prompt_ja": "彼らはセラミック材料を効率的に処理する方法を開発した。",
+          "choices": [
+            "material",
+            "fund",
+            "technique",
+            "patent"
+          ],
+          "answer": "material",
+          "tags": [
+            "test-5",
+            "cset2600",
+            "601-750"
+          ]
+        },
+        {
+          "id": "test5-q006",
+          "number": 6,
+          "item_id": "test-5-006",
+          "answer_language": "en",
+          "prompt_en": "She got a ( ) for her invention.",
+          "prompt_ja": "彼女は自分の発明で特許を取った。",
+          "choices": [
+            "evidence",
+            "fund",
+            "patent",
+            "means"
+          ],
+          "answer": "patent",
+          "tags": [
+            "test-5",
+            "cset2600",
+            "601-750"
+          ]
+        },
+        {
+          "id": "test5-q007",
+          "number": 7,
+          "item_id": "test-5-007",
+          "answer_language": "en",
+          "prompt_en": "Her ( ) have always supported her research work.",
+          "prompt_ja": "彼女の同僚たちはいつも彼女の研究活動を支えてくれた。",
+          "choices": [
+            "factory",
+            "colleague",
+            "laboratory",
+            "department"
+          ],
+          "answer": "colleague",
+          "tags": [
+            "test-5",
+            "cset2600",
+            "601-750"
+          ]
+        },
+        {
+          "id": "test5-q008",
+          "number": 8,
+          "item_id": "test-5-008",
+          "answer_language": "en",
+          "prompt_en": "Security is an important ( ) for users of computer networks.",
+          "prompt_ja": "コンピュータネットワークのユーザーにとってセキュリティは大きな問題だ。",
+          "choices": [
+            "gene",
+            "issue",
+            "pain",
+            "fund"
+          ],
+          "answer": "issue",
+          "tags": [
+            "test-5",
+            "cset2600",
+            "601-750"
+          ]
+        },
+        {
+          "id": "test5-q009",
+          "number": 9,
+          "item_id": "test-5-009",
+          "answer_language": "en",
+          "prompt_en": "All these dogs are of the same ( ).",
+          "prompt_ja": "これらの犬はすべて同じ種に属する。",
+          "choices": [
+            "flesh",
+            "brain",
+            "blood",
+            "species"
+          ],
+          "answer": "species",
+          "tags": [
+            "test-5",
+            "cset2600",
+            "601-750"
+          ]
+        },
+        {
+          "id": "test5-q010",
+          "number": 10,
+          "item_id": "test-5-010",
+          "answer_language": "en",
+          "prompt_en": "This operation gives you almost no ( ).",
+          "prompt_ja": "この手術はほとんど痛みがありません。",
+          "choices": [
+            "brain",
+            "tear",
+            "nerve",
+            "pain"
+          ],
+          "answer": "pain",
+          "tags": [
+            "test-5",
+            "cset2600",
+            "601-750"
+          ]
+        },
+        {
+          "id": "test5-q011",
+          "number": 11,
+          "item_id": "test-5-011",
+          "answer_language": "en",
+          "prompt_en": "We have some muscles to support ( ) inside our body.",
+          "prompt_ja": "体の中の臓器を支えるための筋肉もある。",
+          "choices": [
+            "stomach",
+            "organ",
+            "lung",
+            "liver"
+          ],
+          "answer": "organ",
+          "tags": [
+            "test-5",
+            "cset2600",
+            "601-750"
+          ]
+        },
+        {
+          "id": "test5-q012",
+          "number": 12,
+          "item_id": "test-5-012",
+          "answer_language": "en",
+          "prompt_en": "The patient asked the doctor for ( ) from the pain.",
+          "prompt_ja": "その患者は医者に痛みを軽くしてくれるよう頼んだ。",
+          "choices": [
+            "disease",
+            "relief",
+            "medicine",
+            "ache"
+          ],
+          "answer": "relief",
+          "tags": [
+            "test-5",
+            "cset2600",
+            "601-750"
+          ]
+        },
+        {
+          "id": "test5-q013",
+          "number": 13,
+          "item_id": "test-5-013",
+          "answer_language": "en",
+          "prompt_en": "These are the ( ) that are often used in the field of engineering.",
+          "prompt_ja": "これらは工学の分野でよく使われる用語です。",
+          "choices": [
+            "sites",
+            "beans",
+            "terms",
+            "views"
+          ],
+          "answer": "terms",
+          "tags": [
+            "test-5",
+            "cset2600",
+            "601-750"
+          ]
+        },
+        {
+          "id": "test5-q014",
+          "number": 14,
+          "item_id": "test-5-014",
+          "answer_language": "en",
+          "prompt_en": "She is a member of the ( ).",
+          "prompt_ja": "彼女はその協議会の一員だ。",
+          "choices": [
+            "conference",
+            "century",
+            "council",
+            "cosmic"
+          ],
+          "answer": "council",
+          "tags": [
+            "test-5",
+            "cset2600",
+            "601-750"
+          ]
+        },
+        {
+          "id": "test5-q015",
+          "number": 15,
+          "item_id": "test-5-015",
+          "answer_language": "en",
+          "prompt_en": "Einstein's theory is very important for studying the ( ).",
+          "prompt_ja": "アインシュタインの理論は宇宙の研究では非常に重要である。",
+          "choices": [
+            "galaxy",
+            "universe",
+            "planet",
+            "orbit"
+          ],
+          "answer": "universe",
+          "tags": [
+            "test-5",
+            "cset2600",
+            "601-750"
+          ]
+        },
+        {
+          "id": "test5-q016",
+          "number": 16,
+          "item_id": "test-5-016",
+          "answer_language": "en",
+          "prompt_en": "Some birds use ( ) magnetism to know the direction.",
+          "prompt_ja": "方角を知るためには地球の磁気を利用する鳥がいる。",
+          "choices": [
+            "planet",
+            "cosmic",
+            "terrestrial",
+            "satellite"
+          ],
+          "answer": "terrestrial",
+          "tags": [
+            "test-5",
+            "cset2600",
+            "601-750"
+          ]
+        },
+        {
+          "id": "test5-q017",
+          "number": 17,
+          "item_id": "test-5-017",
+          "answer_language": "en",
+          "prompt_en": "I don't think science can give you ( ) life.",
+          "prompt_ja": "科学によって永遠の命が得られるとは思わない。",
+          "choices": [
+            "compatible",
+            "eternal",
+            "terrestrial",
+            "transparent"
+          ],
+          "answer": "eternal",
+          "tags": [
+            "test-5",
+            "cset2600",
+            "601-750"
+          ]
+        },
+        {
+          "id": "test5-q018",
+          "number": 18,
+          "item_id": "test-5-018",
+          "answer_language": "en",
+          "prompt_en": "This liquid is colorless and ( ).",
+          "prompt_ja": "この液体は無色透明です。",
+          "choices": [
+            "unknown",
+            "delicate",
+            "compatible",
+            "transparent"
+          ],
+          "answer": "transparent",
+          "tags": [
+            "test-5",
+            "cset2600",
+            "601-750"
+          ]
+        },
+        {
+          "id": "test5-q019",
+          "number": 19,
+          "item_id": "test-5-019",
+          "answer_language": "en",
+          "prompt_en": "You only have to ( ) the cap lightly to remove it.",
+          "prompt_ja": "そのふたを取るには軽くねじるだけでよい。",
+          "choices": [
+            "toss",
+            "wrap",
+            "twist",
+            "melt"
+          ],
+          "answer": "twist",
+          "tags": [
+            "test-5",
+            "cset2600",
+            "601-750"
+          ]
+        },
+        {
+          "id": "test5-q020",
+          "number": 20,
+          "item_id": "test-5-020",
+          "answer_language": "en",
+          "prompt_en": "The ( ) of this building does not meet the quake resistance standards.",
+          "prompt_ja": "この建物の構造は耐震基準に合致していない。",
+          "choices": [
+            "stomach",
+            "structure",
+            "species",
+            "standard"
+          ],
+          "answer": "structure",
+          "tags": [
+            "test-5",
+            "cset2600",
+            "601-750"
+          ]
+        },
+        {
+          "id": "test5-q021",
+          "number": 21,
+          "item_id": "test-5-021",
+          "answer_language": "en",
+          "prompt_en": "We had more typhoons than we had ( ) this year.",
+          "prompt_ja": "今年は予期したより多くの台風が来た。",
+          "choices": [
+            "expected",
+            "involved",
+            "described",
+            "required"
+          ],
+          "answer": "expected",
+          "tags": [
+            "test-5",
+            "cset2600",
+            "601-750"
+          ]
+        },
+        {
+          "id": "test5-q022",
+          "number": 22,
+          "item_id": "test-5-022",
+          "answer_language": "en",
+          "prompt_en": "He ( ) studying till late at night.",
+          "prompt_ja": "彼は夜遅くまで勉強を続けた。",
+          "choices": [
+            "described",
+            "argued",
+            "continued",
+            "depended"
+          ],
+          "answer": "continued",
+          "tags": [
+            "test-5",
+            "cset2600",
+            "601-750"
+          ]
+        },
+        {
+          "id": "test5-q023",
+          "number": 23,
+          "item_id": "test-5-023",
+          "answer_language": "en",
+          "prompt_en": "Ice begins to ( ) at thirty-two degrees Fahrenheit, or zero degrees Celsius.",
+          "prompt_ja": "氷は華氏32度すなわち摂氏0度で溶け始める。",
+          "choices": [
+            "boil",
+            "flash",
+            "melt",
+            "freeze"
+          ],
+          "answer": "melt",
+          "tags": [
+            "test-5",
+            "cset2600",
+            "601-750"
+          ]
+        },
+        {
+          "id": "test5-q024",
+          "number": 24,
+          "item_id": "test-5-024",
+          "answer_language": "en",
+          "prompt_en": "Almost 80 percent of the air is ( ).",
+          "prompt_ja": "空気の80パーセント近くは窒素である。",
+          "choices": [
+            "sodium",
+            "hydrogen",
+            "nitrogen",
+            "oxygen"
+          ],
+          "answer": "nitrogen",
+          "tags": [
+            "test-5",
+            "cset2600",
+            "601-750"
+          ]
+        },
+        {
+          "id": "test5-q025",
+          "number": 25,
+          "item_id": "test-5-025",
+          "answer_language": "en",
+          "prompt_en": "The structure of this molecule is a ( ).",
+          "prompt_ja": "この分子の構造は格子構造だ。",
+          "choices": [
+            "lattice",
+            "luck",
+            "spark",
+            "source"
+          ],
+          "answer": "lattice",
+          "tags": [
+            "test-5",
+            "cset2600",
+            "601-750"
           ]
         }
       ]

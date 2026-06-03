@@ -6,10 +6,10 @@
 
 ```sh
 cd /Users/haruki/Desktop/english-vocab-trainer
-python3 -m http.server 5173
+python3 -m http.server 8000
 ```
 
-ブラウザで `http://127.0.0.1:5173` または `http://localhost:5173` を開きます。
+ブラウザで `http://127.0.0.1:8000` または `http://localhost:8000` を開きます。
 
 ## データ形式
 

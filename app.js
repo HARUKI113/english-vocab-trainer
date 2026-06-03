@@ -1,4 +1,5 @@
 const STORAGE_KEY = "english-vocab-trainer-history-v1";
+const DIRECTIONS = ["en-ja", "ja-en"];
 
 const state = {
   items: [],
@@ -6,12 +7,13 @@ const state = {
   stats: {},
   mode: "mixed",
   queue: "all",
+  testFilter: "all",
+  testOptions: [],
   current: null,
   direction: "en-ja",
   options: [],
   answered: false,
-  lastItemId: null,
-  seenThisCycle: new Set(),
+  cycleCompletedByKey: new Map(),
 };
 
 const els = {
@@ -21,6 +23,7 @@ const els = {
   missedListCount: document.querySelector("#missedListCount"),
   itemCount: document.querySelector("#itemCount"),
   dataStatus: document.querySelector("#dataStatus"),
+  testFilter: document.querySelector("#testFilter"),
   directionLabel: document.querySelector("#directionLabel"),
   tagLabel: document.querySelector("#tagLabel"),
   promptLabel: document.querySelector("#promptLabel"),
@@ -36,7 +39,9 @@ const els = {
   resetButton: document.querySelector("#resetButton"),
   missedList: document.querySelector("#missedList"),
   emptyState: document.querySelector("#emptyState"),
+  emptyTitle: document.querySelector("#emptyTitle"),
   emptyMessage: document.querySelector("#emptyMessage"),
+  restartCycleButton: document.querySelector("#restartCycleButton"),
   quizView: document.querySelector("#quizView"),
 };
 
@@ -53,20 +58,24 @@ async function boot() {
     const payload = await response.json();
     state.items = normalizeItems(payload);
     state.questions = normalizeQuestions(payload, state.items);
+    populateTestFilter();
 
     if (state.questions.length === 0 && state.items.length < 4) {
-      showEmpty("4択を作るには、data/vocab.jsonに4件以上の単語が必要です。");
+      showEmpty("問題がありません", "4択を作るには、data/vocab.jsonに4件以上の単語が必要です。");
       updateSummary();
       return;
     }
 
     els.dataStatus.textContent = state.questions.length
-      ? `${state.questions.length}問のテスト問題を読み込みました。`
+      ? `${state.questions.length}問 / ${state.testOptions.length}テストを読み込みました。`
       : `${state.items.length}件の単語を読み込みました。`;
     updateSummary();
     nextQuestion();
   } catch (error) {
-    showEmpty("data/vocab.jsonを読み込めませんでした。ローカルサーバーから開いてください。");
+    showEmpty(
+      "読み込み失敗",
+      "data/vocab.jsonを読み込めませんでした。ローカルサーバーから開いてください。",
+    );
     els.dataStatus.textContent = `読み込み失敗: ${error.message}`;
   }
 }
@@ -158,8 +167,12 @@ function normalizeAnswerLanguage(value) {
 function bindEvents() {
   document.querySelectorAll("[data-mode]").forEach((button) => {
     button.addEventListener("click", () => {
-      state.mode = button.dataset.mode;
-      resetQuestionCycle();
+      const nextMode = button.dataset.mode;
+      if (state.mode === nextMode) {
+        return;
+      }
+
+      state.mode = nextMode;
       setActive("[data-mode]", button);
       nextQuestion();
     });
@@ -167,15 +180,30 @@ function bindEvents() {
 
   document.querySelectorAll("[data-queue]").forEach((button) => {
     button.addEventListener("click", () => {
-      state.queue = button.dataset.queue;
-      resetQuestionCycle();
+      const nextQueue = button.dataset.queue;
+      if (state.queue === nextQueue) {
+        return;
+      }
+
+      state.queue = nextQueue;
       setActive("[data-queue]", button);
       nextQuestion();
     });
   });
 
+  els.testFilter.addEventListener("change", () => {
+    const nextFilter = els.testFilter.value || "all";
+    if (state.testFilter === nextFilter) {
+      return;
+    }
+
+    state.testFilter = nextFilter;
+    nextQuestion();
+  });
+
   els.nextButton.addEventListener("click", nextQuestion);
   els.reshuffleButton.addEventListener("click", reshuffleCurrentOptions);
+  els.restartCycleButton.addEventListener("click", restartCurrentCycle);
   els.resetButton.addEventListener("click", resetHistory);
 }
 
@@ -190,24 +218,36 @@ function nextQuestion() {
   updateSummary();
 
   if (pool.length === 0) {
-    showEmpty("前回間違えた問題はありません。");
+    if (getCurrentCycleCompleted().size > 0) {
+      showCycleComplete(0);
+      return;
+    }
+
+    showEmpty("問題がありません", getNoQuestionMessage());
+    return;
+  }
+
+  const entry = chooseItem(pool);
+  if (!entry) {
+    showCycleComplete(pool.length);
     return;
   }
 
   hideEmpty();
-  const entry = chooseItem(pool);
   const isFormsQuestion = isQuestion(entry);
-  const direction = isFormsQuestion
-    ? entry.direction
-    : state.mode === "mixed"
-      ? randomChoice(["en-ja", "ja-en"])
-      : state.mode;
+  let direction = state.mode;
+  if (isFormsQuestion) {
+    direction = entry.direction;
+  } else if (entry.generatedDirection) {
+    direction = entry.generatedDirection;
+  } else if (state.mode === "mixed") {
+    direction = randomChoice(DIRECTIONS);
+  }
 
   state.current = entry;
   state.direction = direction;
   state.options = isFormsQuestion ? buildQuestionOptions(entry) : buildOptions(entry, direction);
   state.answered = false;
-  state.lastItemId = entry.id;
 
   renderQuestion();
 }
@@ -224,33 +264,80 @@ function getPool() {
 
 function getModeEntries() {
   if (state.questions.length) {
+    const questions = getFilteredQuestionEntries();
+
     if (state.mode === "mixed") {
-      return state.questions;
+      return [
+        ...questions,
+        ...DIRECTIONS.flatMap((direction) => getGeneratedItemsForMissingDirection(direction, questions)),
+      ];
     }
 
-    return state.questions.filter((question) => question.direction === state.mode);
+    return getEntriesForDirection(state.mode, questions);
   }
 
-  return state.items;
+  return getFilteredItemEntries();
+}
+
+function getEntriesForDirection(direction, questions = getFilteredQuestionEntries()) {
+  const explicitQuestions = questions.filter((question) => question.direction === direction);
+  return [...explicitQuestions, ...getGeneratedItemsForMissingDirection(direction, questions)];
 }
 
 function getAllEntries() {
+  return getModeEntries();
+}
+
+function getBaseEntries() {
   return state.questions.length ? state.questions : state.items;
 }
 
-function chooseItem(pool) {
-  const poolIds = new Set(pool.map((item) => item.id));
-  state.seenThisCycle = new Set([...state.seenThisCycle].filter((id) => poolIds.has(id)));
+function getFilteredQuestionEntries() {
+  return filterEntriesByTest(state.questions);
+}
 
-  let candidates = pool.filter((item) => !state.seenThisCycle.has(item.id));
-  if (!candidates.length) {
-    state.seenThisCycle.clear();
-    candidates = pool.length > 1 ? pool.filter((item) => item.id !== state.lastItemId) : pool;
+function getFilteredItemEntries() {
+  return filterEntriesByTest(state.items);
+}
+
+function filterEntriesByTest(entries) {
+  if (state.testFilter === "all") {
+    return entries;
   }
 
-  const entry = state.queue === "weak" ? chooseWeightedItem(candidates) : randomChoice(candidates);
-  state.seenThisCycle.add(entry.id);
-  return entry;
+  return entries.filter((entry) => getEntryTestId(entry) === state.testFilter);
+}
+
+function getGeneratedItemsForMissingDirection(direction, questions) {
+  const testsWithDirection = new Set(
+    questions
+      .filter((question) => question.direction === direction)
+      .map((question) => question.testId),
+  );
+
+  return getFilteredItemEntries()
+    .filter((item) => {
+      const testId = getEntryTestId(item);
+      return testId && !testsWithDirection.has(testId);
+    })
+    .map((item) => ({ ...item, generatedDirection: direction }));
+}
+
+function chooseItem(pool) {
+  const completedThisCycle = getCurrentCycleCompleted();
+  const poolIds = new Set(pool.map((item) => item.id));
+  [...completedThisCycle].forEach((id) => {
+    if (!poolIds.has(id)) {
+      completedThisCycle.delete(id);
+    }
+  });
+
+  const candidates = pool.filter((item) => !completedThisCycle.has(item.id));
+  if (!candidates.length) {
+    return null;
+  }
+
+  return state.queue === "weak" ? chooseWeightedItem(candidates) : randomChoice(candidates);
 }
 
 function chooseWeightedItem(items) {
@@ -371,6 +458,7 @@ function answer(option, selectedButton) {
   }
 
   state.stats[state.current.id] = stat;
+  markCurrentCycleCompleted(state.current.id);
   saveStats();
   updateSummary();
 
@@ -435,6 +523,7 @@ function updateSummary() {
   const attempts = stats.reduce((sum, stat) => sum + getStatCount(stat, "attempts"), 0);
   const correct = stats.reduce((sum, stat) => sum + getStatCount(stat, "correct"), 0);
   const missed = entries.filter((entry) => state.stats[entry.id]?.lastResult === false);
+  const unit = state.questions.length ? "問" : "件";
 
   els.studiedCount.textContent = String(
     stats.filter((stat) => getStatCount(stat, "attempts") > 0).length,
@@ -442,9 +531,7 @@ function updateSummary() {
   els.accuracyRate.textContent = attempts ? `${Math.round((correct / attempts) * 100)}%` : "0%";
   els.missedCount.textContent = String(missed.length);
   els.missedListCount.textContent = String(missed.length);
-  els.itemCount.textContent = state.questions.length
-    ? `${state.questions.length}問`
-    : `${state.items.length}件`;
+  els.itemCount.textContent = `${entries.length}${unit}`;
 
   renderMissedList(missed);
 }
@@ -482,15 +569,40 @@ function resetHistory() {
   }
 
   state.stats = {};
-  resetQuestionCycle();
+  resetQuestionCycles();
   saveStats();
   updateSummary();
   nextQuestion();
 }
 
-function resetQuestionCycle() {
-  state.seenThisCycle.clear();
-  state.lastItemId = null;
+function restartCurrentCycle() {
+  resetQuestionCycle();
+  nextQuestion();
+}
+
+function resetQuestionCycle(key = getCycleKey()) {
+  state.cycleCompletedByKey.delete(key);
+}
+
+function resetQuestionCycles() {
+  state.cycleCompletedByKey.clear();
+}
+
+function getCycleKey() {
+  return `${state.testFilter}:${state.mode}:${state.queue}`;
+}
+
+function getCurrentCycleCompleted() {
+  const key = getCycleKey();
+  if (!state.cycleCompletedByKey.has(key)) {
+    state.cycleCompletedByKey.set(key, new Set());
+  }
+
+  return state.cycleCompletedByKey.get(key);
+}
+
+function markCurrentCycleCompleted(entryId) {
+  getCurrentCycleCompleted().add(entryId);
 }
 
 function getCleanStat(entryId) {
@@ -510,15 +622,138 @@ function getStatCount(stat, key) {
   return Number.isFinite(value) ? value : 0;
 }
 
-function showEmpty(message) {
+function showCycleComplete(poolCount) {
+  const countText = poolCount > 0 ? `${poolCount}問` : "対象の問題";
+  const message =
+    state.queue === "missed"
+      ? "前回ミスの問題をすべて解き終わりました。"
+      : `${getTestFilterLabel()} / ${getModeLabel()} / ${getQueueLabel()} の${countText}を一周しました。`;
+
+  showEmpty("一周完了", message, { restart: poolCount > 0 });
+}
+
+function getNoQuestionMessage() {
+  if (state.queue === "missed") {
+    return "前回間違えた問題はありません。";
+  }
+
+  return "この出題方法で出せる問題がありません。";
+}
+
+function populateTestFilter() {
+  state.testOptions = buildTestOptions();
+  els.testFilter.innerHTML = "";
+
+  const allOption = document.createElement("option");
+  const unit = state.questions.length ? "問" : "件";
+  allOption.value = "all";
+  allOption.textContent = `すべて（${getBaseEntries().length}${unit}）`;
+  els.testFilter.append(allOption);
+
+  state.testOptions.forEach((option) => {
+    const optionElement = document.createElement("option");
+    optionElement.value = option.id;
+    optionElement.textContent = `${option.label}（${option.count}問）`;
+    els.testFilter.append(optionElement);
+  });
+
+  els.testFilter.disabled = state.testOptions.length === 0;
+}
+
+function buildTestOptions() {
+  const options = new Map();
+
+  getBaseEntries().forEach((entry) => {
+    const testId = getEntryTestId(entry);
+    if (!testId) {
+      return;
+    }
+
+    if (!options.has(testId)) {
+      options.set(testId, {
+        id: testId,
+        label: getEntryTestLabel(entry),
+        count: 0,
+      });
+    }
+
+    options.get(testId).count += 1;
+  });
+
+  return [...options.values()].sort((a, b) => compareTestIds(a.id, b.id));
+}
+
+function getEntryTestId(entry) {
+  if (isQuestion(entry)) {
+    return entry.testId;
+  }
+
+  return entry.tags.find((tag) => /^test-\d+$/.test(String(tag))) || "";
+}
+
+function getEntryTestLabel(entry) {
+  const testId = getEntryTestId(entry);
+  if (isQuestion(entry)) {
+    const range = entry.testTitle.match(/［(.+?)］/)?.[1];
+    return range ? `${testId}（${range}）` : testId;
+  }
+
+  const rangeTag = entry.tags.find((tag) => /^\d{3}-\d{3}$/.test(String(tag)));
+  return rangeTag ? `${testId}（${rangeTag}）` : testId;
+}
+
+function compareTestIds(a, b) {
+  const aNumber = Number(a.match(/\d+$/)?.[0] || 0);
+  const bNumber = Number(b.match(/\d+$/)?.[0] || 0);
+  return aNumber - bNumber || a.localeCompare(b);
+}
+
+function getTestFilterLabel() {
+  if (state.testFilter === "all") {
+    return "すべて";
+  }
+
+  return (
+    state.testOptions.find((option) => option.id === state.testFilter)?.label || state.testFilter
+  );
+}
+
+function getModeLabel() {
+  if (state.mode === "en-ja") {
+    return "英語→日本語";
+  }
+
+  if (state.mode === "ja-en") {
+    return "日本語→英語";
+  }
+
+  return "混合";
+}
+
+function getQueueLabel() {
+  if (state.queue === "missed") {
+    return "前回ミス";
+  }
+
+  if (state.queue === "weak") {
+    return "苦手優先";
+  }
+
+  return "全範囲";
+}
+
+function showEmpty(title, message, options = {}) {
   els.quizView.hidden = true;
   els.emptyState.hidden = false;
+  els.emptyTitle.textContent = title;
   els.emptyMessage.textContent = message;
+  els.restartCycleButton.hidden = !options.restart;
 }
 
 function hideEmpty() {
   els.quizView.hidden = false;
   els.emptyState.hidden = true;
+  els.restartCycleButton.hidden = true;
 }
 
 function loadStats() {

@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>英単語テスト</title>
-    <link rel="stylesheet" href="styles.css?v=20260602-1" />
+    <link rel="stylesheet" href="styles.css?v=20260603-2" />
   </head>
   <body>
     <main class="app-shell">
@@ -41,7 +41,14 @@
 
         <div class="control-group">
           <span class="control-label">範囲</span>
-          <div class="segmented" role="tablist" aria-label="出題範囲">
+          <select id="testFilter" class="control-select" aria-label="テスト範囲" disabled>
+            <option value="all">すべて</option>
+          </select>
+        </div>
+
+        <div class="control-group">
+          <span class="control-label">復習</span>
+          <div class="segmented" role="tablist" aria-label="復習方法">
             <button class="segment is-active" type="button" data-queue="all">全範囲</button>
             <button class="segment" type="button" data-queue="missed">前回ミス</button>
             <button class="segment" type="button" data-queue="weak">苦手優先</button>
@@ -52,8 +59,11 @@
       <section class="workspace">
         <article class="quiz-panel" aria-live="polite">
           <div id="emptyState" class="empty-state" hidden>
-            <h2>問題がありません</h2>
+            <h2 id="emptyTitle">問題がありません</h2>
             <p id="emptyMessage"></p>
+            <button id="restartCycleButton" class="primary-button" type="button" hidden>
+              もう一周する
+            </button>
           </div>
 
           <div id="quizView">
@@ -106,6 +116,6 @@
       </section>
     </main>
 
-    <script src="app.js?v=20260602-1"></script>
+    <script src="app.js?v=20260603-4"></script>
   </body>
 </html>

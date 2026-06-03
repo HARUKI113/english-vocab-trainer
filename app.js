@@ -35,7 +35,6 @@ const els = {
   answerText: document.querySelector("#answerText"),
   detailText: document.querySelector("#detailText"),
   nextButton: document.querySelector("#nextButton"),
-  reshuffleButton: document.querySelector("#reshuffleButton"),
   resetButton: document.querySelector("#resetButton"),
   missedList: document.querySelector("#missedList"),
   emptyState: document.querySelector("#emptyState"),
@@ -202,7 +201,6 @@ function bindEvents() {
   });
 
   els.nextButton.addEventListener("click", nextQuestion);
-  els.reshuffleButton.addEventListener("click", reshuffleCurrentOptions);
   els.restartCycleButton.addEventListener("click", restartCurrentCycle);
   els.resetButton.addEventListener("click", resetHistory);
 }
@@ -421,7 +419,6 @@ function renderQuestion() {
       : entry.example_ja;
   els.result.hidden = true;
   els.nextButton.disabled = true;
-  els.reshuffleButton.disabled = false;
 
   els.options.innerHTML = "";
   state.options.forEach((option) => {
@@ -470,7 +467,6 @@ function answer(option, selectedButton) {
   paintAnsweredOptions(selectedButton);
   renderResult(correct);
   els.nextButton.disabled = false;
-  els.reshuffleButton.disabled = true;
 }
 
 function paintAnsweredOptions(selectedButton) {
@@ -503,15 +499,6 @@ function renderResult(correct) {
   els.resultLabel.textContent = correct ? "正解" : "不正解";
   els.answerText.textContent = answer;
   els.detailText.textContent = detail;
-}
-
-function reshuffleCurrentOptions() {
-  if (!state.current || state.answered) {
-    return;
-  }
-
-  state.options = shuffle(state.options);
-  renderQuestion();
 }
 
 function updateSummary() {

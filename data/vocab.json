@@ -303,9 +303,9 @@
     {
       "id": "test1-026",
       "english": "They started a project, to build the fastest super computer in the world.",
-      "japanese": "計画",
+      "japanese": "彼らは世界最速のスーパーコンピューターを作る計画を立ち上げた。",
       "example_en": "They started a project, to build the fastest super computer in the world.",
-      "example_ja": "彼らは世界最速のスーパーコンピューターを作る（ ）を立ち上げた。",
+      "example_ja": "彼らは世界最速のスーパーコンピューターを作る計画を立ち上げた。",
       "tags": [
         "test-1",
         "cset2600",
@@ -315,9 +315,9 @@
     {
       "id": "test1-027",
       "english": "When the battery died, the toy car stopped.",
-      "japanese": "電池",
+      "japanese": "電池がなくなると、おもちゃの車は止まった。",
       "example_en": "When the battery died, the toy car stopped.",
-      "example_ja": "（ ）がなくなると、おもちゃの車は止まった。",
+      "example_ja": "電池がなくなると、おもちゃの車は止まった。",
       "tags": [
         "test-1",
         "cset2600",
@@ -327,9 +327,9 @@
     {
       "id": "test1-028",
       "english": "This chain is very light because it is plastic.",
-      "japanese": "鎖",
+      "japanese": "この鎖はプラスチックなので非常に軽い。",
       "example_en": "This chain is very light because it is plastic.",
-      "example_ja": "この（ ）はプラスチックなので非常に軽い。",
+      "example_ja": "この鎖はプラスチックなので非常に軽い。",
       "tags": [
         "test-1",
         "cset2600",
@@ -339,9 +339,9 @@
     {
       "id": "test1-029",
       "english": "This tube is soft and easy to cut.",
-      "japanese": "管",
+      "japanese": "この管は柔らかくてカットしやすい。",
       "example_en": "This tube is soft and easy to cut.",
-      "example_ja": "この（ ）は柔らかくてカットしやすい。",
+      "example_ja": "この管は柔らかくてカットしやすい。",
       "tags": [
         "test-1",
         "cset2600",
@@ -351,9 +351,9 @@
     {
       "id": "test1-030",
       "english": "She became famous for her study of the ocean animal.",
-      "japanese": "海洋",
+      "japanese": "彼女は海洋動物に関する研究で有名になった。",
       "example_en": "She became famous for her study of the ocean animal.",
-      "example_ja": "彼女は（ ）動物に関する研究で有名になった。",
+      "example_ja": "彼女は海洋動物に関する研究で有名になった。",
       "tags": [
         "test-1",
         "cset2600",
@@ -363,9 +363,9 @@
     {
       "id": "test1-031",
       "english": "How can I see ice crystals?",
-      "japanese": "結晶",
+      "japanese": "どうすれば氷の結晶が見られますか。",
       "example_en": "How can I see ice crystals?",
-      "example_ja": "どうすれば氷の（ ）が見られますか。",
+      "example_ja": "どうすれば氷の結晶が見られますか。",
       "tags": [
         "test-1",
         "cset2600",
@@ -375,9 +375,9 @@
     {
       "id": "test1-032",
       "english": "There is a film of oil on the water.",
-      "japanese": "膜",
+      "japanese": "水面に油の膜がある。",
       "example_en": "There is a film of oil on the water.",
-      "example_ja": "水面に油の（ ）がある。",
+      "example_ja": "水面に油の膜がある。",
       "tags": [
         "test-1",
         "cset2600",
@@ -387,9 +387,9 @@
     {
       "id": "test1-033",
       "english": "Clean the air filter with a brush.",
-      "japanese": "ブラシ",
+      "japanese": "エアフィルターをブラシで掃除しなさい。",
       "example_en": "Clean the air filter with a brush.",
-      "example_ja": "エアフィルターを（ ）で掃除しなさい。",
+      "example_ja": "エアフィルターをブラシで掃除しなさい。",
       "tags": [
         "test-1",
         "cset2600",
@@ -399,9 +399,9 @@
     {
       "id": "test1-034",
       "english": "Such big waves cannot be seen under normal conditions.",
-      "japanese": "普通の",
+      "japanese": "そんな大きな波は普通の条件の下では見られない。",
       "example_en": "Such big waves cannot be seen under normal conditions.",
-      "example_ja": "そんな大きな波は（ ）条件の下では見られない。",
+      "example_ja": "そんな大きな波は普通の条件の下では見られない。",
       "tags": [
         "test-1",
         "cset2600",
@@ -411,9 +411,9 @@
     {
       "id": "test1-035",
       "english": "What was the total number of engineers who took part in the project?",
-      "japanese": "全体の",
+      "japanese": "そのプロジェクトに参加した技術者の全体の人数は何名ですか。",
       "example_en": "What was the total number of engineers who took part in the project?",
-      "example_ja": "そのプロジェクトに参加した技術者の（ ）人数は何名ですか。",
+      "example_ja": "そのプロジェクトに参加した技術者の全体の人数は何名ですか。",
       "tags": [
         "test-1",
         "cset2600",
@@ -423,9 +423,9 @@
     {
       "id": "test1-036",
       "english": "Some of the main parts of this motor are made of steel.",
-      "japanese": "主要な",
+      "japanese": "このモーターの主要な部品のいくつかは鋼でできている。",
       "example_en": "Some of the main parts of this motor are made of steel.",
-      "example_ja": "このモーターの（ ）部品のいくつかは鋼でできている。",
+      "example_ja": "このモーターの主要な部品のいくつかは鋼でできている。",
       "tags": [
         "test-1",
         "cset2600",
@@ -435,9 +435,9 @@
     {
       "id": "test1-037",
       "english": "This door opens by contact with your hand.",
-      "japanese": "触れる",
+      "japanese": "このドアは手を触れることによって開きます。",
       "example_en": "This door opens by contact with your hand.",
-      "example_ja": "このドアは手を（ ）ことによって開きます。",
+      "example_ja": "このドアは手を触れることによって開きます。",
       "tags": [
         "test-1",
         "cset2600",
@@ -447,9 +447,9 @@
     {
       "id": "test1-038",
       "english": "This stone is too heavy for me to lift.",
-      "japanese": "持ち上げる",
+      "japanese": "この石は重すぎて私には持ち上げることができない。",
       "example_en": "This stone is too heavy for me to lift.",
-      "example_ja": "この石は重すぎて私には（ ）ことができない。",
+      "example_ja": "この石は重すぎて私には持ち上げることができない。",
       "tags": [
         "test-1",
         "cset2600",
@@ -459,9 +459,9 @@
     {
       "id": "test1-039",
       "english": "Don't touch the glass without gloves.",
-      "japanese": "手袋",
+      "japanese": "手袋をしないでそのガラスに触ってはいけません。",
       "example_en": "Don't touch the glass without gloves.",
-      "example_ja": "（ ）をしないでそのガラスに触ってはいけません。",
+      "example_ja": "手袋をしないでそのガラスに触ってはいけません。",
       "tags": [
         "test-1",
         "cset2600",
@@ -471,9 +471,9 @@
     {
       "id": "test1-040",
       "english": "The captain told the chief engineer to speed up the ship.",
-      "japanese": "船長",
+      "japanese": "船長は機関士長に船のスピードを上げるように言った。",
       "example_en": "The captain told the chief engineer to speed up the ship.",
-      "example_ja": "（ ）は機関士長に船のスピードを上げるように言った。",
+      "example_ja": "船長は機関士長に船のスピードを上げるように言った。",
       "tags": [
         "test-1",
         "cset2600",
@@ -483,9 +483,9 @@
     {
       "id": "test1-041",
       "english": "Don't stop in the middle of the street.",
-      "japanese": "真ん中",
+      "japanese": "道の真ん中で止まらないでください。",
       "example_en": "Don't stop in the middle of the street.",
-      "example_ja": "道の（ ）で止まらないでください。",
+      "example_ja": "道の真ん中で止まらないでください。",
       "tags": [
         "test-1",
         "cset2600",
@@ -495,9 +495,9 @@
     {
       "id": "test1-042",
       "english": "How bad was the damage?",
-      "japanese": "損害",
+      "japanese": "損害はどの程度でしたか。",
       "example_en": "How bad was the damage?",
-      "example_ja": "（ ）はどの程度でしたか。",
+      "example_ja": "損害はどの程度でしたか。",
       "tags": [
         "test-1",
         "cset2600",
@@ -507,9 +507,9 @@
     {
       "id": "test1-043",
       "english": "If the pattern of signal changes, it is the sign of some trouble.",
-      "japanese": "信号",
+      "japanese": "信号のパターンが変わったら、それは何らかのトラブルの徴候です。",
       "example_en": "If the pattern of signal changes, it is the sign of some trouble.",
-      "example_ja": "（ ）のパターンが変わったら、それは何らかのトラブルの徴候です。",
+      "example_ja": "信号のパターンが変わったら、それは何らかのトラブルの徴候です。",
       "tags": [
         "test-1",
         "cset2600",
@@ -519,9 +519,9 @@
     {
       "id": "test1-044",
       "english": "There is no limit on the number of files you can upload.",
-      "japanese": "制限",
+      "japanese": "アップロードできるファイル数に制限はありません。",
       "example_en": "There is no limit on the number of files you can upload.",
-      "example_ja": "アップロードできるファイル数に（ ）はありません。",
+      "example_ja": "アップロードできるファイル数に制限はありません。",
       "tags": [
         "test-1",
         "cset2600",
@@ -531,9 +531,9 @@
     {
       "id": "test1-045",
       "english": "The company's target is to sell more than ten thousand cars a month.",
-      "japanese": "目標",
+      "japanese": "その会社の目標は月に１万台以上の車を売ることだ。",
       "example_en": "The company's target is to sell more than ten thousand cars a month.",
-      "example_ja": "その会社の（ ）は月に１万台以上の車を売ることだ。",
+      "example_ja": "その会社の目標は月に１万台以上の車を売ることだ。",
       "tags": [
         "test-1",
         "cset2600",
@@ -543,9 +543,9 @@
     {
       "id": "test1-046",
       "english": "A very strong plastic can be made by mixing glass fiber in it.",
-      "japanese": "繊維",
+      "japanese": "ガラス繊維を混ぜることで、非常に強いプラスチックを作ることができます。",
       "example_en": "A very strong plastic can be made by mixing glass fiber in it.",
-      "example_ja": "ガラス（ ）を混ぜることで、非常に強いプラスチックを作ることができます。",
+      "example_ja": "ガラス繊維を混ぜることで、非常に強いプラスチックを作ることができます。",
       "tags": [
         "test-1",
         "cset2600",
@@ -555,9 +555,9 @@
     {
       "id": "test1-047",
       "english": "We attacked the target but couldn't do any damage.",
-      "japanese": "攻撃した",
+      "japanese": "我々は標的を攻撃したが、ダメージを与えることはできなかった。",
       "example_en": "We attacked the target but couldn't do any damage.",
-      "example_ja": "我々は標的を（ ）が、ダメージを与えることはできなかった。",
+      "example_ja": "我々は標的を攻撃したが、ダメージを与えることはできなかった。",
       "tags": [
         "test-1",
         "cset2600",
@@ -567,9 +567,9 @@
     {
       "id": "test1-048",
       "english": "All the angles of a square are right angles.",
-      "japanese": "正方形",
+      "japanese": "正方形のすべての角は直角である。",
       "example_en": "All the angles of a square are right angles.",
-      "example_ja": "（ ）のすべての角は直角である。",
+      "example_ja": "正方形のすべての角は直角である。",
       "tags": [
         "test-1",
         "cset2600",
@@ -579,9 +579,9 @@
     {
       "id": "test1-049",
       "english": "A cylinder has two circular bases of the same area.",
-      "japanese": "円柱",
+      "japanese": "円柱は面積の等しい円形の底面を２つ持つ。",
       "example_en": "A cylinder has two circular bases of the same area.",
-      "example_ja": "（ ）は面積の等しい円形の底面を２つ持つ。",
+      "example_ja": "円柱は面積の等しい円形の底面を２つ持つ。",
       "tags": [
         "test-1",
         "cset2600",
@@ -591,9 +591,9 @@
     {
       "id": "test1-050",
       "english": "You can learn many kinds of skills at this school.",
-      "japanese": "技能",
+      "japanese": "この学校ではさまざまな技能を身に付けることができます。",
       "example_en": "You can learn many kinds of skills at this school.",
-      "example_ja": "この学校ではさまざまな（ ）を身に付けることができます。",
+      "example_ja": "この学校ではさまざまな技能を身に付けることができます。",
       "tags": [
         "test-1",
         "cset2600",
@@ -2698,6 +2698,1506 @@
         "test-5",
         "cset2600",
         "601-750"
+      ]
+    },
+    {
+      "id": "test-5-026",
+      "english": "developed",
+      "japanese": "その会社が最速のコンピューターを 開発した。",
+      "example_en": "The company developed the fastest computer.",
+      "example_ja": "その会社が最速のコンピューターを 開発した。",
+      "tags": [
+        "test-5",
+        "cset2600",
+        "601-750"
+      ]
+    },
+    {
+      "id": "test-5-027",
+      "english": "invented",
+      "japanese": "その道具を 発明した 男は金持ちになった。",
+      "example_en": "The man who invented the tool became rich.",
+      "example_ja": "その道具を 発明した 男は金持ちになった。",
+      "tags": [
+        "test-5",
+        "cset2600",
+        "601-750"
+      ]
+    },
+    {
+      "id": "test-5-028",
+      "english": "float",
+      "japanese": "水に 浮く 金属もある。",
+      "example_en": "Some metals float on water.",
+      "example_ja": "水に 浮く 金属もある。",
+      "tags": [
+        "test-5",
+        "cset2600",
+        "601-750"
+      ]
+    },
+    {
+      "id": "test-5-029",
+      "english": "Cotton",
+      "japanese": "綿 は汗を吸収し、体温が上がらないようにしてくれる。",
+      "example_en": "Cotton absorbs sweat and keeps your body cool.",
+      "example_ja": "綿 は汗を吸収し、体温が上がらないようにしてくれる。",
+      "tags": [
+        "test-5",
+        "cset2600",
+        "601-750"
+      ]
+    },
+    {
+      "id": "test-5-030",
+      "english": "evidence",
+      "japanese": "彼の理論が正しいことを示す 証拠 は何一つない。",
+      "example_en": "There is no single piece of evidence to show that his theory is right.",
+      "example_ja": "彼の理論が正しいことを示す 証拠 は何一つない。",
+      "tags": [
+        "test-5",
+        "cset2600",
+        "601-750"
+      ]
+    },
+    {
+      "id": "test-5-031",
+      "english": "Genes",
+      "japanese": "遺伝子 は親から子供に受け渡される。",
+      "example_en": "Genes are passed from parents to children.",
+      "example_ja": "遺伝子 は親から子供に受け渡される。",
+      "tags": [
+        "test-5",
+        "cset2600",
+        "601-750"
+      ]
+    },
+    {
+      "id": "test-5-032",
+      "english": "nerve",
+      "japanese": "毎日数千個の 神経 細胞が死んでいると言われている。",
+      "example_en": "It is said that thousands of our nerve cells die every day.",
+      "example_ja": "毎日数千個の 神経 細胞が死んでいると言われている。",
+      "tags": [
+        "test-5",
+        "cset2600",
+        "601-750"
+      ]
+    },
+    {
+      "id": "test-5-033",
+      "english": "liver",
+      "japanese": "肝臓 は最も重要な臓器の一つです。",
+      "example_en": "The liver is one of the most important organs.",
+      "example_ja": "肝臓 は最も重要な臓器の一つです。",
+      "tags": [
+        "test-5",
+        "cset2600",
+        "601-750"
+      ]
+    },
+    {
+      "id": "test-5-034",
+      "english": "Cancer",
+      "japanese": "日本では 癌（がん） が主要な死亡原因の一つになっている。",
+      "example_en": "Cancer is one of the major causes of death in Japan.",
+      "example_ja": "日本では 癌（がん） が主要な死亡原因の一つになっている。",
+      "tags": [
+        "test-5",
+        "cset2600",
+        "601-750"
+      ]
+    },
+    {
+      "id": "test-5-035",
+      "english": "protein",
+      "japanese": "卵や肉は タンパク質 に富んでいる。",
+      "example_en": "Eggs and meat are rich in protein.",
+      "example_ja": "卵や肉は タンパク質 に富んでいる。",
+      "tags": [
+        "test-5",
+        "cset2600",
+        "601-750"
+      ]
+    },
+    {
+      "id": "test-5-036",
+      "english": "decade",
+      "japanese": "私はこの研究に 10年 を費やしてきた。",
+      "example_en": "I have spent a decade working on this research.",
+      "example_ja": "私はこの研究に 10年 を費やしてきた。",
+      "tags": [
+        "test-5",
+        "cset2600",
+        "601-750"
+      ]
+    },
+    {
+      "id": "test-5-037",
+      "english": "orbit",
+      "japanese": "衛星は計画通りに地球の 軌道 に入った。",
+      "example_en": "The satellite went into the Earth's orbit just as planned.",
+      "example_ja": "衛星は計画通りに地球の 軌道 に入った。",
+      "tags": [
+        "test-5",
+        "cset2600",
+        "601-750"
+      ]
+    },
+    {
+      "id": "test-5-038",
+      "english": "compatible",
+      "japanese": "私の血液型は彼女のとは 適合 しなかった。",
+      "example_en": "My blood type was not compatible with hers.",
+      "example_ja": "私の血液型は彼女のとは 適合 しなかった。",
+      "tags": [
+        "test-5",
+        "cset2600",
+        "601-750"
+      ]
+    },
+    {
+      "id": "test-5-039",
+      "english": "grind",
+      "japanese": "この石は刃物を 研ぐ ためのものです。",
+      "example_en": "This stone is to be used to grind knives.",
+      "example_ja": "この石は刃物を 研ぐ ためのものです。",
+      "tags": [
+        "test-5",
+        "cset2600",
+        "601-750"
+      ]
+    },
+    {
+      "id": "test-5-040",
+      "english": "compresses",
+      "japanese": "このソフトはファイルを小さなサイズに 圧縮する 。",
+      "example_en": "This software compresses the files into a smaller size.",
+      "example_ja": "このソフトはファイルを小さなサイズに 圧縮する 。",
+      "tags": [
+        "test-5",
+        "cset2600",
+        "601-750"
+      ]
+    },
+    {
+      "id": "test-5-041",
+      "english": "rate",
+      "japanese": "オンライン販売は年間150パーセントの 割合 で増えている。",
+      "example_en": "Online sales are increasing at a rate of 150% a year.",
+      "example_ja": "オンライン販売は年間150パーセントの 割合 で増えている。",
+      "tags": [
+        "test-5",
+        "cset2600",
+        "601-750"
+      ]
+    },
+    {
+      "id": "test-5-042",
+      "english": "ladder",
+      "japanese": "作業員たちは はしご を登って屋上に上がった。",
+      "example_en": "The workers climbed the ladder onto the roof.",
+      "example_ja": "作業員たちは はしご を登って屋上に上がった。",
+      "tags": [
+        "test-5",
+        "cset2600",
+        "601-750"
+      ]
+    },
+    {
+      "id": "test-5-043",
+      "english": "required",
+      "japanese": "技術者には高度な技術が 要求される。",
+      "example_en": "A high degree of skill is required for an engineer.",
+      "example_ja": "技術者には高度な技術が 要求される。",
+      "tags": [
+        "test-5",
+        "cset2600",
+        "601-750"
+      ]
+    },
+    {
+      "id": "test-5-044",
+      "english": "describe",
+      "japanese": "日本の国旗を言葉で 説明する のはとても簡単だ。",
+      "example_en": "It's very easy to describe the Japanese flag.",
+      "example_ja": "日本の国旗を言葉で 説明する のはとても簡単だ。",
+      "tags": [
+        "test-5",
+        "cset2600",
+        "601-750"
+      ]
+    },
+    {
+      "id": "test-5-045",
+      "english": "argue",
+      "japanese": "私の同僚たちはいつもその問題について 議論 している。",
+      "example_en": "My colleagues always argue about the matter.",
+      "example_ja": "私の同僚たちはいつもその問題について 議論 している。",
+      "tags": [
+        "test-5",
+        "cset2600",
+        "601-750"
+      ]
+    },
+    {
+      "id": "test-5-046",
+      "english": "exists",
+      "japanese": "かれらは月に水が 存在する と信じている。",
+      "example_en": "They believe that water exists on the moon.",
+      "example_ja": "かれらは月に水が 存在する と信じている。",
+      "tags": [
+        "test-5",
+        "cset2600",
+        "601-750"
+      ]
+    },
+    {
+      "id": "test-5-047",
+      "english": "luck",
+      "japanese": "試験に通るのを 運 に頼ってはいけません。",
+      "example_en": "You should not depend on luck to pass examinations.",
+      "example_ja": "試験に通るのを 運 に頼ってはいけません。",
+      "tags": [
+        "test-5",
+        "cset2600",
+        "601-750"
+      ]
+    },
+    {
+      "id": "test-5-048",
+      "english": "molecule",
+      "japanese": "水の 分子 は２つの異なる原子から成る。",
+      "example_en": "A molecule of water consists of two different atoms.",
+      "example_ja": "水の 分子 は２つの異なる原子から成る。",
+      "tags": [
+        "test-5",
+        "cset2600",
+        "601-750"
+      ]
+    },
+    {
+      "id": "test-5-049",
+      "english": "Sodium",
+      "japanese": "金属 ナトリウム はナイフで切れるぐらいにやわらかい。",
+      "example_en": "Sodium metal is soft enough to be cut with a knife.",
+      "example_ja": "金属 ナトリウム はナイフで切れるぐらいにやわらかい。",
+      "tags": [
+        "test-5",
+        "cset2600",
+        "601-750"
+      ]
+    },
+    {
+      "id": "test-5-050",
+      "english": "details",
+      "japanese": "私たちはその裁判の 詳細 を調べた。",
+      "example_en": "We studied the details of the trial.",
+      "example_ja": "私たちはその裁判の 詳細 を調べた。",
+      "tags": [
+        "test-5",
+        "cset2600",
+        "601-750"
+      ]
+    },
+    {
+      "id": "test-6-001",
+      "english": "garbage",
+      "japanese": "私は公園にごみが放置されているのを見つけた。",
+      "example_en": "I found garbage left in the park.",
+      "example_ja": "私は公園にごみが放置されているのを見つけた。",
+      "tags": [
+        "test-6",
+        "cset2600",
+        "751-900"
+      ]
+    },
+    {
+      "id": "test-6-002",
+      "english": "generates",
+      "japanese": "この太陽電池は1.5ボルトの電気を発生させる。",
+      "example_en": "This solar cell generates 1.5 volts of electricity.",
+      "example_ja": "この太陽電池は1.5ボルトの電気を発生させる。",
+      "tags": [
+        "test-6",
+        "cset2600",
+        "751-900"
+      ]
+    },
+    {
+      "id": "test-6-003",
+      "english": "submit",
+      "japanese": "報告書は１週間以内に提出しなければいけません。",
+      "example_en": "You must submit your report within a week.",
+      "example_ja": "報告書は１週間以内に提出しなければいけません。",
+      "tags": [
+        "test-6",
+        "cset2600",
+        "751-900"
+      ]
+    },
+    {
+      "id": "test-6-004",
+      "english": "improved",
+      "japanese": "そのソフトはユーザーが使いやすくなるように改良された。",
+      "example_en": "The software was improved to make it more user-friendly.",
+      "example_ja": "そのソフトはユーザーが使いやすくなるように改良された。",
+      "tags": [
+        "test-6",
+        "cset2600",
+        "751-900"
+      ]
+    },
+    {
+      "id": "test-6-005",
+      "english": "Recent",
+      "japanese": "最近の携帯電話はさまざまな形をしている。",
+      "example_en": "Recent cell phones have different shapes.",
+      "example_ja": "最近の携帯電話はさまざまな形をしている。",
+      "tags": [
+        "test-6",
+        "cset2600",
+        "751-900"
+      ]
+    },
+    {
+      "id": "test-6-006",
+      "english": "artificial",
+      "japanese": "現在、数千個の人工衛星が地球を回っています。",
+      "example_en": "Thousands of artificial satellites are currently orbiting the earth.",
+      "example_ja": "現在、数千個の人工衛星が地球を回っています。",
+      "tags": [
+        "test-6",
+        "cset2600",
+        "751-900"
+      ]
+    },
+    {
+      "id": "test-6-007",
+      "english": "copyright",
+      "japanese": "誰がこの本の著作権を持っているのですか。",
+      "example_en": "Who has the copyright on this book?",
+      "example_ja": "誰がこの本の著作権を持っているのですか。",
+      "tags": [
+        "test-6",
+        "cset2600",
+        "751-900"
+      ]
+    },
+    {
+      "id": "test-6-008",
+      "english": "trade",
+      "japanese": "わが社は海外との取引に興味がある。",
+      "example_en": "Our company is interested in foreign trade.",
+      "example_ja": "わが社は海外との取引に興味がある。",
+      "tags": [
+        "test-6",
+        "cset2600",
+        "751-900"
+      ]
+    },
+    {
+      "id": "test-6-009",
+      "english": "institute",
+      "japanese": "野口英世はロックフェラー医学研究所で働いていたことがある。",
+      "example_en": "Noguchi Hideyo once worked at the Rockefeller institute for Medical Research.",
+      "example_ja": "野口英世はロックフェラー医学研究所で働いていたことがある。",
+      "tags": [
+        "test-6",
+        "cset2600",
+        "751-900"
+      ]
+    },
+    {
+      "id": "test-6-010",
+      "english": "subject",
+      "japanese": "私たちの発表の主題は地域社会の歴史です。",
+      "example_en": "The subject of our presentation is the history of community.",
+      "example_ja": "私たちの発表の主題は地域社会の歴史です。",
+      "tags": [
+        "test-6",
+        "cset2600",
+        "751-900"
+      ]
+    },
+    {
+      "id": "test-6-011",
+      "english": "attempting",
+      "japanese": "彼は老化の仕組みを解明しようと試みている。",
+      "example_en": "He is attempting to clarify the mechanism of aging.",
+      "example_ja": "彼は老化の仕組みを解明しようと試みている。",
+      "tags": [
+        "test-6",
+        "cset2600",
+        "751-900"
+      ]
+    },
+    {
+      "id": "test-6-012",
+      "english": "heal",
+      "japanese": "眼のけがが治るのに２週間かかった。",
+      "example_en": "It took two weeks for my eye injury to heal.",
+      "example_ja": "眼のけがが治るのに２週間かかった。",
+      "tags": [
+        "test-6",
+        "cset2600",
+        "751-900"
+      ]
+    },
+    {
+      "id": "test-6-013",
+      "english": "revealed",
+      "japanese": "新聞は我が社の汚職事件を明らかにした。",
+      "example_en": "The newspaper revealed our company's scandal.",
+      "example_ja": "新聞は我が社の汚職事件を明らかにした。",
+      "tags": [
+        "test-6",
+        "cset2600",
+        "751-900"
+      ]
+    },
+    {
+      "id": "test-6-014",
+      "english": "opposed",
+      "japanese": "地元の住民は原発の建設に反対した。",
+      "example_en": "The local people opposed the building of a nuclear plant.",
+      "example_ja": "地元の住民は原発の建設に反対した。",
+      "tags": [
+        "test-6",
+        "cset2600",
+        "751-900"
+      ]
+    },
+    {
+      "id": "test-6-015",
+      "english": "precious",
+      "japanese": "私にとって子供たちは何よりも大切です。",
+      "example_en": "Nothing is more precious to me than our children.",
+      "example_ja": "私にとって子供たちは何よりも大切です。",
+      "tags": [
+        "test-6",
+        "cset2600",
+        "751-900"
+      ]
+    },
+    {
+      "id": "test-6-016",
+      "english": "social",
+      "japanese": "いくつかの社会問題について会議で話し合われた。",
+      "example_en": "Some social problems were discussed at the meeting.",
+      "example_ja": "いくつかの社会問題について会議で話し合われた。",
+      "tags": [
+        "test-6",
+        "cset2600",
+        "751-900"
+      ]
+    },
+    {
+      "id": "test-6-017",
+      "english": "hypothesis",
+      "japanese": "この実験結果から私たちの仮設は証明された。",
+      "example_en": "The results of this experiment proved our hypothesis.",
+      "example_ja": "この実験結果から私たちの仮設は証明された。",
+      "tags": [
+        "test-6",
+        "cset2600",
+        "751-900"
+      ]
+    },
+    {
+      "id": "test-6-018",
+      "english": "impact",
+      "japanese": "この写真は衝突の瞬間に撮影された。",
+      "example_en": "This picture was taken at the moment of impact.",
+      "example_ja": "この写真は衝突の瞬間に撮影された。",
+      "tags": [
+        "test-6",
+        "cset2600",
+        "751-900"
+      ]
+    },
+    {
+      "id": "test-6-019",
+      "english": "layers",
+      "japanese": "Ｘ線撮影によって、その絵には絵の具の層が３層あることがわかった。",
+      "example_en": "The X-ray revealed that the picture had three layers of paint.",
+      "example_ja": "Ｘ線撮影によって、その絵には絵の具の層が３層あることがわかった。",
+      "tags": [
+        "test-6",
+        "cset2600",
+        "751-900"
+      ]
+    },
+    {
+      "id": "test-6-020",
+      "english": "aim",
+      "japanese": "本研究の目的はその物質が発している放射線の量を知ることである。",
+      "example_en": "The aim of this study is to know how much radiation the substance releases.",
+      "example_ja": "本研究の目的はその物質が発している放射線の量を知ることである。",
+      "tags": [
+        "test-6",
+        "cset2600",
+        "751-900"
+      ]
+    },
+    {
+      "id": "test-6-021",
+      "english": "modulates",
+      "japanese": "この装置は部屋の温度を自動的に調整する。",
+      "example_en": "This device modulates the room temperature automatically.",
+      "example_ja": "この装置は部屋の温度を自動的に調整する。",
+      "tags": [
+        "test-6",
+        "cset2600",
+        "751-900"
+      ]
+    },
+    {
+      "id": "test-6-022",
+      "english": "bite",
+      "japanese": "私は歯が痛いので、リンゴをかじることができない。",
+      "example_en": "I can't bite an apple because I have a toothache.",
+      "example_ja": "私は歯が痛いので、リンゴをかじることができない。",
+      "tags": [
+        "test-6",
+        "cset2600",
+        "751-900"
+      ]
+    },
+    {
+      "id": "test-6-023",
+      "english": "respond",
+      "japanese": "警告音を聞いたらすぐに対応しなければならない。",
+      "example_en": "You must respond quickly when you hear the warning sound.",
+      "example_ja": "警告音を聞いたらすぐに対応しなければならない。",
+      "tags": [
+        "test-6",
+        "cset2600",
+        "751-900"
+      ]
+    },
+    {
+      "id": "test-6-024",
+      "english": "oral",
+      "japanese": "口頭試験が次の月曜日に行われる予定である。",
+      "example_en": "The oral examination is to be held next Monday.",
+      "example_ja": "口頭試験が次の月曜日に行われる予定である。",
+      "tags": [
+        "test-6",
+        "cset2600",
+        "751-900"
+      ]
+    },
+    {
+      "id": "test-6-025",
+      "english": "conventional",
+      "japanese": "私はマウスやキーボードのような従来の入力装置が好みだ。",
+      "example_en": "I prefer conventional input devices such as a mouse and a keyboard.",
+      "example_ja": "私はマウスやキーボードのような従来の入力装置が好みだ。",
+      "tags": [
+        "test-6",
+        "cset2600",
+        "751-900"
+      ]
+    },
+    {
+      "id": "test-6-026",
+      "english": "purpose",
+      "japanese": "私たちの実験の 目的 はこの物質の密度を測定することです。",
+      "example_en": "The purpose of our experiment is to measure the density of this substance.",
+      "example_ja": "私たちの実験の 目的 はこの物質の密度を測定することです。",
+      "tags": [
+        "test-6",
+        "cset2600",
+        "751-900"
+      ]
+    },
+    {
+      "id": "test-6-027",
+      "english": "waste",
+      "japanese": "その工場は毎日大量の 廃棄物 を出す。",
+      "example_en": "The factory produces a mass of waste every day.",
+      "example_ja": "その工場は毎日大量の 廃棄物 を出す。",
+      "tags": [
+        "test-6",
+        "cset2600",
+        "751-900"
+      ]
+    },
+    {
+      "id": "test-6-028",
+      "english": "conserve",
+      "japanese": "私たちは自然を 保護する ためにあらゆる努力をしなくてはならない。",
+      "example_en": "We must make every effort to conserve nature.",
+      "example_ja": "私たちは自然を 保護する ためにあらゆる努力をしなくてはならない。",
+      "tags": [
+        "test-6",
+        "cset2600",
+        "751-900"
+      ]
+    },
+    {
+      "id": "test-6-029",
+      "english": "concerns",
+      "japanese": "この問題は君と僕の両方に 関係する。",
+      "example_en": "The problem concerns both you and me.",
+      "example_ja": "この問題は君と僕の両方に 関係する。",
+      "tags": [
+        "test-6",
+        "cset2600",
+        "751-900"
+      ]
+    },
+    {
+      "id": "test-6-030",
+      "english": "estimate",
+      "japanese": "被害を 推定する のに十分なデータがありません。",
+      "example_en": "We don't have enough data to estimate the damage.",
+      "example_ja": "被害を 推定する のに十分なデータがありません。",
+      "tags": [
+        "test-6",
+        "cset2600",
+        "751-900"
+      ]
+    },
+    {
+      "id": "test-6-031",
+      "english": "proved",
+      "japanese": "その実験は彼の理論が正しいことを 証明した 。",
+      "example_en": "The experiment proved that his theory was right.",
+      "example_ja": "その実験は彼の理論が正しいことを 証明した 。",
+      "tags": [
+        "test-6",
+        "cset2600",
+        "751-900"
+      ]
+    },
+    {
+      "id": "test-6-032",
+      "english": "detects",
+      "japanese": "このセンサーは人間の目に見えない光を 検知する 。",
+      "example_en": "This sensor detects light that human eyes cannot see.",
+      "example_ja": "このセンサーは人間の目に見えない光を 検知する 。",
+      "tags": [
+        "test-6",
+        "cset2600",
+        "751-900"
+      ]
+    },
+    {
+      "id": "test-6-033",
+      "english": "tidy",
+      "japanese": "事故防止のため、研究室は常に 整然とした 状態でなければいけない。",
+      "example_en": "You must always keep the lab tidy to prevent accidents.",
+      "example_ja": "事故防止のため、研究室は常に 整然とした 状態でなければいけない。",
+      "tags": [
+        "test-6",
+        "cset2600",
+        "751-900"
+      ]
+    },
+    {
+      "id": "test-6-034",
+      "english": "Various",
+      "japanese": "新しいタイプの燃料電池を作り出すために さまざまな 材料が調べられた。",
+      "example_en": "Various materials were examined to produce a new type of fuel cell.",
+      "example_ja": "新しいタイプの燃料電池を作り出すために さまざまな 材料が調べられた。",
+      "tags": [
+        "test-6",
+        "cset2600",
+        "751-900"
+      ]
+    },
+    {
+      "id": "test-6-035",
+      "english": "modern",
+      "japanese": "現代の テレビの画面の大きさは昔のものより大きい。",
+      "example_en": "The size of modern TV screens is larger than that of the old ones.",
+      "example_ja": "現代の テレビの画面の大きさは昔のものより大きい。",
+      "tags": [
+        "test-6",
+        "cset2600",
+        "751-900"
+      ]
+    },
+    {
+      "id": "test-6-036",
+      "english": "potential",
+      "japanese": "この製品に対する 潜在的な 需要はかなり大きい。",
+      "example_en": "The potential demand for this product is quite large.",
+      "example_ja": "この製品に対する 潜在的な 需要はかなり大きい。",
+      "tags": [
+        "test-6",
+        "cset2600",
+        "751-900"
+      ]
+    },
+    {
+      "id": "test-6-037",
+      "english": "nuclear",
+      "japanese": "その国は 原子力 発電所がない。",
+      "example_en": "There are no nuclear power stations in that country.",
+      "example_ja": "その国は 原子力 発電所がない。",
+      "tags": [
+        "test-6",
+        "cset2600",
+        "751-900"
+      ]
+    },
+    {
+      "id": "test-6-038",
+      "english": "policy",
+      "japanese": "うちの社長はビジネスに対してしっかりした 方針 を持っている。",
+      "example_en": "Our president has a solid policy on business.",
+      "example_ja": "うちの社長はビジネスに対してしっかりした 方針 を持っている。",
+      "tags": [
+        "test-6",
+        "cset2600",
+        "751-900"
+      ]
+    },
+    {
+      "id": "test-6-039",
+      "english": "bureau",
+      "japanese": "彼女は市役所の 事務局 で働いている。",
+      "example_en": "She is working in the bureau in the city hall.",
+      "example_ja": "彼女は市役所の 事務局 で働いている。",
+      "tags": [
+        "test-6",
+        "cset2600",
+        "751-900"
+      ]
+    },
+    {
+      "id": "test-6-040",
+      "english": "ponds",
+      "japanese": "この地域には多くの人工の 池 がある。",
+      "example_en": "There are many artificial ponds in this region.",
+      "example_ja": "この地域には多くの人工の 池 がある。",
+      "tags": [
+        "test-6",
+        "cset2600",
+        "751-900"
+      ]
+    },
+    {
+      "id": "test-6-041",
+      "english": "injured",
+      "japanese": "多くの人がその事故で ケガをした。",
+      "example_en": "A lot of people were injured in the accident.",
+      "example_ja": "多くの人がその事故で ケガをした。",
+      "tags": [
+        "test-6",
+        "cset2600",
+        "751-900"
+      ]
+    },
+    {
+      "id": "test-6-042",
+      "english": "deals with",
+      "japanese": "中国旅行を 扱っている 旅行代理店をどこか知っていますか。",
+      "example_en": "Do you know any travel agency that deals with trips to China?",
+      "example_ja": "中国旅行を 扱っている 旅行代理店をどこか知っていますか。",
+      "tags": [
+        "test-6",
+        "cset2600",
+        "751-900"
+      ]
+    },
+    {
+      "id": "test-6-043",
+      "english": "complex",
+      "japanese": "複雑な 問題は一つ一つ手順を踏んで解いていくのが良い。",
+      "example_en": "It is good to solve a complex problem step by step.",
+      "example_ja": "複雑な 問題は一つ一つ手順を踏んで解いていくのが良い。",
+      "tags": [
+        "test-6",
+        "cset2600",
+        "751-900"
+      ]
+    },
+    {
+      "id": "test-6-044",
+      "english": "survey",
+      "japanese": "私たちは環境についての 調査 を計画しています。",
+      "example_en": "We are planning a survey on the environment.",
+      "example_ja": "私たちは環境についての 調査 を計画しています。",
+      "tags": [
+        "test-6",
+        "cset2600",
+        "751-900"
+      ]
+    },
+    {
+      "id": "test-6-045",
+      "english": "thunder shower",
+      "japanese": "どうやら 雷雨 になりそうな気配です。",
+      "example_en": "It looks like we are going to have a thunder shower.",
+      "example_ja": "どうやら 雷雨 になりそうな気配です。",
+      "tags": [
+        "test-6",
+        "cset2600",
+        "751-900"
+      ]
+    },
+    {
+      "id": "test-6-046",
+      "english": "lid",
+      "japanese": "蒸気が鍋の ふた を持ち上げた。",
+      "example_en": "The steam raised the lid of the pot.",
+      "example_ja": "蒸気が鍋の ふた を持ち上げた。",
+      "tags": [
+        "test-6",
+        "cset2600",
+        "751-900"
+      ]
+    },
+    {
+      "id": "test-6-047",
+      "english": "warns",
+      "japanese": "あの音は機械が故障したことを 警告している。",
+      "example_en": "That sound warns that the machine is in trouble.",
+      "example_ja": "あの音は機械が故障したことを 警告している。",
+      "tags": [
+        "test-6",
+        "cset2600",
+        "751-900"
+      ]
+    },
+    {
+      "id": "test-6-048",
+      "english": "barks",
+      "japanese": "彼の家へ行くといつも彼の犬が私に向かって 吠える。",
+      "example_en": "Whenever I go to his house, his dog barks at me.",
+      "example_ja": "彼の家へ行くといつも彼の犬が私に向かって 吠える。",
+      "tags": [
+        "test-6",
+        "cset2600",
+        "751-900"
+      ]
+    },
+    {
+      "id": "test-6-049",
+      "english": "dizzy",
+      "japanese": "あまりに急に立ち上がったので私は めまいがした。",
+      "example_en": "I got dizzy from standing up too quickly.",
+      "example_ja": "あまりに急に立ち上がったので私は めまいがした。",
+      "tags": [
+        "test-6",
+        "cset2600",
+        "751-900"
+      ]
+    },
+    {
+      "id": "test-6-050",
+      "english": "mild",
+      "japanese": "このごろは 穏やかな 天気が続いている。",
+      "example_en": "We are having mild weather these days.",
+      "example_ja": "このごろは 穏やかな 天気が続いている。",
+      "tags": [
+        "test-6",
+        "cset2600",
+        "751-900"
+      ]
+    },
+    {
+      "id": "test-7-001",
+      "english": "frequent",
+      "japanese": "頻繁なエラーのため、システムが警告メッセージを表示した。",
+      "example_en": "The system displayed a warning message because of its frequent errors.",
+      "example_ja": "頻繁なエラーのため、システムが警告メッセージを表示した。",
+      "tags": [
+        "test-7",
+        "cset2600",
+        "901-1050"
+      ]
+    },
+    {
+      "id": "test-7-002",
+      "english": "fossils",
+      "japanese": "この地層で化石が見つかる可能性はほとんどない。",
+      "example_en": "There is little possibility of discovering fossils in this layer.",
+      "example_ja": "この地層で化石が見つかる可能性はほとんどない。",
+      "tags": [
+        "test-7",
+        "cset2600",
+        "901-1050"
+      ]
+    },
+    {
+      "id": "test-7-003",
+      "english": "defeat",
+      "japanese": "あの男は決して敗北を受け入れようとしない。",
+      "example_en": "That man will never take defeat.",
+      "example_ja": "あの男は決して敗北を受け入れようとしない。",
+      "tags": [
+        "test-7",
+        "cset2600",
+        "901-1050"
+      ]
+    },
+    {
+      "id": "test-7-004",
+      "english": "author",
+      "japanese": "この論文の著者がコピーを送ってくれた。",
+      "example_en": "The author of this article sent me a copy of it.",
+      "example_ja": "この論文の著者がコピーを送ってくれた。",
+      "tags": [
+        "test-7",
+        "cset2600",
+        "901-1050"
+      ]
+    },
+    {
+      "id": "test-7-005",
+      "english": "soil",
+      "japanese": "酸性雨は土のpH値に影響を与える。",
+      "example_en": "Acid rain affects the pH of soil.",
+      "example_ja": "酸性雨は土のpH値に影響を与える。",
+      "tags": [
+        "test-7",
+        "cset2600",
+        "901-1050"
+      ]
+    },
+    {
+      "id": "test-7-006",
+      "english": "harvest",
+      "japanese": "今年の秋は収穫がとてもよかった。",
+      "example_en": "We had a very good harvest this autumn.",
+      "example_ja": "今年の秋は収穫がとてもよかった。",
+      "tags": [
+        "test-7",
+        "cset2600",
+        "901-1050"
+      ]
+    },
+    {
+      "id": "test-7-007",
+      "english": "predict",
+      "japanese": "いつ地震が起こるかを予測するのはほとんど不可能だ。",
+      "example_en": "It is almost impossible to predict when an earthquake will occur.",
+      "example_ja": "いつ地震が起こるかを予測するのはほとんど不可能だ。",
+      "tags": [
+        "test-7",
+        "cset2600",
+        "901-1050"
+      ]
+    },
+    {
+      "id": "test-7-008",
+      "english": "everywhere",
+      "japanese": "衛星電話は地球上のどこでも使える。",
+      "example_en": "A satellite phone can be used everywhere on earth.",
+      "example_ja": "衛星電話は地球上のどこでも使える。",
+      "tags": [
+        "test-7",
+        "cset2600",
+        "901-1050"
+      ]
+    },
+    {
+      "id": "test-7-009",
+      "english": "load",
+      "japanese": "この重量はそのモーターには負荷が大きすぎて引上げられない。",
+      "example_en": "This weight is too much of a load for the motor to pull up.",
+      "example_ja": "この重量はそのモーターには負荷が大きすぎて引上げられない。",
+      "tags": [
+        "test-7",
+        "cset2600",
+        "901-1050"
+      ]
+    },
+    {
+      "id": "test-7-010",
+      "english": "wrinkles",
+      "japanese": "熱と水分は衣類のしわの原因となる。",
+      "example_en": "Heat and water cause wrinkles in clothes.",
+      "example_ja": "熱と水分は衣類のしわの原因となる。",
+      "tags": [
+        "test-7",
+        "cset2600",
+        "901-1050"
+      ]
+    },
+    {
+      "id": "test-7-011",
+      "english": "feature",
+      "japanese": "このコンピュータの一番の特徴はそのデータ処理の速さです。",
+      "example_en": "The best feature of this computer is its speed of data processing.",
+      "example_ja": "このコンピュータの一番の特徴はそのデータ処理の速さです。",
+      "tags": [
+        "test-7",
+        "cset2600",
+        "901-1050"
+      ]
+    },
+    {
+      "id": "test-7-012",
+      "english": "dioxide",
+      "japanese": "二酸化物の分子１個には、必ず２個の酸素原子が含まれている。",
+      "example_en": "A molecule of a dioxide must contain two oxygen atoms.",
+      "example_ja": "二酸化物の分子１個には、必ず２個の酸素原子が含まれている。",
+      "tags": [
+        "test-7",
+        "cset2600",
+        "901-1050"
+      ]
+    },
+    {
+      "id": "test-7-013",
+      "english": "fermentation",
+      "japanese": "発酵の過程でエタノールと二酸化炭素が発生する。",
+      "example_en": "Ethanol and carbon dioxide are produced in the fermentation process.",
+      "example_ja": "発酵の過程でエタノールと二酸化炭素が発生する。",
+      "tags": [
+        "test-7",
+        "cset2600",
+        "901-1050"
+      ]
+    },
+    {
+      "id": "test-7-014",
+      "english": "particle",
+      "japanese": "それらの粒子は小さすぎて見えない。",
+      "example_en": "The particle are too small to see.",
+      "example_ja": "それらの粒子は小さすぎて見えない。",
+      "tags": [
+        "test-7",
+        "cset2600",
+        "901-1050"
+      ]
+    },
+    {
+      "id": "test-7-015",
+      "english": "role",
+      "japanese": "私はプロジェクトリーダーの役割を与えられた。",
+      "example_en": "I was given the role of project leader.",
+      "example_ja": "私はプロジェクトリーダーの役割を与えられた。",
+      "tags": [
+        "test-7",
+        "cset2600",
+        "901-1050"
+      ]
+    },
+    {
+      "id": "test-7-016",
+      "english": "elements",
+      "japanese": "彼はこの液体の成分を特定するのに成功した。",
+      "example_en": "He successfully identified the elements in this liquid.",
+      "example_ja": "彼はこの液体の成分を特定するのに成功した。",
+      "tags": [
+        "test-7",
+        "cset2600",
+        "901-1050"
+      ]
+    },
+    {
+      "id": "test-7-017",
+      "english": "instances",
+      "japanese": "アルコールによる健康への影響の例をいくつかあげてください。",
+      "example_en": "Give me some instances of health effects from alcohol.",
+      "example_ja": "アルコールによる健康への影響の例をいくつかあげてください。",
+      "tags": [
+        "test-7",
+        "cset2600",
+        "901-1050"
+      ]
+    },
+    {
+      "id": "test-7-018",
+      "english": "horrible",
+      "japanese": "その映画には恐ろしい怪物がたくさん登場する。",
+      "example_en": "A lot of horrible monsters appear in the movie.",
+      "example_ja": "その映画には恐ろしい怪物がたくさん登場する。",
+      "tags": [
+        "test-7",
+        "cset2600",
+        "901-1050"
+      ]
+    },
+    {
+      "id": "test-7-019",
+      "english": "recognize",
+      "japanese": "赤ちゃんは匂いで母親を識別する。",
+      "example_en": "Babies recognize their mothers through smell.",
+      "example_ja": "赤ちゃんは匂いで母親を識別する。",
+      "tags": [
+        "test-7",
+        "cset2600",
+        "901-1050"
+      ]
+    },
+    {
+      "id": "test-7-020",
+      "english": "determined",
+      "japanese": "治療法はあなたの血糖値と血圧で決まります。",
+      "example_en": "The treatment will be determined by your blood sugar and pressure.",
+      "example_ja": "治療法はあなたの血糖値と血圧で決まります。",
+      "tags": [
+        "test-7",
+        "cset2600",
+        "901-1050"
+      ]
+    },
+    {
+      "id": "test-7-021",
+      "english": "magnify",
+      "japanese": "この電子顕微鏡はその物体を50万倍まで拡大できる。",
+      "example_en": "This electron microscope is able to magnify the object up to 500,000 times.",
+      "example_ja": "この電子顕微鏡はその物体を50万倍まで拡大できる。",
+      "tags": [
+        "test-7",
+        "cset2600",
+        "901-1050"
+      ]
+    },
+    {
+      "id": "test-7-022",
+      "english": "varies",
+      "japanese": "若者の音楽の好みは時代とともに変化する。",
+      "example_en": "Young people's taste in music varies as time passes.",
+      "example_ja": "若者の音楽の好みは時代とともに変化する。",
+      "tags": [
+        "test-7",
+        "cset2600",
+        "901-1050"
+      ]
+    },
+    {
+      "id": "test-7-023",
+      "english": "represent",
+      "japanese": "方程式の中の文字 x, y は未知の数を表している。",
+      "example_en": "The letters x and y in an equation represent unknown figures.",
+      "example_ja": "方程式の中の文字 x, y は未知の数を表している。",
+      "tags": [
+        "test-7",
+        "cset2600",
+        "901-1050"
+      ]
+    },
+    {
+      "id": "test-7-024",
+      "english": "thief",
+      "japanese": "私は自転車に乗った泥棒にカバンを盗まれました。",
+      "example_en": "I had my bag stolen by a thief on a bike.",
+      "example_ja": "私は自転車に乗った泥棒にカバンを盗まれました。",
+      "tags": [
+        "test-7",
+        "cset2600",
+        "901-1050"
+      ]
+    },
+    {
+      "id": "test-7-025",
+      "english": "authority",
+      "japanese": "彼は肺がん治療の権威です。",
+      "example_en": "He is an authority on lung cancer treatment.",
+      "example_ja": "彼は肺がん治療の権威です。",
+      "tags": [
+        "test-7",
+        "cset2600",
+        "901-1050"
+      ]
+    },
+    {
+      "id": "test-7-026",
+      "english": "sudden",
+      "japanese": "突然の 電圧の変化が装置に損傷を与えた。",
+      "example_en": "A sudden change of voltage damaged the device.",
+      "example_ja": "突然の 電圧の変化が装置に損傷を与えた。",
+      "tags": [
+        "test-7",
+        "cset2600",
+        "901-1050"
+      ]
+    },
+    {
+      "id": "test-7-027",
+      "english": "proof",
+      "japanese": "目に見える 証拠 の方がわかりやすい。",
+      "example_en": "Visual proof is easier to understand.",
+      "example_ja": "目に見える 証拠 の方がわかりやすい。",
+      "tags": [
+        "test-7",
+        "cset2600",
+        "901-1050"
+      ]
+    },
+    {
+      "id": "test-7-028",
+      "english": "benefit",
+      "japanese": "そのプロジェクトからは 利益 が上がらなかった。",
+      "example_en": "There was no benefit from the project.",
+      "example_ja": "そのプロジェクトからは 利益 が上がらなかった。",
+      "tags": [
+        "test-7",
+        "cset2600",
+        "901-1050"
+      ]
+    },
+    {
+      "id": "test-7-029",
+      "english": "articles",
+      "japanese": "その雑誌には科学に関する 記事 がいくつか載っている。",
+      "example_en": "The magazine contains several scientific articles.",
+      "example_ja": "その雑誌には科学に関する 記事 がいくつか載っている。",
+      "tags": [
+        "test-7",
+        "cset2600",
+        "901-1050"
+      ]
+    },
+    {
+      "id": "test-7-030",
+      "english": "manuscript",
+      "japanese": "彼女は 原稿 を２度書き直したが、まだ完成していない。",
+      "example_en": "She rewrote her manuscript twice, but it's not finished yet.",
+      "example_ja": "彼女は 原稿 を２度書き直したが、まだ完成していない。",
+      "tags": [
+        "test-7",
+        "cset2600",
+        "901-1050"
+      ]
+    },
+    {
+      "id": "test-7-031",
+      "english": "envelope",
+      "japanese": "実験レポートはこの 封筒 の中に入れてください。",
+      "example_en": "Put your experiment reports in this envelope.",
+      "example_ja": "実験レポートはこの 封筒 の中に入れてください。",
+      "tags": [
+        "test-7",
+        "cset2600",
+        "901-1050"
+      ]
+    },
+    {
+      "id": "test-7-032",
+      "english": "climates",
+      "japanese": "人類は地球上のさまざまな 気候 の中で生きのびてきた。",
+      "example_en": "Human beings have survived in various climates on the earth.",
+      "example_ja": "人類は地球上のさまざまな 気候 の中で生きのびてきた。",
+      "tags": [
+        "test-7",
+        "cset2600",
+        "901-1050"
+      ]
+    },
+    {
+      "id": "test-7-033",
+      "english": "advanced",
+      "japanese": "携帯電話の技術はここ数年で飛躍的に 進歩した。",
+      "example_en": "Cell phone technology has advanced a lot in the last few years.",
+      "example_ja": "携帯電話の技術はここ数年で飛躍的に 進歩した。",
+      "tags": [
+        "test-7",
+        "cset2600",
+        "901-1050"
+      ]
+    },
+    {
+      "id": "test-7-034",
+      "english": "encourage",
+      "japanese": "廃棄物のリサイクルを 促す ポスターがたくさんある。",
+      "example_en": "There are many posters to encourage us to recycle waste.",
+      "example_ja": "廃棄物のリサイクルを 促す ポスターがたくさんある。",
+      "tags": [
+        "test-7",
+        "cset2600",
+        "901-1050"
+      ]
+    },
+    {
+      "id": "test-7-035",
+      "english": "review",
+      "japanese": "科学研究においては先行研究を 再検討する ことは重要である。",
+      "example_en": "It is important to review previous work in scientific studies.",
+      "example_ja": "科学研究においては先行研究を 再検討する ことは重要である。",
+      "tags": [
+        "test-7",
+        "cset2600",
+        "901-1050"
+      ]
+    },
+    {
+      "id": "test-7-036",
+      "english": "somehow",
+      "japanese": "なんとかして この問題が解決できれば、私たちはロボコンで勝てる。",
+      "example_en": "If we can somehow solve this problem, we will win the robot contest.",
+      "example_ja": "なんとかして この問題が解決できれば、私たちはロボコンで勝てる。",
+      "tags": [
+        "test-7",
+        "cset2600",
+        "901-1050"
+      ]
+    },
+    {
+      "id": "test-7-037",
+      "english": "bill",
+      "japanese": "彼女はまだ先月の電話の 請求書 の支払いをしていない。",
+      "example_en": "She hasn't paid the phone bill for last month yet.",
+      "example_ja": "彼女はまだ先月の電話の 請求書 の支払いをしていない。",
+      "tags": [
+        "test-7",
+        "cset2600",
+        "901-1050"
+      ]
+    },
+    {
+      "id": "test-7-038",
+      "english": "resources",
+      "japanese": "日本は天然 資源 が乏しい。",
+      "example_en": "Japan has few natural resources.",
+      "example_ja": "日本は天然 資源 が乏しい。",
+      "tags": [
+        "test-7",
+        "cset2600",
+        "901-1050"
+      ]
+    },
+    {
+      "id": "test-7-039",
+      "english": "seams",
+      "japanese": "彼らは 縫い目 のない宇宙服を開発した。",
+      "example_en": "They developed space clothes which has no seams.",
+      "example_ja": "彼らは 縫い目 のない宇宙服を開発した。",
+      "tags": [
+        "test-7",
+        "cset2600",
+        "901-1050"
+      ]
+    },
+    {
+      "id": "test-7-040",
+      "english": "equipment",
+      "japanese": "ここには試験用の 設備 がない。",
+      "example_en": "There is no testing equipment here.",
+      "example_ja": "ここには試験用の 設備 がない。",
+      "tags": [
+        "test-7",
+        "cset2600",
+        "901-1050"
+      ]
+    },
+    {
+      "id": "test-7-041",
+      "english": "sequence",
+      "japanese": "間違った操作 手順 がその実験における事故の原因だった。",
+      "example_en": "The wrong sequence of operations caused the accident in the experiment.",
+      "example_ja": "間違った操作 手順 がその実験における事故の原因だった。",
+      "tags": [
+        "test-7",
+        "cset2600",
+        "901-1050"
+      ]
+    },
+    {
+      "id": "test-7-042",
+      "english": "chlorine",
+      "japanese": "水道水は通常少量の 塩素 を含んでいる。",
+      "example_en": "Tap water usually contains a small amount of chlorine.",
+      "example_ja": "水道水は通常少量の 塩素 を含んでいる。",
+      "tags": [
+        "test-7",
+        "cset2600",
+        "901-1050"
+      ]
+    },
+    {
+      "id": "test-7-043",
+      "english": "hydroxide",
+      "japanese": "水酸化 ナトリウムはよく知られたアルカリ性物質だ。",
+      "example_en": "Sodium hydroxide is a common alkaline substance.",
+      "example_ja": "水酸化 ナトリウムはよく知られたアルカリ性物質だ。",
+      "tags": [
+        "test-7",
+        "cset2600",
+        "901-1050"
+      ]
+    },
+    {
+      "id": "test-7-044",
+      "english": "fungus",
+      "japanese": "植物の病気の大きな原因のひとつが 菌類 です。",
+      "example_en": "One of the major causes of plant diseases is fungus.",
+      "example_ja": "植物の病気の大きな原因のひとつが 菌類 です。",
+      "tags": [
+        "test-7",
+        "cset2600",
+        "901-1050"
+      ]
+    },
+    {
+      "id": "test-7-045",
+      "english": "lack",
+      "japanese": "石油の 不足 でガソリンの値段が上がった。",
+      "example_en": "The price of gasoline rose because of a lack of oil.",
+      "example_ja": "石油の 不足 でガソリンの値段が上がった。",
+      "tags": [
+        "test-7",
+        "cset2600",
+        "901-1050"
+      ]
+    },
+    {
+      "id": "test-7-046",
+      "english": "focus",
+      "japanese": "私たちはその問題をセキュリティに 焦点 を当てて議論した。",
+      "example_en": "We discussed the problem with the focus on security.",
+      "example_ja": "私たちはその問題をセキュリティに 焦点 を当てて議論した。",
+      "tags": [
+        "test-7",
+        "cset2600",
+        "901-1050"
+      ]
+    },
+    {
+      "id": "test-7-047",
+      "english": "taste",
+      "japanese": "それはどんな 味 がしますか。",
+      "example_en": "What does it taste like?",
+      "example_ja": "それはどんな 味 がしますか。",
+      "tags": [
+        "test-7",
+        "cset2600",
+        "901-1050"
+      ]
+    },
+    {
+      "id": "test-7-048",
+      "english": "manage",
+      "japanese": "このプロジェクトを 管理する のは困難だったに違いないが、彼はやり遂げた。",
+      "example_en": "It must have been hard to manage this project, but he did it.",
+      "example_ja": "このプロジェクトを 管理する のは困難だったに違いないが、彼はやり遂げた。",
+      "tags": [
+        "test-7",
+        "cset2600",
+        "901-1050"
+      ]
+    },
+    {
+      "id": "test-7-049",
+      "english": "relate",
+      "japanese": "電気と磁気は互いに 関係がある。",
+      "example_en": "Electricity and magnetism relate to each other.",
+      "example_ja": "電気と磁気は互いに 関係がある。",
+      "tags": [
+        "test-7",
+        "cset2600",
+        "901-1050"
+      ]
+    },
+    {
+      "id": "test-7-050",
+      "english": "struggling",
+      "japanese": "貧しい国々で生き延びようと 奮闘している 人々がたくさんいる。",
+      "example_en": "There are many people struggling to survive in poor countries.",
+      "example_ja": "貧しい国々で生き延びようと 奮闘している 人々がたくさんいる。",
+      "tags": [
+        "test-7",
+        "cset2600",
+        "901-1050"
       ]
     }
   ],
@@ -7252,6 +8752,2518 @@
             "test-5",
             "cset2600",
             "601-750"
+          ]
+        },
+        {
+          "id": "test5-q026",
+          "number": 26,
+          "item_id": "test-5-026",
+          "answer_language": "ja",
+          "prompt_en": "The company developed the fastest computer.",
+          "prompt_ja": "その会社が最速のコンピューターを ( )。",
+          "choices": [
+            "提案した",
+            "提供した",
+            "開発した",
+            "操作した"
+          ],
+          "answer": "開発した",
+          "tags": [
+            "test-5",
+            "cset2600",
+            "601-750"
+          ]
+        },
+        {
+          "id": "test5-q027",
+          "number": 27,
+          "item_id": "test-5-027",
+          "answer_language": "ja",
+          "prompt_en": "The man who invented the tool became rich.",
+          "prompt_ja": "その道具を ( ) 男は金持ちになった。",
+          "choices": [
+            "製造した",
+            "発明した",
+            "紹介した",
+            "操作した"
+          ],
+          "answer": "発明した",
+          "tags": [
+            "test-5",
+            "cset2600",
+            "601-750"
+          ]
+        },
+        {
+          "id": "test5-q028",
+          "number": 28,
+          "item_id": "test-5-028",
+          "answer_language": "ja",
+          "prompt_en": "Some metals float on water.",
+          "prompt_ja": "水に ( ) 金属もある。",
+          "choices": [
+            "沈む",
+            "溶ける",
+            "浮く",
+            "反応する"
+          ],
+          "answer": "浮く",
+          "tags": [
+            "test-5",
+            "cset2600",
+            "601-750"
+          ]
+        },
+        {
+          "id": "test5-q029",
+          "number": 29,
+          "item_id": "test-5-029",
+          "answer_language": "ja",
+          "prompt_en": "Cotton absorbs sweat and keeps your body cool.",
+          "prompt_ja": "( ) は汗を吸収し、体温が上がらないようにしてくれる。",
+          "choices": [
+            "綿",
+            "スポンジ",
+            "絹",
+            "革"
+          ],
+          "answer": "綿",
+          "tags": [
+            "test-5",
+            "cset2600",
+            "601-750"
+          ]
+        },
+        {
+          "id": "test5-q030",
+          "number": 30,
+          "item_id": "test-5-030",
+          "answer_language": "ja",
+          "prompt_en": "There is no single piece of evidence to show that his theory is right.",
+          "prompt_ja": "彼の理論が正しいことを示す ( ) は何一つない。",
+          "choices": [
+            "状況",
+            "結果",
+            "記録",
+            "証拠"
+          ],
+          "answer": "証拠",
+          "tags": [
+            "test-5",
+            "cset2600",
+            "601-750"
+          ]
+        },
+        {
+          "id": "test5-q031",
+          "number": 31,
+          "item_id": "test-5-031",
+          "answer_language": "ja",
+          "prompt_en": "Genes are passed from parents to children.",
+          "prompt_ja": "( ) は親から子供に受け渡される。",
+          "choices": [
+            "遺産",
+            "遺伝子",
+            "性格",
+            "特徴"
+          ],
+          "answer": "遺伝子",
+          "tags": [
+            "test-5",
+            "cset2600",
+            "601-750"
+          ]
+        },
+        {
+          "id": "test5-q032",
+          "number": 32,
+          "item_id": "test-5-032",
+          "answer_language": "ja",
+          "prompt_en": "It is said that thousands of our nerve cells die every day.",
+          "prompt_ja": "毎日数千個の ( ) 細胞が死んでいると言われている。",
+          "choices": [
+            "体",
+            "脳",
+            "筋肉",
+            "神経"
+          ],
+          "answer": "神経",
+          "tags": [
+            "test-5",
+            "cset2600",
+            "601-750"
+          ]
+        },
+        {
+          "id": "test5-q033",
+          "number": 33,
+          "item_id": "test-5-033",
+          "answer_language": "ja",
+          "prompt_en": "The liver is one of the most important organs.",
+          "prompt_ja": "( ) は最も重要な臓器の一つです。",
+          "choices": [
+            "肝臓",
+            "膵臓",
+            "腎臓",
+            "心臓"
+          ],
+          "answer": "肝臓",
+          "tags": [
+            "test-5",
+            "cset2600",
+            "601-750"
+          ]
+        },
+        {
+          "id": "test5-q034",
+          "number": 34,
+          "item_id": "test-5-034",
+          "answer_language": "ja",
+          "prompt_en": "Cancer is one of the major causes of death in Japan.",
+          "prompt_ja": "日本では ( ) が主要な死亡原因の一つになっている。",
+          "choices": [
+            "癌（がん）",
+            "心筋梗塞",
+            "腫瘍",
+            "脳卒中"
+          ],
+          "answer": "癌（がん）",
+          "tags": [
+            "test-5",
+            "cset2600",
+            "601-750"
+          ]
+        },
+        {
+          "id": "test5-q035",
+          "number": 35,
+          "item_id": "test-5-035",
+          "answer_language": "ja",
+          "prompt_en": "Eggs and meat are rich in protein.",
+          "prompt_ja": "卵や肉は ( ) に富んでいる。",
+          "choices": [
+            "栄養素",
+            "タンパク質",
+            "炭水化物",
+            "脂質"
+          ],
+          "answer": "タンパク質",
+          "tags": [
+            "test-5",
+            "cset2600",
+            "601-750"
+          ]
+        },
+        {
+          "id": "test5-q036",
+          "number": 36,
+          "item_id": "test-5-036",
+          "answer_language": "ja",
+          "prompt_en": "I have spent a decade working on this research.",
+          "prompt_ja": "私はこの研究に ( ) を費やしてきた。",
+          "choices": [
+            "１年",
+            "半世紀",
+            "10年",
+            "12年"
+          ],
+          "answer": "10年",
+          "tags": [
+            "test-5",
+            "cset2600",
+            "601-750"
+          ]
+        },
+        {
+          "id": "test5-q037",
+          "number": 37,
+          "item_id": "test-5-037",
+          "answer_language": "ja",
+          "prompt_en": "The satellite went into the Earth's orbit just as planned.",
+          "prompt_ja": "衛星は計画通りに地球の ( ) に入った。",
+          "choices": [
+            "成層圏",
+            "軌道",
+            "大気圏",
+            "裏側"
+          ],
+          "answer": "軌道",
+          "tags": [
+            "test-5",
+            "cset2600",
+            "601-750"
+          ]
+        },
+        {
+          "id": "test5-q038",
+          "number": 38,
+          "item_id": "test-5-038",
+          "answer_language": "ja",
+          "prompt_en": "My blood type was not compatible with hers.",
+          "prompt_ja": "私の血液型は彼女のとは ( ) しなかった。",
+          "choices": [
+            "一致",
+            "影響",
+            "反応",
+            "適合"
+          ],
+          "answer": "適合",
+          "tags": [
+            "test-5",
+            "cset2600",
+            "601-750"
+          ]
+        },
+        {
+          "id": "test5-q039",
+          "number": 39,
+          "item_id": "test-5-039",
+          "answer_language": "ja",
+          "prompt_en": "This stone is to be used to grind knives.",
+          "prompt_ja": "この石は刃物を ( ) ためのものです。",
+          "choices": [
+            "包む",
+            "ねじる",
+            "投げる",
+            "研ぐ"
+          ],
+          "answer": "研ぐ",
+          "tags": [
+            "test-5",
+            "cset2600",
+            "601-750"
+          ]
+        },
+        {
+          "id": "test5-q040",
+          "number": 40,
+          "item_id": "test-5-040",
+          "answer_language": "ja",
+          "prompt_en": "This software compresses the files into a smaller size.",
+          "prompt_ja": "このソフトはファイルを小さなサイズに ( ) 。",
+          "choices": [
+            "影響する",
+            "圧縮する",
+            "変換する",
+            "置き換える"
+          ],
+          "answer": "圧縮する",
+          "tags": [
+            "test-5",
+            "cset2600",
+            "601-750"
+          ]
+        },
+        {
+          "id": "test5-q041",
+          "number": 41,
+          "item_id": "test-5-041",
+          "answer_language": "ja",
+          "prompt_en": "Online sales are increasing at a rate of 150% a year.",
+          "prompt_ja": "オンライン販売は年間150パーセントの ( ) で増えている。",
+          "choices": [
+            "規格",
+            "予測",
+            "過程",
+            "割合"
+          ],
+          "answer": "割合",
+          "tags": [
+            "test-5",
+            "cset2600",
+            "601-750"
+          ]
+        },
+        {
+          "id": "test5-q042",
+          "number": 42,
+          "item_id": "test-5-042",
+          "answer_language": "ja",
+          "prompt_en": "The workers climbed the ladder onto the roof.",
+          "prompt_ja": "作業員たちは ( ) を登って屋上に上がった。",
+          "choices": [
+            "さお",
+            "屋根",
+            "先端",
+            "はしご"
+          ],
+          "answer": "はしご",
+          "tags": [
+            "test-5",
+            "cset2600",
+            "601-750"
+          ]
+        },
+        {
+          "id": "test5-q043",
+          "number": 43,
+          "item_id": "test-5-043",
+          "answer_language": "ja",
+          "prompt_en": "A high degree of skill is required for an engineer.",
+          "prompt_ja": "技術者には高度な技術が ( )。",
+          "choices": [
+            "示唆される",
+            "要求される",
+            "提供される",
+            "期待される"
+          ],
+          "answer": "要求される",
+          "tags": [
+            "test-5",
+            "cset2600",
+            "601-750"
+          ]
+        },
+        {
+          "id": "test5-q044",
+          "number": 44,
+          "item_id": "test-5-044",
+          "answer_language": "ja",
+          "prompt_en": "It's very easy to describe the Japanese flag.",
+          "prompt_ja": "日本の国旗を言葉で ( ) のはとても簡単だ。",
+          "choices": [
+            "伝達する",
+            "提供する",
+            "議論する",
+            "説明する"
+          ],
+          "answer": "説明する",
+          "tags": [
+            "test-5",
+            "cset2600",
+            "601-750"
+          ]
+        },
+        {
+          "id": "test5-q045",
+          "number": 45,
+          "item_id": "test-5-045",
+          "answer_language": "ja",
+          "prompt_en": "My colleagues always argue about the matter.",
+          "prompt_ja": "私の同僚たちはいつもその問題について ( ) している。",
+          "choices": [
+            "議論",
+            "発見",
+            "要求",
+            "説明"
+          ],
+          "answer": "議論",
+          "tags": [
+            "test-5",
+            "cset2600",
+            "601-750"
+          ]
+        },
+        {
+          "id": "test5-q046",
+          "number": 46,
+          "item_id": "test-5-046",
+          "answer_language": "ja",
+          "prompt_en": "They believe that water exists on the moon.",
+          "prompt_ja": "かれらは月に水が ( ) と信じている。",
+          "choices": [
+            "発見する",
+            "適合する",
+            "供給する",
+            "存在する"
+          ],
+          "answer": "存在する",
+          "tags": [
+            "test-5",
+            "cset2600",
+            "601-750"
+          ]
+        },
+        {
+          "id": "test5-q047",
+          "number": 47,
+          "item_id": "test-5-047",
+          "answer_language": "ja",
+          "prompt_en": "You should not depend on luck to pass examinations.",
+          "prompt_ja": "試験に通るのを ( ) に頼ってはいけません。",
+          "choices": [
+            "他人",
+            "運",
+            "技術",
+            "確率"
+          ],
+          "answer": "運",
+          "tags": [
+            "test-5",
+            "cset2600",
+            "601-750"
+          ]
+        },
+        {
+          "id": "test5-q048",
+          "number": 48,
+          "item_id": "test-5-048",
+          "answer_language": "ja",
+          "prompt_en": "A molecule of water consists of two different atoms.",
+          "prompt_ja": "水の ( ) は２つの異なる原子から成る。",
+          "choices": [
+            "分子",
+            "成分",
+            "化合物",
+            "存在"
+          ],
+          "answer": "分子",
+          "tags": [
+            "test-5",
+            "cset2600",
+            "601-750"
+          ]
+        },
+        {
+          "id": "test5-q049",
+          "number": 49,
+          "item_id": "test-5-049",
+          "answer_language": "ja",
+          "prompt_en": "Sodium metal is soft enough to be cut with a knife.",
+          "prompt_ja": "金属 ( ) はナイフで切れるぐらいにやわらかい。",
+          "choices": [
+            "酸化物",
+            "塩化物",
+            "マグネシウム",
+            "ナトリウム"
+          ],
+          "answer": "ナトリウム",
+          "tags": [
+            "test-5",
+            "cset2600",
+            "601-750"
+          ]
+        },
+        {
+          "id": "test5-q050",
+          "number": 50,
+          "item_id": "test-5-050",
+          "answer_language": "ja",
+          "prompt_en": "We studied the details of the trial.",
+          "prompt_ja": "私たちはその裁判の ( ) を調べた。",
+          "choices": [
+            "要求",
+            "記録",
+            "詳細",
+            "目的"
+          ],
+          "answer": "詳細",
+          "tags": [
+            "test-5",
+            "cset2600",
+            "601-750"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "test-6",
+      "title": "R8(AZ1)_COSET2600 単語テスト［751番～900番］",
+      "questions": [
+        {
+          "id": "test6-q001",
+          "number": 1,
+          "item_id": "test-6-001",
+          "answer_language": "en",
+          "prompt_en": "I found ( ) left in the park.",
+          "prompt_ja": "私は公園にごみが放置されているのを見つけた。",
+          "choices": [
+            "demand",
+            "garbage",
+            "detail",
+            "mass"
+          ],
+          "answer": "garbage",
+          "tags": [
+            "test-6",
+            "cset2600",
+            "751-900"
+          ]
+        },
+        {
+          "id": "test6-q002",
+          "number": 2,
+          "item_id": "test-6-002",
+          "answer_language": "en",
+          "prompt_en": "This solar cell ( ) 1.5 volts of electricity.",
+          "prompt_ja": "この太陽電池は1.5ボルトの電気を発生させる。",
+          "choices": [
+            "submits",
+            "generates",
+            "applies",
+            "offers"
+          ],
+          "answer": "generates",
+          "tags": [
+            "test-6",
+            "cset2600",
+            "751-900"
+          ]
+        },
+        {
+          "id": "test6-q003",
+          "number": 3,
+          "item_id": "test-6-003",
+          "answer_language": "en",
+          "prompt_en": "You must ( ) your report within a week.",
+          "prompt_ja": "報告書は１週間以内に提出しなければいけません。",
+          "choices": [
+            "submit",
+            "apply",
+            "quit",
+            "offer"
+          ],
+          "answer": "submit",
+          "tags": [
+            "test-6",
+            "cset2600",
+            "751-900"
+          ]
+        },
+        {
+          "id": "test6-q004",
+          "number": 4,
+          "item_id": "test-6-004",
+          "answer_language": "en",
+          "prompt_en": "The software was ( ) to make it more user-friendly.",
+          "prompt_ja": "そのソフトはユーザーが使いやすくなるように改良された。",
+          "choices": [
+            "improved",
+            "proved",
+            "considered",
+            "prevented"
+          ],
+          "answer": "improved",
+          "tags": [
+            "test-6",
+            "cset2600",
+            "751-900"
+          ]
+        },
+        {
+          "id": "test6-q005",
+          "number": 5,
+          "item_id": "test-6-005",
+          "answer_language": "en",
+          "prompt_en": "( ) cell phones have different shapes.",
+          "prompt_ja": "最近の携帯電話はさまざまな形をしている。",
+          "choices": [
+            "Major",
+            "Former",
+            "Various",
+            "Recent"
+          ],
+          "answer": "Recent",
+          "tags": [
+            "test-6",
+            "cset2600",
+            "751-900"
+          ]
+        },
+        {
+          "id": "test6-q006",
+          "number": 6,
+          "item_id": "test-6-006",
+          "answer_language": "en",
+          "prompt_en": "Thousands of ( ) satellites are currently orbiting the earth.",
+          "prompt_ja": "現在、数千個の人工衛星が地球を回っています。",
+          "choices": [
+            "artificial",
+            "potential",
+            "automatic",
+            "modern"
+          ],
+          "answer": "artificial",
+          "tags": [
+            "test-6",
+            "cset2600",
+            "751-900"
+          ]
+        },
+        {
+          "id": "test6-q007",
+          "number": 7,
+          "item_id": "test-6-007",
+          "answer_language": "en",
+          "prompt_en": "Who has the ( ) on this book?",
+          "prompt_ja": "誰がこの本の著作権を持っているのですか。",
+          "choices": [
+            "copyright",
+            "trade",
+            "domain",
+            "policy"
+          ],
+          "answer": "copyright",
+          "tags": [
+            "test-6",
+            "cset2600",
+            "751-900"
+          ]
+        },
+        {
+          "id": "test6-q008",
+          "number": 8,
+          "item_id": "test-6-008",
+          "answer_language": "en",
+          "prompt_en": "Our company is interested in foreign ( ).",
+          "prompt_ja": "わが社は海外との取引に興味がある。",
+          "choices": [
+            "trade",
+            "account",
+            "region",
+            "tax"
+          ],
+          "answer": "trade",
+          "tags": [
+            "test-6",
+            "cset2600",
+            "751-900"
+          ]
+        },
+        {
+          "id": "test6-q009",
+          "number": 9,
+          "item_id": "test-6-009",
+          "answer_language": "en",
+          "prompt_en": "Noguchi Hideyo once worked at the Rockefeller ( ) for Medical Research.",
+          "prompt_ja": "野口英世はロックフェラー医学研究所で働いていたことがある。",
+          "choices": [
+            "bureau",
+            "institute",
+            "expert",
+            "ministry"
+          ],
+          "answer": "institute",
+          "tags": [
+            "test-6",
+            "cset2600",
+            "751-900"
+          ]
+        },
+        {
+          "id": "test6-q010",
+          "number": 10,
+          "item_id": "test-6-010",
+          "answer_language": "en",
+          "prompt_en": "The ( ) of our presentation is the history of community.",
+          "prompt_ja": "私たちの発表の主題は地域社会の歴史です。",
+          "choices": [
+            "agency",
+            "experience",
+            "account",
+            "subject"
+          ],
+          "answer": "subject",
+          "tags": [
+            "test-6",
+            "cset2600",
+            "751-900"
+          ]
+        },
+        {
+          "id": "test6-q011",
+          "number": 11,
+          "item_id": "test-6-011",
+          "answer_language": "en",
+          "prompt_en": "He is ( ) to clarify the mechanism of aging.",
+          "prompt_ja": "彼は老化の仕組みを解明しようと試みている。",
+          "choices": [
+            "protecting",
+            "striking",
+            "attempting",
+            "mastering"
+          ],
+          "answer": "attempting",
+          "tags": [
+            "test-6",
+            "cset2600",
+            "751-900"
+          ]
+        },
+        {
+          "id": "test6-q012",
+          "number": 12,
+          "item_id": "test-6-012",
+          "answer_language": "en",
+          "prompt_en": "It took two weeks for my eye injury to ( ).",
+          "prompt_ja": "眼のけがが治るのに２週間かかった。",
+          "choices": [
+            "suffer",
+            "heal",
+            "lock",
+            "occur"
+          ],
+          "answer": "heal",
+          "tags": [
+            "test-6",
+            "cset2600",
+            "751-900"
+          ]
+        },
+        {
+          "id": "test6-q013",
+          "number": 13,
+          "item_id": "test-6-013",
+          "answer_language": "en",
+          "prompt_en": "The newspaper ( ) our company's scandal.",
+          "prompt_ja": "新聞は我が社の汚職事件を明らかにした。",
+          "choices": [
+            "attempted",
+            "revealed",
+            "opposed",
+            "mastered"
+          ],
+          "answer": "revealed",
+          "tags": [
+            "test-6",
+            "cset2600",
+            "751-900"
+          ]
+        },
+        {
+          "id": "test6-q014",
+          "number": 14,
+          "item_id": "test-6-014",
+          "answer_language": "en",
+          "prompt_en": "The local people ( ) the building of a nuclear plant.",
+          "prompt_ja": "地元の住民は原発の建設に反対した。",
+          "choices": [
+            "attempted",
+            "occurred",
+            "opposed",
+            "suffered"
+          ],
+          "answer": "opposed",
+          "tags": [
+            "test-6",
+            "cset2600",
+            "751-900"
+          ]
+        },
+        {
+          "id": "test6-q015",
+          "number": 15,
+          "item_id": "test-6-015",
+          "answer_language": "en",
+          "prompt_en": "Nothing is more ( ) to me than our children.",
+          "prompt_ja": "私にとって子供たちは何よりも大切です。",
+          "choices": [
+            "complex",
+            "familiar",
+            "amazing",
+            "precious"
+          ],
+          "answer": "precious",
+          "tags": [
+            "test-6",
+            "cset2600",
+            "751-900"
+          ]
+        },
+        {
+          "id": "test6-q016",
+          "number": 16,
+          "item_id": "test-6-016",
+          "answer_language": "en",
+          "prompt_en": "Some ( ) problems were discussed at the meeting.",
+          "prompt_ja": "いくつかの社会問題について会議で話し合われた。",
+          "choices": [
+            "social",
+            "honest",
+            "special",
+            "society"
+          ],
+          "answer": "social",
+          "tags": [
+            "test-6",
+            "cset2600",
+            "751-900"
+          ]
+        },
+        {
+          "id": "test6-q017",
+          "number": 17,
+          "item_id": "test-6-017",
+          "answer_language": "en",
+          "prompt_en": "The results of this experiment proved our ( ).",
+          "prompt_ja": "この実験結果から私たちの仮設は証明された。",
+          "choices": [
+            "questionnaire",
+            "experience",
+            "hypothesis",
+            "survey"
+          ],
+          "answer": "hypothesis",
+          "tags": [
+            "test-6",
+            "cset2600",
+            "751-900"
+          ]
+        },
+        {
+          "id": "test6-q018",
+          "number": 18,
+          "item_id": "test-6-018",
+          "answer_language": "en",
+          "prompt_en": "This picture was taken at the moment of ( ).",
+          "prompt_ja": "この写真は衝突の瞬間に撮影された。",
+          "choices": [
+            "radiation",
+            "impact",
+            "thunder",
+            "lightning"
+          ],
+          "answer": "impact",
+          "tags": [
+            "test-6",
+            "cset2600",
+            "751-900"
+          ]
+        },
+        {
+          "id": "test6-q019",
+          "number": 19,
+          "item_id": "test-6-019",
+          "answer_language": "en",
+          "prompt_en": "The X-ray revealed that the picture had three ( ) of paint.",
+          "prompt_ja": "Ｘ線撮影によって、その絵には絵の具の層が３層あることがわかった。",
+          "choices": [
+            "bonds",
+            "rays",
+            "layers",
+            "digits"
+          ],
+          "answer": "layers",
+          "tags": [
+            "test-6",
+            "cset2600",
+            "751-900"
+          ]
+        },
+        {
+          "id": "test6-q020",
+          "number": 20,
+          "item_id": "test-6-020",
+          "answer_language": "en",
+          "prompt_en": "The ( ) of this study is to know how much radiation the substance releases.",
+          "prompt_ja": "本研究の目的はその物質が発している放射線の量を知ることである。",
+          "choices": [
+            "aim",
+            "lid",
+            "ray",
+            "law"
+          ],
+          "answer": "aim",
+          "tags": [
+            "test-6",
+            "cset2600",
+            "751-900"
+          ]
+        },
+        {
+          "id": "test6-q021",
+          "number": 21,
+          "item_id": "test-6-021",
+          "answer_language": "en",
+          "prompt_en": "This device ( ) the room temperature automatically.",
+          "prompt_ja": "この装置は部屋の温度を自動的に調整する。",
+          "choices": [
+            "affects",
+            "modulates",
+            "boosts",
+            "treats"
+          ],
+          "answer": "modulates",
+          "tags": [
+            "test-6",
+            "cset2600",
+            "751-900"
+          ]
+        },
+        {
+          "id": "test6-q022",
+          "number": 22,
+          "item_id": "test-6-022",
+          "answer_language": "en",
+          "prompt_en": "I can't ( ) an apple because I have a toothache.",
+          "prompt_ja": "私は歯が痛いので、リンゴをかじることができない。",
+          "choices": [
+            "feed",
+            "treat",
+            "bark",
+            "bite"
+          ],
+          "answer": "bite",
+          "tags": [
+            "test-6",
+            "cset2600",
+            "751-900"
+          ]
+        },
+        {
+          "id": "test6-q023",
+          "number": 23,
+          "item_id": "test-6-023",
+          "answer_language": "en",
+          "prompt_en": "You must ( ) quickly when you hear the warning sound.",
+          "prompt_ja": "警告音を聞いたらすぐに対応しなければならない。",
+          "choices": [
+            "nod",
+            "respond",
+            "affect",
+            "treat"
+          ],
+          "answer": "respond",
+          "tags": [
+            "test-6",
+            "cset2600",
+            "751-900"
+          ]
+        },
+        {
+          "id": "test6-q024",
+          "number": 24,
+          "item_id": "test-6-024",
+          "answer_language": "en",
+          "prompt_en": "The ( ) examination is to be held next Monday.",
+          "prompt_ja": "口頭試験が次の月曜日に行われる予定である。",
+          "choices": [
+            "audio",
+            "visual",
+            "neutral",
+            "oral"
+          ],
+          "answer": "oral",
+          "tags": [
+            "test-6",
+            "cset2600",
+            "751-900"
+          ]
+        },
+        {
+          "id": "test6-q025",
+          "number": 25,
+          "item_id": "test-6-025",
+          "answer_language": "en",
+          "prompt_en": "I prefer ( ) input devices such as a mouse and a keyboard.",
+          "prompt_ja": "私はマウスやキーボードのような従来の入力装置が好みだ。",
+          "choices": [
+            "sensitive",
+            "conventional",
+            "independent",
+            "previous"
+          ],
+          "answer": "conventional",
+          "tags": [
+            "test-6",
+            "cset2600",
+            "751-900"
+          ]
+        },
+        {
+          "id": "test6-q026",
+          "number": 26,
+          "item_id": "test-6-026",
+          "answer_language": "ja",
+          "prompt_en": "The purpose of our experiment is to measure the density of this substance.",
+          "prompt_ja": "私たちの実験の ( ) はこの物質の密度を測定することです。",
+          "choices": [
+            "詳細",
+            "要求",
+            "方法",
+            "目的"
+          ],
+          "answer": "目的",
+          "tags": [
+            "test-6",
+            "cset2600",
+            "751-900"
+          ]
+        },
+        {
+          "id": "test6-q027",
+          "number": 27,
+          "item_id": "test-6-027",
+          "answer_language": "ja",
+          "prompt_en": "The factory produces a mass of waste every day.",
+          "prompt_ja": "その工場は毎日大量の ( ) を出す。",
+          "choices": [
+            "需要",
+            "廃棄物",
+            "完成品",
+            "汚染物"
+          ],
+          "answer": "廃棄物",
+          "tags": [
+            "test-6",
+            "cset2600",
+            "751-900"
+          ]
+        },
+        {
+          "id": "test6-q028",
+          "number": 28,
+          "item_id": "test-6-028",
+          "answer_language": "ja",
+          "prompt_en": "We must make every effort to conserve nature.",
+          "prompt_ja": "私たちは自然を ( ) ためにあらゆる努力をしなくてはならない。",
+          "choices": [
+            "応用する",
+            "評価する",
+            "提供する",
+            "保護する"
+          ],
+          "answer": "保護する",
+          "tags": [
+            "test-6",
+            "cset2600",
+            "751-900"
+          ]
+        },
+        {
+          "id": "test6-q029",
+          "number": 29,
+          "item_id": "test-6-029",
+          "answer_language": "ja",
+          "prompt_en": "The problem concerns both you and me.",
+          "prompt_ja": "この問題は君と僕の両方に ( )。",
+          "choices": [
+            "証明する",
+            "関係する",
+            "評価する",
+            "適用する"
+          ],
+          "answer": "関係する",
+          "tags": [
+            "test-6",
+            "cset2600",
+            "751-900"
+          ]
+        },
+        {
+          "id": "test6-q030",
+          "number": 30,
+          "item_id": "test-6-030",
+          "answer_language": "ja",
+          "prompt_en": "We don't have enough data to estimate the damage.",
+          "prompt_ja": "被害を ( ) のに十分なデータがありません。",
+          "choices": [
+            "保護する",
+            "検知する",
+            "援助する",
+            "推定する"
+          ],
+          "answer": "推定する",
+          "tags": [
+            "test-6",
+            "cset2600",
+            "751-900"
+          ]
+        },
+        {
+          "id": "test6-q031",
+          "number": 31,
+          "item_id": "test-6-031",
+          "answer_language": "ja",
+          "prompt_en": "The experiment proved that his theory was right.",
+          "prompt_ja": "その実験は彼の理論が正しいことを ( ) 。",
+          "choices": [
+            "識別した",
+            "推定した",
+            "改善した",
+            "証明した"
+          ],
+          "answer": "証明した",
+          "tags": [
+            "test-6",
+            "cset2600",
+            "751-900"
+          ]
+        },
+        {
+          "id": "test6-q032",
+          "number": 32,
+          "item_id": "test-6-032",
+          "answer_language": "ja",
+          "prompt_en": "This sensor detects light that human eyes cannot see.",
+          "prompt_ja": "このセンサーは人間の目に見えない光を ( ) 。",
+          "choices": [
+            "集める",
+            "識別する",
+            "推定する",
+            "検知する"
+          ],
+          "answer": "検知する",
+          "tags": [
+            "test-6",
+            "cset2600",
+            "751-900"
+          ]
+        },
+        {
+          "id": "test6-q033",
+          "number": 33,
+          "item_id": "test-6-033",
+          "answer_language": "ja",
+          "prompt_en": "You must always keep the lab tidy to prevent accidents.",
+          "prompt_ja": "事故防止のため、研究室は常に ( ) 状態でなければいけない。",
+          "choices": [
+            "移動可能な",
+            "最新の",
+            "利用できる",
+            "整然とした"
+          ],
+          "answer": "整然とした",
+          "tags": [
+            "test-6",
+            "cset2600",
+            "751-900"
+          ]
+        },
+        {
+          "id": "test6-q034",
+          "number": 34,
+          "item_id": "test-6-034",
+          "answer_language": "ja",
+          "prompt_en": "Various materials were examined to produce a new type of fuel cell.",
+          "prompt_ja": "新しいタイプの燃料電池を作り出すために ( ) 材料が調べられた。",
+          "choices": [
+            "最新の",
+            "さまざまな",
+            "人工の",
+            "主要な"
+          ],
+          "answer": "さまざまな",
+          "tags": [
+            "test-6",
+            "cset2600",
+            "751-900"
+          ]
+        },
+        {
+          "id": "test6-q035",
+          "number": 35,
+          "item_id": "test-6-035",
+          "answer_language": "ja",
+          "prompt_en": "The size of modern TV screens is larger than that of the old ones.",
+          "prompt_ja": "( ) テレビの画面の大きさは昔のものより大きい。",
+          "choices": [
+            "さまざまな",
+            "入手可能な",
+            "現代の",
+            "主要な"
+          ],
+          "answer": "現代の",
+          "tags": [
+            "test-6",
+            "cset2600",
+            "751-900"
+          ]
+        },
+        {
+          "id": "test6-q036",
+          "number": 36,
+          "item_id": "test-6-036",
+          "answer_language": "ja",
+          "prompt_en": "The potential demand for this product is quite large.",
+          "prompt_ja": "この製品に対する ( ) 需要はかなり大きい。",
+          "choices": [
+            "推定した",
+            "潜在的な",
+            "主要な",
+            "現代の"
+          ],
+          "answer": "潜在的な",
+          "tags": [
+            "test-6",
+            "cset2600",
+            "751-900"
+          ]
+        },
+        {
+          "id": "test6-q037",
+          "number": 37,
+          "item_id": "test-6-037",
+          "answer_language": "ja",
+          "prompt_en": "There are no nuclear power stations in that country.",
+          "prompt_ja": "その国は ( ) 発電所がない。",
+          "choices": [
+            "潜在的な",
+            "最近の",
+            "入手可能な",
+            "原子力"
+          ],
+          "answer": "原子力",
+          "tags": [
+            "test-6",
+            "cset2600",
+            "751-900"
+          ]
+        },
+        {
+          "id": "test6-q038",
+          "number": 38,
+          "item_id": "test-6-038",
+          "answer_language": "ja",
+          "prompt_en": "Our president has a solid policy on business.",
+          "prompt_ja": "うちの社長はビジネスに対してしっかりした ( ) を持っている。",
+          "choices": [
+            "方針",
+            "取引",
+            "領域",
+            "戦略"
+          ],
+          "answer": "方針",
+          "tags": [
+            "test-6",
+            "cset2600",
+            "751-900"
+          ]
+        },
+        {
+          "id": "test6-q039",
+          "number": 39,
+          "item_id": "test-6-039",
+          "answer_language": "ja",
+          "prompt_en": "She is working in the bureau in the city hall.",
+          "prompt_ja": "彼女は市役所の ( ) で働いている。",
+          "choices": [
+            "事務局",
+            "税金",
+            "会計",
+            "委員会"
+          ],
+          "answer": "事務局",
+          "tags": [
+            "test-6",
+            "cset2600",
+            "751-900"
+          ]
+        },
+        {
+          "id": "test6-q040",
+          "number": 40,
+          "item_id": "test-6-040",
+          "answer_language": "ja",
+          "prompt_en": "There are many artificial ponds in this region.",
+          "prompt_ja": "この地域には多くの人工の ( ) がある。",
+          "choices": [
+            "運河",
+            "池",
+            "丘",
+            "森"
+          ],
+          "answer": "池",
+          "tags": [
+            "test-6",
+            "cset2600",
+            "751-900"
+          ]
+        },
+        {
+          "id": "test6-q041",
+          "number": 41,
+          "item_id": "test-6-041",
+          "answer_language": "ja",
+          "prompt_en": "A lot of people were injured in the accident.",
+          "prompt_ja": "多くの人がその事故で ( )。",
+          "choices": [
+            "ケガをした",
+            "保護された",
+            "犠牲となった",
+            "苦しんだ"
+          ],
+          "answer": "ケガをした",
+          "tags": [
+            "test-6",
+            "cset2600",
+            "751-900"
+          ]
+        },
+        {
+          "id": "test6-q042",
+          "number": 42,
+          "item_id": "test-6-042",
+          "answer_language": "ja",
+          "prompt_en": "Do you know any travel agency that deals with trips to China?",
+          "prompt_ja": "中国旅行を ( ) 旅行代理店をどこか知っていますか。",
+          "choices": [
+            "熟知している",
+            "紹介している",
+            "扱っている",
+            "広めている"
+          ],
+          "answer": "扱っている",
+          "tags": [
+            "test-6",
+            "cset2600",
+            "751-900"
+          ]
+        },
+        {
+          "id": "test6-q043",
+          "number": 43,
+          "item_id": "test-6-043",
+          "answer_language": "ja",
+          "prompt_en": "It is good to solve a complex problem step by step.",
+          "prompt_ja": "( ) 問題は一つ一つ手順を踏んで解いていくのが良い。",
+          "choices": [
+            "大切な",
+            "特別な",
+            "複雑な",
+            "社会の"
+          ],
+          "answer": "複雑な",
+          "tags": [
+            "test-6",
+            "cset2600",
+            "751-900"
+          ]
+        },
+        {
+          "id": "test6-q044",
+          "number": 44,
+          "item_id": "test-6-044",
+          "answer_language": "ja",
+          "prompt_en": "We are planning a survey on the environment.",
+          "prompt_ja": "私たちは環境についての ( ) を計画しています。",
+          "choices": [
+            "アンケート",
+            "実験",
+            "調査",
+            "影響"
+          ],
+          "answer": "調査",
+          "tags": [
+            "test-6",
+            "cset2600",
+            "751-900"
+          ]
+        },
+        {
+          "id": "test6-q045",
+          "number": 45,
+          "item_id": "test-6-045",
+          "answer_language": "ja",
+          "prompt_en": "It looks like we are going to have a thunder shower.",
+          "prompt_ja": "どうやら ( ) になりそうな気配です。",
+          "choices": [
+            "竜巻",
+            "嵐",
+            "雷雨",
+            "豪雨"
+          ],
+          "answer": "雷雨",
+          "tags": [
+            "test-6",
+            "cset2600",
+            "751-900"
+          ]
+        },
+        {
+          "id": "test6-q046",
+          "number": 46,
+          "item_id": "test-6-046",
+          "answer_language": "ja",
+          "prompt_en": "The steam raised the lid of the pot.",
+          "prompt_ja": "蒸気が鍋の ( ) を持ち上げた。",
+          "choices": [
+            "ふた",
+            "取っ手",
+            "底",
+            "ふち"
+          ],
+          "answer": "ふた",
+          "tags": [
+            "test-6",
+            "cset2600",
+            "751-900"
+          ]
+        },
+        {
+          "id": "test6-q047",
+          "number": 47,
+          "item_id": "test-6-047",
+          "answer_language": "ja",
+          "prompt_en": "That sound warns that the machine is in trouble.",
+          "prompt_ja": "あの音は機械が故障したことを ( )。",
+          "choices": [
+            "予測している",
+            "強調している",
+            "示唆している",
+            "警告している"
+          ],
+          "answer": "警告している",
+          "tags": [
+            "test-6",
+            "cset2600",
+            "751-900"
+          ]
+        },
+        {
+          "id": "test6-q048",
+          "number": 48,
+          "item_id": "test-6-048",
+          "answer_language": "ja",
+          "prompt_en": "Whenever I go to his house, his dog barks at me.",
+          "prompt_ja": "彼の家へ行くといつも彼の犬が私に向かって ( )。",
+          "choices": [
+            "噛む",
+            "うなずく",
+            "吠える",
+            "餌をせがむ"
+          ],
+          "answer": "吠える",
+          "tags": [
+            "test-6",
+            "cset2600",
+            "751-900"
+          ]
+        },
+        {
+          "id": "test6-q049",
+          "number": 49,
+          "item_id": "test-6-049",
+          "answer_language": "ja",
+          "prompt_en": "I got dizzy from standing up too quickly.",
+          "prompt_ja": "あまりに急に立ち上がったので私は ( )。",
+          "choices": [
+            "もたれかかった",
+            "めまいがした",
+            "倒れた",
+            "ふらついた"
+          ],
+          "answer": "めまいがした",
+          "tags": [
+            "test-6",
+            "cset2600",
+            "751-900"
+          ]
+        },
+        {
+          "id": "test6-q050",
+          "number": 50,
+          "item_id": "test-6-050",
+          "answer_language": "ja",
+          "prompt_en": "We are having mild weather these days.",
+          "prompt_ja": "このごろは ( ) 天気が続いている。",
+          "choices": [
+            "湿度が高い",
+            "突然の",
+            "穏やかな",
+            "激しい"
+          ],
+          "answer": "穏やかな",
+          "tags": [
+            "test-6",
+            "cset2600",
+            "751-900"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "test-7",
+      "title": "R8(AZ1)_COSET2600 単語テスト［901番～1050番］（専１）",
+      "questions": [
+        {
+          "id": "test7-q001",
+          "number": 1,
+          "item_id": "test-7-001",
+          "answer_language": "en",
+          "prompt_en": "The system displayed a warning message because of its ( ) errors.",
+          "prompt_ja": "頻繁なエラーのため、システムが警告メッセージを表示した。",
+          "choices": [
+            "frequent",
+            "previous",
+            "frequency",
+            "casual"
+          ],
+          "answer": "frequent",
+          "tags": [
+            "test-7",
+            "cset2600",
+            "901-1050"
+          ]
+        },
+        {
+          "id": "test7-q002",
+          "number": 2,
+          "item_id": "test-7-002",
+          "answer_language": "en",
+          "prompt_en": "There is little possibility of discovering ( ) in this layer.",
+          "prompt_ja": "この地層で化石が見つかる可能性はほとんどない。",
+          "choices": [
+            "factors",
+            "bacteria",
+            "fossils",
+            "marbles"
+          ],
+          "answer": "fossils",
+          "tags": [
+            "test-7",
+            "cset2600",
+            "901-1050"
+          ]
+        },
+        {
+          "id": "test7-q003",
+          "number": 3,
+          "item_id": "test-7-003",
+          "answer_language": "en",
+          "prompt_en": "That man will never take ( ).",
+          "prompt_ja": "あの男は決して敗北を受け入れようとしない。",
+          "choices": [
+            "defeat",
+            "factor",
+            "victory",
+            "benefit"
+          ],
+          "answer": "defeat",
+          "tags": [
+            "test-7",
+            "cset2600",
+            "901-1050"
+          ]
+        },
+        {
+          "id": "test7-q004",
+          "number": 4,
+          "item_id": "test-7-004",
+          "answer_language": "en",
+          "prompt_en": "The ( ) of this article sent me a copy of it.",
+          "prompt_ja": "この論文の著者がコピーを送ってくれた。",
+          "choices": [
+            "author",
+            "envelope",
+            "manuscript",
+            "journal"
+          ],
+          "answer": "author",
+          "tags": [
+            "test-7",
+            "cset2600",
+            "901-1050"
+          ]
+        },
+        {
+          "id": "test7-q005",
+          "number": 5,
+          "item_id": "test-7-005",
+          "answer_language": "en",
+          "prompt_en": "Acid rain affects the pH of ( ).",
+          "prompt_ja": "酸性雨は土のpH値に影響を与える。",
+          "choices": [
+            "dust",
+            "crop",
+            "frost",
+            "soil"
+          ],
+          "answer": "soil",
+          "tags": [
+            "test-7",
+            "cset2600",
+            "901-1050"
+          ]
+        },
+        {
+          "id": "test7-q006",
+          "number": 6,
+          "item_id": "test-7-006",
+          "answer_language": "en",
+          "prompt_en": "We had a very good ( ) this autumn.",
+          "prompt_ja": "今年の秋は収穫がとてもよかった。",
+          "choices": [
+            "wheat",
+            "crop",
+            "cereal",
+            "harvest"
+          ],
+          "answer": "harvest",
+          "tags": [
+            "test-7",
+            "cset2600",
+            "901-1050"
+          ]
+        },
+        {
+          "id": "test7-q007",
+          "number": 7,
+          "item_id": "test-7-007",
+          "answer_language": "en",
+          "prompt_en": "It is almost impossible to ( ) when an earthquake will occur.",
+          "prompt_ja": "いつ地震が起こるかを予測するのはほとんど不可能だ。",
+          "choices": [
+            "encourage",
+            "observe",
+            "search",
+            "predict"
+          ],
+          "answer": "predict",
+          "tags": [
+            "test-7",
+            "cset2600",
+            "901-1050"
+          ]
+        },
+        {
+          "id": "test7-q008",
+          "number": 8,
+          "item_id": "test-7-008",
+          "answer_language": "en",
+          "prompt_en": "A satellite phone can be used ( ) on earth.",
+          "prompt_ja": "衛星電話は地球上のどこでも使える。",
+          "choices": [
+            "wherever",
+            "everywhere",
+            "somewhere",
+            "somehow"
+          ],
+          "answer": "everywhere",
+          "tags": [
+            "test-7",
+            "cset2600",
+            "901-1050"
+          ]
+        },
+        {
+          "id": "test7-q009",
+          "number": 9,
+          "item_id": "test-7-009",
+          "answer_language": "en",
+          "prompt_en": "This weight is too much of a ( ) for the motor to pull up.",
+          "prompt_ja": "この重量はそのモーターには負荷が大きすぎて引上げられない。",
+          "choices": [
+            "clay",
+            "tag",
+            "chip",
+            "load"
+          ],
+          "answer": "load",
+          "tags": [
+            "test-7",
+            "cset2600",
+            "901-1050"
+          ]
+        },
+        {
+          "id": "test7-q010",
+          "number": 10,
+          "item_id": "test-7-010",
+          "answer_language": "en",
+          "prompt_en": "Heat and water cause ( ) in clothes.",
+          "prompt_ja": "熱と水分は衣類のしわの原因となる。",
+          "choices": [
+            "rags",
+            "seams",
+            "wrinkles",
+            "fabrics"
+          ],
+          "answer": "wrinkles",
+          "tags": [
+            "test-7",
+            "cset2600",
+            "901-1050"
+          ]
+        },
+        {
+          "id": "test7-q011",
+          "number": 11,
+          "item_id": "test-7-011",
+          "answer_language": "en",
+          "prompt_en": "The best ( ) of this computer is its speed of data processing.",
+          "prompt_ja": "このコンピュータの一番の特徴はそのデータ処理の速さです。",
+          "choices": [
+            "feature",
+            "practice",
+            "equipment",
+            "sequence"
+          ],
+          "answer": "feature",
+          "tags": [
+            "test-7",
+            "cset2600",
+            "901-1050"
+          ]
+        },
+        {
+          "id": "test7-q012",
+          "number": 12,
+          "item_id": "test-7-012",
+          "answer_language": "en",
+          "prompt_en": "A molecule of a ( ) must contain two oxygen atoms.",
+          "prompt_ja": "二酸化物の分子１個には、必ず２個の酸素原子が含まれている。",
+          "choices": [
+            "dioxide",
+            "oxide",
+            "hydroxide",
+            "chlorine"
+          ],
+          "answer": "dioxide",
+          "tags": [
+            "test-7",
+            "cset2600",
+            "901-1050"
+          ]
+        },
+        {
+          "id": "test7-q013",
+          "number": 13,
+          "item_id": "test-7-013",
+          "answer_language": "en",
+          "prompt_en": "Ethanol and carbon dioxide are produced in the ( ) process.",
+          "prompt_ja": "発酵の過程でエタノールと二酸化炭素が発生する。",
+          "choices": [
+            "compound",
+            "alcohol",
+            "fermentation",
+            "fungus"
+          ],
+          "answer": "fermentation",
+          "tags": [
+            "test-7",
+            "cset2600",
+            "901-1050"
+          ]
+        },
+        {
+          "id": "test7-q014",
+          "number": 14,
+          "item_id": "test-7-014",
+          "answer_language": "en",
+          "prompt_en": "The ( ) are too small to see.",
+          "prompt_ja": "それらの粒子は小さすぎて見えない。",
+          "choices": [
+            "core",
+            "particle",
+            "element",
+            "compound"
+          ],
+          "answer": "particle",
+          "tags": [
+            "test-7",
+            "cset2600",
+            "901-1050"
+          ]
+        },
+        {
+          "id": "test7-q015",
+          "number": 15,
+          "item_id": "test-7-015",
+          "answer_language": "en",
+          "prompt_en": "I was given the ( ) of project leader.",
+          "prompt_ja": "私はプロジェクトリーダーの役割を与えられた。",
+          "choices": [
+            "farm",
+            "hut",
+            "lack",
+            "role"
+          ],
+          "answer": "role",
+          "tags": [
+            "test-7",
+            "cset2600",
+            "901-1050"
+          ]
+        },
+        {
+          "id": "test7-q016",
+          "number": 16,
+          "item_id": "test-7-016",
+          "answer_language": "en",
+          "prompt_en": "He successfully identified the ( ) in this liquid.",
+          "prompt_ja": "彼はこの液体の成分を特定するのに成功した。",
+          "choices": [
+            "compounds",
+            "elements",
+            "particles",
+            "roles"
+          ],
+          "answer": "elements",
+          "tags": [
+            "test-7",
+            "cset2600",
+            "901-1050"
+          ]
+        },
+        {
+          "id": "test7-q017",
+          "number": 17,
+          "item_id": "test-7-017",
+          "answer_language": "en",
+          "prompt_en": "Give me some ( ) of health effects from alcohol.",
+          "prompt_ja": "アルコールによる健康への影響の例をいくつかあげてください。",
+          "choices": [
+            "challenges",
+            "offenses",
+            "instances",
+            "elements"
+          ],
+          "answer": "instances",
+          "tags": [
+            "test-7",
+            "cset2600",
+            "901-1050"
+          ]
+        },
+        {
+          "id": "test7-q018",
+          "number": 18,
+          "item_id": "test-7-018",
+          "answer_language": "en",
+          "prompt_en": "A lot of ( ) monsters appear in the movie.",
+          "prompt_ja": "その映画には恐ろしい怪物がたくさん登場する。",
+          "choices": [
+            "bitter",
+            "sore",
+            "fear",
+            "horrible"
+          ],
+          "answer": "horrible",
+          "tags": [
+            "test-7",
+            "cset2600",
+            "901-1050"
+          ]
+        },
+        {
+          "id": "test7-q019",
+          "number": 19,
+          "item_id": "test-7-019",
+          "answer_language": "en",
+          "prompt_en": "Babies ( ) their mothers through smell.",
+          "prompt_ja": "赤ちゃんは匂いで母親を識別する。",
+          "choices": [
+            "taste",
+            "determine",
+            "accept",
+            "recognize"
+          ],
+          "answer": "recognize",
+          "tags": [
+            "test-7",
+            "cset2600",
+            "901-1050"
+          ]
+        },
+        {
+          "id": "test7-q020",
+          "number": 20,
+          "item_id": "test-7-020",
+          "answer_language": "en",
+          "prompt_en": "The treatment will be ( ) by your blood sugar and pressure.",
+          "prompt_ja": "治療法はあなたの血糖値と血圧で決まります。",
+          "choices": [
+            "accepted",
+            "determined",
+            "proposed",
+            "recognized"
+          ],
+          "answer": "determined",
+          "tags": [
+            "test-7",
+            "cset2600",
+            "901-1050"
+          ]
+        },
+        {
+          "id": "test7-q021",
+          "number": 21,
+          "item_id": "test-7-021",
+          "answer_language": "en",
+          "prompt_en": "This electron microscope is able to ( ) the object up to 500,000 times.",
+          "prompt_ja": "この電子顕微鏡はその物体を50万倍まで拡大できる。",
+          "choices": [
+            "exert",
+            "calculate",
+            "magnify",
+            "accelerate"
+          ],
+          "answer": "magnify",
+          "tags": [
+            "test-7",
+            "cset2600",
+            "901-1050"
+          ]
+        },
+        {
+          "id": "test7-q022",
+          "number": 22,
+          "item_id": "test-7-022",
+          "answer_language": "en",
+          "prompt_en": "Young people's taste in music ( ) as time passes.",
+          "prompt_ja": "若者の音楽の好みは時代とともに変化する。",
+          "choices": [
+            "exerts",
+            "rolls",
+            "varies",
+            "relates"
+          ],
+          "answer": "varies",
+          "tags": [
+            "test-7",
+            "cset2600",
+            "901-1050"
+          ]
+        },
+        {
+          "id": "test7-q023",
+          "number": 23,
+          "item_id": "test-7-023",
+          "answer_language": "en",
+          "prompt_en": "The letters x and y in an equation ( ) unknown figures.",
+          "prompt_ja": "方程式の中の文字 x, y は未知の数を表している。",
+          "choices": [
+            "struggle",
+            "expand",
+            "relate",
+            "represent"
+          ],
+          "answer": "represent",
+          "tags": [
+            "test-7",
+            "cset2600",
+            "901-1050"
+          ]
+        },
+        {
+          "id": "test7-q024",
+          "number": 24,
+          "item_id": "test-7-024",
+          "answer_language": "en",
+          "prompt_en": "I had my bag stolen by a ( ) on a bike.",
+          "prompt_ja": "私は自転車に乗った泥棒にカバンを盗まれました。",
+          "choices": [
+            "terror",
+            "thief",
+            "knot",
+            "steal"
+          ],
+          "answer": "thief",
+          "tags": [
+            "test-7",
+            "cset2600",
+            "901-1050"
+          ]
+        },
+        {
+          "id": "test7-q025",
+          "number": 25,
+          "item_id": "test-7-025",
+          "answer_language": "en",
+          "prompt_en": "He is an ( ) on lung cancer treatment.",
+          "prompt_ja": "彼は肺がん治療の権威です。",
+          "choices": [
+            "tissue",
+            "authority",
+            "property",
+            "scheme"
+          ],
+          "answer": "authority",
+          "tags": [
+            "test-7",
+            "cset2600",
+            "901-1050"
+          ]
+        },
+        {
+          "id": "test7-q026",
+          "number": 26,
+          "item_id": "test-7-026",
+          "answer_language": "ja",
+          "prompt_en": "A sudden change of voltage damaged the device.",
+          "prompt_ja": "( ) 電圧の変化が装置に損傷を与えた。",
+          "choices": [
+            "頻繁な",
+            "以前の",
+            "従来の",
+            "突然の"
+          ],
+          "answer": "突然の",
+          "tags": [
+            "test-7",
+            "cset2600",
+            "901-1050"
+          ]
+        },
+        {
+          "id": "test7-q027",
+          "number": 27,
+          "item_id": "test-7-027",
+          "answer_language": "ja",
+          "prompt_en": "Visual proof is easier to understand.",
+          "prompt_ja": "目に見える ( ) の方がわかりやすい。",
+          "choices": [
+            "証拠",
+            "特性",
+            "可能性",
+            "利益"
+          ],
+          "answer": "証拠",
+          "tags": [
+            "test-7",
+            "cset2600",
+            "901-1050"
+          ]
+        },
+        {
+          "id": "test7-q028",
+          "number": 28,
+          "item_id": "test-7-028",
+          "answer_language": "ja",
+          "prompt_en": "There was no benefit from the project.",
+          "prompt_ja": "そのプロジェクトからは ( ) が上がらなかった。",
+          "choices": [
+            "勝利",
+            "論文",
+            "利益",
+            "範囲"
+          ],
+          "answer": "利益",
+          "tags": [
+            "test-7",
+            "cset2600",
+            "901-1050"
+          ]
+        },
+        {
+          "id": "test7-q029",
+          "number": 29,
+          "item_id": "test-7-029",
+          "answer_language": "ja",
+          "prompt_en": "The magazine contains several scientific articles.",
+          "prompt_ja": "その雑誌には科学に関する ( ) がいくつか載っている。",
+          "choices": [
+            "知識",
+            "記事",
+            "利益",
+            "証明"
+          ],
+          "answer": "記事",
+          "tags": [
+            "test-7",
+            "cset2600",
+            "901-1050"
+          ]
+        },
+        {
+          "id": "test7-q030",
+          "number": 30,
+          "item_id": "test-7-030",
+          "answer_language": "ja",
+          "prompt_en": "She rewrote her manuscript twice, but it's not finished yet.",
+          "prompt_ja": "彼女は ( ) を２度書き直したが、まだ完成していない。",
+          "choices": [
+            "雑誌",
+            "要約",
+            "論文",
+            "原稿"
+          ],
+          "answer": "原稿",
+          "tags": [
+            "test-7",
+            "cset2600",
+            "901-1050"
+          ]
+        },
+        {
+          "id": "test7-q031",
+          "number": 31,
+          "item_id": "test-7-031",
+          "answer_language": "ja",
+          "prompt_en": "Put your experiment reports in this envelope.",
+          "prompt_ja": "実験レポートはこの ( ) の中に入れてください。",
+          "choices": [
+            "封筒",
+            "原稿",
+            "論文",
+            "下書き"
+          ],
+          "answer": "封筒",
+          "tags": [
+            "test-7",
+            "cset2600",
+            "901-1050"
+          ]
+        },
+        {
+          "id": "test7-q032",
+          "number": 32,
+          "item_id": "test-7-032",
+          "answer_language": "ja",
+          "prompt_en": "Human beings have survived in various climates on the earth.",
+          "prompt_ja": "人類は地球上のさまざまな ( ) の中で生きのびてきた。",
+          "choices": [
+            "気候",
+            "作物",
+            "要因",
+            "可能性"
+          ],
+          "answer": "気候",
+          "tags": [
+            "test-7",
+            "cset2600",
+            "901-1050"
+          ]
+        },
+        {
+          "id": "test7-q033",
+          "number": 33,
+          "item_id": "test-7-033",
+          "answer_language": "ja",
+          "prompt_en": "Cell phone technology has advanced a lot in the last few years.",
+          "prompt_ja": "携帯電話の技術はここ数年で飛躍的に ( )。",
+          "choices": [
+            "促した",
+            "進歩した",
+            "分かれた",
+            "現れた"
+          ],
+          "answer": "進歩した",
+          "tags": [
+            "test-7",
+            "cset2600",
+            "901-1050"
+          ]
+        },
+        {
+          "id": "test7-q034",
+          "number": 34,
+          "item_id": "test-7-034",
+          "answer_language": "ja",
+          "prompt_en": "There are many posters to encourage us to recycle waste.",
+          "prompt_ja": "廃棄物のリサイクルを ( ) ポスターがたくさんある。",
+          "choices": [
+            "探す",
+            "促す",
+            "予測する",
+            "再検討する"
+          ],
+          "answer": "促す",
+          "tags": [
+            "test-7",
+            "cset2600",
+            "901-1050"
+          ]
+        },
+        {
+          "id": "test7-q035",
+          "number": 35,
+          "item_id": "test-7-035",
+          "answer_language": "ja",
+          "prompt_en": "It is important to review previous work in scientific studies.",
+          "prompt_ja": "科学研究においては先行研究を ( ) ことは重要である。",
+          "choices": [
+            "探す",
+            "再検討する",
+            "観察する",
+            "予測する"
+          ],
+          "answer": "再検討する",
+          "tags": [
+            "test-7",
+            "cset2600",
+            "901-1050"
+          ]
+        },
+        {
+          "id": "test7-q036",
+          "number": 36,
+          "item_id": "test-7-036",
+          "answer_language": "ja",
+          "prompt_en": "If we can somehow solve this problem, we will win the robot contest.",
+          "prompt_ja": "( ) この問題が解決できれば、私たちはロボコンで勝てる。",
+          "choices": [
+            "どこでも",
+            "どこかで",
+            "なんとかして",
+            "至る所で"
+          ],
+          "answer": "なんとかして",
+          "tags": [
+            "test-7",
+            "cset2600",
+            "901-1050"
+          ]
+        },
+        {
+          "id": "test7-q037",
+          "number": 37,
+          "item_id": "test-7-037",
+          "answer_language": "ja",
+          "prompt_en": "She hasn't paid the phone bill for last month yet.",
+          "prompt_ja": "彼女はまだ先月の電話の ( ) の支払いをしていない。",
+          "choices": [
+            "請求書",
+            "再調査",
+            "資金",
+            "設備"
+          ],
+          "answer": "請求書",
+          "tags": [
+            "test-7",
+            "cset2600",
+            "901-1050"
+          ]
+        },
+        {
+          "id": "test7-q038",
+          "number": 38,
+          "item_id": "test-7-038",
+          "answer_language": "ja",
+          "prompt_en": "Japan has few natural resources.",
+          "prompt_ja": "日本は天然 ( ) が乏しい。",
+          "choices": [
+            "資源",
+            "負荷",
+            "衣類",
+            "汚染"
+          ],
+          "answer": "資源",
+          "tags": [
+            "test-7",
+            "cset2600",
+            "901-1050"
+          ]
+        },
+        {
+          "id": "test7-q039",
+          "number": 39,
+          "item_id": "test-7-039",
+          "answer_language": "ja",
+          "prompt_en": "They developed space clothes which has no seams.",
+          "prompt_ja": "彼らは ( ) のない宇宙服を開発した。",
+          "choices": [
+            "縫い目",
+            "負荷",
+            "布",
+            "しわ"
+          ],
+          "answer": "縫い目",
+          "tags": [
+            "test-7",
+            "cset2600",
+            "901-1050"
+          ]
+        },
+        {
+          "id": "test7-q040",
+          "number": 40,
+          "item_id": "test-7-040",
+          "answer_language": "ja",
+          "prompt_en": "There is no testing equipment here.",
+          "prompt_ja": "ここには試験用の ( ) がない。",
+          "choices": [
+            "設備",
+            "説明書",
+            "手順",
+            "資源"
+          ],
+          "answer": "設備",
+          "tags": [
+            "test-7",
+            "cset2600",
+            "901-1050"
+          ]
+        },
+        {
+          "id": "test7-q041",
+          "number": 41,
+          "item_id": "test-7-041",
+          "answer_language": "ja",
+          "prompt_en": "The wrong sequence of operations caused the accident in the experiment.",
+          "prompt_ja": "間違った操作 ( ) がその実験における事故の原因だった。",
+          "choices": [
+            "手順",
+            "練習",
+            "負荷",
+            "決定"
+          ],
+          "answer": "手順",
+          "tags": [
+            "test-7",
+            "cset2600",
+            "901-1050"
+          ]
+        },
+        {
+          "id": "test7-q042",
+          "number": 42,
+          "item_id": "test-7-042",
+          "answer_language": "ja",
+          "prompt_en": "Tap water usually contains a small amount of chlorine.",
+          "prompt_ja": "水道水は通常少量の ( ) を含んでいる。",
+          "choices": [
+            "酸化物",
+            "硫黄",
+            "水素",
+            "塩素"
+          ],
+          "answer": "塩素",
+          "tags": [
+            "test-7",
+            "cset2600",
+            "901-1050"
+          ]
+        },
+        {
+          "id": "test7-q043",
+          "number": 43,
+          "item_id": "test-7-043",
+          "answer_language": "ja",
+          "prompt_en": "Sodium hydroxide is a common alkaline substance.",
+          "prompt_ja": "( ) ナトリウムはよく知られたアルカリ性物質だ。",
+          "choices": [
+            "二酸化",
+            "硫化",
+            "塩化",
+            "水酸化"
+          ],
+          "answer": "水酸化",
+          "tags": [
+            "test-7",
+            "cset2600",
+            "901-1050"
+          ]
+        },
+        {
+          "id": "test7-q044",
+          "number": 44,
+          "item_id": "test-7-044",
+          "answer_language": "ja",
+          "prompt_en": "One of the major causes of plant diseases is fungus.",
+          "prompt_ja": "植物の病気の大きな原因のひとつが ( ) です。",
+          "choices": [
+            "毒",
+            "錆（さび）",
+            "発酵",
+            "菌類"
+          ],
+          "answer": "菌類",
+          "tags": [
+            "test-7",
+            "cset2600",
+            "901-1050"
+          ]
+        },
+        {
+          "id": "test7-q045",
+          "number": 45,
+          "item_id": "test-7-045",
+          "answer_language": "ja",
+          "prompt_en": "The price of gasoline rose because of a lack of oil.",
+          "prompt_ja": "石油の ( ) でガソリンの値段が上がった。",
+          "choices": [
+            "課題",
+            "進化",
+            "禁止",
+            "不足"
+          ],
+          "answer": "不足",
+          "tags": [
+            "test-7",
+            "cset2600",
+            "901-1050"
+          ]
+        },
+        {
+          "id": "test7-q046",
+          "number": 46,
+          "item_id": "test-7-046",
+          "answer_language": "ja",
+          "prompt_en": "We discussed the problem with the focus on security.",
+          "prompt_ja": "私たちはその問題をセキュリティに ( ) を当てて議論した。",
+          "choices": [
+            "焦点",
+            "役割",
+            "論評",
+            "計画"
+          ],
+          "answer": "焦点",
+          "tags": [
+            "test-7",
+            "cset2600",
+            "901-1050"
+          ]
+        },
+        {
+          "id": "test7-q047",
+          "number": 47,
+          "item_id": "test-7-047",
+          "answer_language": "ja",
+          "prompt_en": "What does it taste like?",
+          "prompt_ja": "それはどんな ( ) がしますか。",
+          "choices": [
+            "痛み",
+            "味",
+            "見た目",
+            "匂い"
+          ],
+          "answer": "味",
+          "tags": [
+            "test-7",
+            "cset2600",
+            "901-1050"
+          ]
+        },
+        {
+          "id": "test7-q048",
+          "number": 48,
+          "item_id": "test-7-048",
+          "answer_language": "ja",
+          "prompt_en": "It must have been hard to manage this project, but he did it.",
+          "prompt_ja": "このプロジェクトを ( ) のは困難だったに違いないが、彼はやり遂げた。",
+          "choices": [
+            "計画する",
+            "成功する",
+            "管理する",
+            "やり遂げる"
+          ],
+          "answer": "管理する",
+          "tags": [
+            "test-7",
+            "cset2600",
+            "901-1050"
+          ]
+        },
+        {
+          "id": "test7-q049",
+          "number": 49,
+          "item_id": "test-7-049",
+          "answer_language": "ja",
+          "prompt_en": "Electricity and magnetism relate to each other.",
+          "prompt_ja": "電気と磁気は互いに ( )。",
+          "choices": [
+            "現れる",
+            "変化する",
+            "役割がある",
+            "関係がある"
+          ],
+          "answer": "関係がある",
+          "tags": [
+            "test-7",
+            "cset2600",
+            "901-1050"
+          ]
+        },
+        {
+          "id": "test7-q050",
+          "number": 50,
+          "item_id": "test-7-050",
+          "answer_language": "ja",
+          "prompt_en": "There are many people struggling to survive in poor countries.",
+          "prompt_ja": "貧しい国々で生き延びようと ( ) 人々がたくさんいる。",
+          "choices": [
+            "奮闘している",
+            "議論している",
+            "挑戦している",
+            "分け合っている"
+          ],
+          "answer": "奮闘している",
+          "tags": [
+            "test-7",
+            "cset2600",
+            "901-1050"
           ]
         }
       ]

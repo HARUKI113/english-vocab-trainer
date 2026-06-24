@@ -17,7 +17,7 @@ const state = {
 };
 
 const els = {
-  studiedCount: document.querySelector("#studiedCount"),
+  answerCount: document.querySelector("#answerCount"),
   accuracyRate: document.querySelector("#accuracyRate"),
   missedCount: document.querySelector("#missedCount"),
   missedListCount: document.querySelector("#missedListCount"),
@@ -512,9 +512,7 @@ function updateSummary() {
   const missed = entries.filter((entry) => state.stats[entry.id]?.lastResult === false);
   const unit = state.questions.length ? "問" : "件";
 
-  els.studiedCount.textContent = String(
-    stats.filter((stat) => getStatCount(stat, "attempts") > 0).length,
-  );
+  els.answerCount.textContent = String(attempts);
   els.accuracyRate.textContent = attempts ? `${Math.round((correct / attempts) * 100)}%` : "0%";
   els.missedCount.textContent = String(missed.length);
   els.missedListCount.textContent = String(missed.length);

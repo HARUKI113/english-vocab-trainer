@@ -21,7 +21,7 @@ python3 -m http.server 8000
 https://haruki113.github.io/english-vocab-trainer/
 ```
 
-`main` ブランチにpushすると、`.github/workflows/pages.yml` がGitHub Pagesへ自動デプロイします。
+`zenki-kimatsu` ブランチにpushすると、`.github/workflows/pages.yml` がGitHub Pagesへ自動デプロイします。
 初回だけGitHubのリポジトリ設定で `Settings` -> `Pages` -> `Build and deployment` のSourceを `GitHub Actions` にしてください。
 
 公開対象は `index.html`、`app.js`、`styles.css`、`data/vocab.json`、`robots.txt` に限定しています。

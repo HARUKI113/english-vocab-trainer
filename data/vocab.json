@@ -254,6 +254,256 @@
           "choices": ["declined", "bored", "inclined", "converted"],
           "answer": "inclined",
           "tags": ["test-8", "cset2600", "1051-1200"]
+        },
+        {
+          "id": "test8-q026",
+          "number": 26,
+          "answer_language": "ja",
+          "prompt_en": "The cost of this project will be almost equal to the budget of a small country.",
+          "prompt_ja": "このプロジェクトの費用は小国の国の ( ) に匹敵する。",
+          "choices": ["予算", "収入", "税金", "計画"],
+          "answer": "予算",
+          "tags": ["test-8", "cset2600", "1051-1200"]
+        },
+        {
+          "id": "test8-q027",
+          "number": 27,
+          "answer_language": "ja",
+          "prompt_en": "Our boss has a high forehead.",
+          "prompt_ja": "私たちの上司は ( ) が広い。",
+          "choices": ["あご", "ひたい", "顔", "ほほ"],
+          "answer": "ひたい",
+          "tags": ["test-8", "cset2600", "1051-1200"]
+        },
+        {
+          "id": "test8-q028",
+          "number": 28,
+          "answer_language": "ja",
+          "prompt_en": "You must reduce the fat around your waist.",
+          "prompt_ja": "あなたは ( ) の周りの脂肪を落とさなければいけません。",
+          "choices": ["首", "あご", "おなか", "腰"],
+          "answer": "腰",
+          "tags": ["test-8", "cset2600", "1051-1200"]
+        },
+        {
+          "id": "test8-q029",
+          "number": 29,
+          "answer_language": "ja",
+          "prompt_en": "I feel pain in the back of my thighs.",
+          "prompt_ja": "( ) の裏側に痛みを感じます。",
+          "choices": ["もも", "ひざ", "舌", "唇"],
+          "answer": "もも",
+          "tags": ["test-8", "cset2600", "1051-1200"]
+        },
+        {
+          "id": "test8-q030",
+          "number": 30,
+          "answer_language": "ja",
+          "prompt_en": "Science is not merely a collection of facts.",
+          "prompt_ja": "科学とは ( ) 事実を集めることではない。",
+          "choices": ["純粋に", "徐々に", "ただ単に", "ひたすらに"],
+          "answer": "ただ単に",
+          "tags": ["test-8", "cset2600", "1051-1200"]
+        },
+        {
+          "id": "test8-q031",
+          "number": 31,
+          "answer_language": "ja",
+          "prompt_en": "A pure substance melts and boils at definite temperatures.",
+          "prompt_ja": "純粋な物質は ( ) 温度で融解したり沸騰したりする。",
+          "choices": ["不安定な", "特定の", "無限の", "有限の"],
+          "answer": "特定の",
+          "tags": ["test-8", "cset2600", "1051-1200"]
+        },
+        {
+          "id": "test8-q032",
+          "number": 32,
+          "answer_language": "ja",
+          "prompt_en": "That foreign professor speaks fluent Japanese.",
+          "prompt_ja": "あの外国人教授は ( ) 日本語を話す。",
+          "choices": ["すさまじい", "純粋", "特有の", "流暢な"],
+          "answer": "流暢な",
+          "tags": ["test-8", "cset2600", "1051-1200"]
+        },
+        {
+          "id": "test8-q033",
+          "number": 33,
+          "answer_language": "ja",
+          "prompt_en": "This college was established a hundred years ago.",
+          "prompt_ja": "この大学は100年前に ( )。",
+          "choices": ["提携された", "解体された", "設立された", "合併され"],
+          "answer": "設立された",
+          "tags": ["test-8", "cset2600", "1051-1200"]
+        },
+        {
+          "id": "test8-q034",
+          "number": 34,
+          "answer_language": "ja",
+          "prompt_en": "Our company achieved its goal of selling one million cars a year.",
+          "prompt_ja": "わが社は1年に100万台の車を販売するという目標を ( )。",
+          "choices": ["取り替えた", "伝えた", "達成した", "約束した"],
+          "answer": "達成した",
+          "tags": ["test-8", "cset2600", "1051-1200"]
+        },
+        {
+          "id": "test8-q035",
+          "number": 35,
+          "answer_language": "ja",
+          "prompt_en": "I want to have the ability to speak English fluently.",
+          "prompt_ja": "私は英語をすらすらと話せる ( ) がほしい。",
+          "choices": ["職員", "名声", "教養", "能力"],
+          "answer": "能力",
+          "tags": ["test-8", "cset2600", "1051-1200"]
+        },
+        {
+          "id": "test8-q036",
+          "number": 36,
+          "answer_language": "ja",
+          "prompt_en": "Cell phones caused a revolution in the information and communication industry.",
+          "prompt_ja": "携帯電話は情報通信産業に ( ) を起こした。",
+          "choices": ["名声", "誕生", "革命", "進化"],
+          "answer": "革命",
+          "tags": ["test-8", "cset2600", "1051-1200"]
+        },
+        {
+          "id": "test8-q037",
+          "number": 37,
+          "answer_language": "ja",
+          "prompt_en": "Friction can be decreased by greasing.",
+          "prompt_ja": "油をさすことで ( ) は減らせます。",
+          "choices": ["変形", "仕事", "道具", "摩擦"],
+          "answer": "摩擦",
+          "tags": ["test-8", "cset2600", "1051-1200"]
+        },
+        {
+          "id": "test8-q038",
+          "number": 38,
+          "answer_language": "ja",
+          "prompt_en": "The function of this instrument is to measure the magnitude of the light.",
+          "prompt_ja": "この計器の ( ) は光の強さを測定することです。",
+          "choices": ["特性", "目的", "役割", "機能"],
+          "answer": "機能",
+          "tags": ["test-8", "cset2600", "1051-1200"]
+        },
+        {
+          "id": "test8-q039",
+          "number": 39,
+          "answer_language": "ja",
+          "prompt_en": "Statistics show that the number of children has been decreasing.",
+          "prompt_ja": "( ) から、子供の数が減少してきていることがわかる。",
+          "choices": ["分析", "統計", "予測", "調査"],
+          "answer": "統計",
+          "tags": ["test-8", "cset2600", "1051-1200"]
+        },
+        {
+          "id": "test8-q040",
+          "number": 40,
+          "answer_language": "ja",
+          "prompt_en": "Analysis showed that the material was 50 percent carbon.",
+          "prompt_ja": "( ) によって、その物質は50%が炭素であることがわかった。",
+          "choices": ["統計", "分析", "調査", "予測"],
+          "answer": "分析",
+          "tags": ["test-8", "cset2600", "1051-1200"]
+        },
+        {
+          "id": "test8-q041",
+          "number": 41,
+          "answer_language": "ja",
+          "prompt_en": "The medicine will ensure that you have a good sleep.",
+          "prompt_ja": "この薬はあなたがぐっすり眠れることを ( )。",
+          "choices": ["保証します", "強調します", "可能にします", "維持します"],
+          "answer": "保証します",
+          "tags": ["test-8", "cset2600", "1051-1200"]
+        },
+        {
+          "id": "test8-q042",
+          "number": 42,
+          "answer_language": "ja",
+          "prompt_en": "Sodium and chlorine combine to form salt.",
+          "prompt_ja": "ナトリウムと塩素が ( ) 塩になる。",
+          "choices": ["反応して", "分離して", "結合して", "影響して"],
+          "answer": "結合して",
+          "tags": ["test-8", "cset2600", "1051-1200"]
+        },
+        {
+          "id": "test8-q043",
+          "number": 43,
+          "answer_language": "ja",
+          "prompt_en": "It is not so easy to maintain a constant speed on the expressway.",
+          "prompt_ja": "高速道路で一定のスピードを ( ) のはそんなに簡単ではない。",
+          "choices": ["避ける", "伝える", "保証する", "維持する"],
+          "answer": "維持する",
+          "tags": ["test-8", "cset2600", "1051-1200"]
+        },
+        {
+          "id": "test8-q044",
+          "number": 44,
+          "answer_language": "ja",
+          "prompt_en": "Nobody doubted what he told.",
+          "prompt_ja": "彼が言ったことを ( ) 者はいなかった。",
+          "choices": ["伝える", "避ける", "疑う", "認める"],
+          "answer": "疑う",
+          "tags": ["test-8", "cset2600", "1051-1200"]
+        },
+        {
+          "id": "test8-q045",
+          "number": 45,
+          "answer_language": "ja",
+          "prompt_en": "He admitted his mistake.",
+          "prompt_ja": "彼は自分の間違いを ( )。",
+          "choices": ["疑った", "認めた", "気付いた", "発表した"],
+          "answer": "認めた",
+          "tags": ["test-8", "cset2600", "1051-1200"]
+        },
+        {
+          "id": "test8-q046",
+          "number": 46,
+          "answer_language": "ja",
+          "prompt_en": "A home fuel cell is an alternative energy technology.",
+          "prompt_ja": "家庭用燃料電池は ( ) エネルギー技術の一つである。",
+          "choices": ["代替の", "究極の", "現実の", "無用の"],
+          "answer": "代替の",
+          "tags": ["test-8", "cset2600", "1051-1200"]
+        },
+        {
+          "id": "test8-q047",
+          "number": 47,
+          "answer_language": "ja",
+          "prompt_en": "Our boss always gives us specific instructions.",
+          "prompt_ja": "上司はいつも私たちに ( ) 指示を出してくれる。",
+          "choices": ["明確な", "逆の", "重要な", "正確な"],
+          "answer": "明確な",
+          "tags": ["test-8", "cset2600", "1051-1200"]
+        },
+        {
+          "id": "test8-q048",
+          "number": 48,
+          "answer_language": "ja",
+          "prompt_en": "Absolute zero is a significant temperature in science.",
+          "prompt_ja": "絶対零度は科学において ( ) 意味を持つ温度だ。",
+          "choices": ["重要な", "正確な", "明確な", "究極の"],
+          "answer": "重要な",
+          "tags": ["test-8", "cset2600", "1051-1200"]
+        },
+        {
+          "id": "test8-q049",
+          "number": 49,
+          "answer_language": "ja",
+          "prompt_en": "You should not try to escape from reality.",
+          "prompt_ja": "( ) から逃避しようとしてはいけない。",
+          "choices": ["関係", "結論", "現実", "評判"],
+          "answer": "現実",
+          "tags": ["test-8", "cset2600", "1051-1200"]
+        },
+        {
+          "id": "test8-q050",
+          "number": 50,
+          "answer_language": "ja",
+          "prompt_en": "The population of this city has declined in recent years.",
+          "prompt_ja": "この市の人口は近年 ( ) してきた。",
+          "choices": ["変更", "増加", "維持", "減少"],
+          "answer": "減少",
+          "tags": ["test-8", "cset2600", "1051-1200"]
         }
       ]
     }

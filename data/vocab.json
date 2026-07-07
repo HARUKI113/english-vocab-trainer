@@ -506,6 +506,512 @@
           "tags": ["test-8", "cset2600", "1051-1200"]
         }
       ]
+    },
+    {
+      "id": "test-9",
+      "title": "R8(AZ1)_COSET2600 単語テスト［1201番～1350番］",
+      "questions": [
+        {
+          "id": "test9-q001",
+          "number": 1,
+          "answer_language": "en",
+          "prompt_en": "You should not ( ) on science and technology too much.",
+          "prompt_ja": "科学技術に頼りすぎてはいけない。",
+          "choices": ["incline", "rely", "seek", "convert"],
+          "answer": "rely",
+          "tags": ["test-9", "cset2600", "1201-1350"]
+        },
+        {
+          "id": "test9-q002",
+          "number": 2,
+          "answer_language": "en",
+          "prompt_en": "Rubber is a good material to ( ) electricity.",
+          "prompt_ja": "ゴムは電気を絶縁するのによい材料である。",
+          "choices": ["convert", "decline", "conduct", "insulate"],
+          "answer": "insulate",
+          "tags": ["test-9", "cset2600", "1201-1350"]
+        },
+        {
+          "id": "test9-q003",
+          "number": 3,
+          "answer_language": "en",
+          "prompt_en": "Lack of exercise can be a ( ) of diseases.",
+          "prompt_ja": "運動不足は病気の引き金にもなる。",
+          "choices": ["grant", "edge", "trigger", "bullet"],
+          "answer": "trigger",
+          "tags": ["test-9", "cset2600", "1201-1350"]
+        },
+        {
+          "id": "test9-q004",
+          "number": 4,
+          "answer_language": "en",
+          "prompt_en": "A computer has some electronic ( ) to process information.",
+          "prompt_ja": "コンピュータの中には情報を処理するための電子部品がある。",
+          "choices": ["component", "convert", "contract", "conduct"],
+          "answer": "component",
+          "tags": ["test-9", "cset2600", "1201-1350"]
+        },
+        {
+          "id": "test9-q005",
+          "number": 5,
+          "answer_language": "en",
+          "prompt_en": "He was taken to the hospital by ( ).",
+          "prompt_ja": "彼は救急車で病院に運ばれた。",
+          "choices": ["emergency", "ambulance", "aircraft", "vehicle"],
+          "answer": "ambulance",
+          "tags": ["test-9", "cset2600", "1201-1350"]
+        },
+        {
+          "id": "test9-q006",
+          "number": 6,
+          "answer_language": "en",
+          "prompt_en": "I would like an ( ) seat on the airplane.",
+          "prompt_ja": "私は飛行機の通路側の席がいいです。",
+          "choices": ["fasten", "tide", "aisle", "coast"],
+          "answer": "aisle",
+          "tags": ["test-9", "cset2600", "1201-1350"]
+        },
+        {
+          "id": "test9-q007",
+          "number": 7,
+          "answer_language": "en",
+          "prompt_en": "Construction equipment ( ) in Japan is sold in various countries.",
+          "prompt_ja": "日本で製造された建設機械はさまざまな国で売られている。",
+          "choices": ["demonstrated", "convinced", "investigated", "manufactured"],
+          "answer": "manufactured",
+          "tags": ["test-9", "cset2600", "1201-1350"]
+        },
+        {
+          "id": "test9-q008",
+          "number": 8,
+          "answer_language": "en",
+          "prompt_en": "They are trying to ( ) people of the need for a nuclear power plant.",
+          "prompt_ja": "かれらは原発の必要性を住民に納得させようとしている。",
+          "choices": ["indicate", "convince", "suspect", "associate"],
+          "answer": "convince",
+          "tags": ["test-9", "cset2600", "1201-1350"]
+        },
+        {
+          "id": "test9-q009",
+          "number": 9,
+          "answer_language": "en",
+          "prompt_en": "The engineer ( ) the circuit board as the cause of the voltage drop.",
+          "prompt_ja": "その技術者は電圧降下の原因が回路基板にあるのではないかと疑った。",
+          "choices": ["suspected", "associated", "arrested", "prepared"],
+          "answer": "suspected",
+          "tags": ["test-9", "cset2600", "1201-1350"]
+        },
+        {
+          "id": "test9-q010",
+          "number": 10,
+          "answer_language": "en",
+          "prompt_en": "Students are ( ) for a chemical experiment in the laboratory.",
+          "prompt_ja": "学生たちが実験室で化学実験の準備をしている。",
+          "choices": ["utilizing", "preparing", "associating", "extending"],
+          "answer": "preparing",
+          "tags": ["test-9", "cset2600", "1201-1350"]
+        },
+        {
+          "id": "test9-q011",
+          "number": 11,
+          "answer_language": "en",
+          "prompt_en": "Please ( ) this graphical image and print it out.",
+          "prompt_ja": "このグラフィックイメージを拡大して印刷してください。",
+          "choices": ["export", "gain", "enlarge", "revive"],
+          "answer": "enlarge",
+          "tags": ["test-9", "cset2600", "1201-1350"]
+        },
+        {
+          "id": "test9-q012",
+          "number": 12,
+          "answer_language": "en",
+          "prompt_en": "The knot was so ( ) that no one could untie it.",
+          "prompt_ja": "その結び目はきつすぎて誰もほどくことができなかった。",
+          "choices": ["ugly", "cruel", "tight", "steep"],
+          "answer": "tight",
+          "tags": ["test-9", "cset2600", "1201-1350"]
+        },
+        {
+          "id": "test9-q013",
+          "number": 13,
+          "answer_language": "en",
+          "prompt_en": "The experiment was banned because it was ( ) to animals.",
+          "prompt_ja": "その実験は動物にとって残酷なので禁止された。",
+          "choices": ["steep", "cruel", "firm", "ugly"],
+          "answer": "cruel",
+          "tags": ["test-9", "cset2600", "1201-1350"]
+        },
+        {
+          "id": "test9-q014",
+          "number": 14,
+          "answer_language": "en",
+          "prompt_en": "Pyramids are thought to be ( ) of ancient kings.",
+          "prompt_ja": "ピラミッドは古代の王の墓だと考えられている。",
+          "choices": ["shots", "graves", "doses", "courts"],
+          "answer": "graves",
+          "tags": ["test-9", "cset2600", "1201-1350"]
+        },
+        {
+          "id": "test9-q015",
+          "number": 15,
+          "answer_language": "en",
+          "prompt_en": "To apply to the school, you need a ( ) proving your English skills.",
+          "prompt_ja": "その学校の出願には、英語の技能を証明する証明書が必要です。",
+          "choices": ["landscape", "portrait", "certificate", "signature"],
+          "answer": "certificate",
+          "tags": ["test-9", "cset2600", "1201-1350"]
+        },
+        {
+          "id": "test9-q016",
+          "number": 16,
+          "answer_language": "en",
+          "prompt_en": "Please explain your ( ) for solving this equation.",
+          "prompt_ja": "この方程式を解くための、あなたの方略を説明してください。",
+          "choices": ["signature", "certificate", "therapy", "strategy"],
+          "answer": "strategy",
+          "tags": ["test-9", "cset2600", "1201-1350"]
+        },
+        {
+          "id": "test9-q017",
+          "number": 17,
+          "answer_language": "en",
+          "prompt_en": "According to the theory of relativity, mass and energy are ( ).",
+          "prompt_ja": "相対性理論によれば、質量とエネルギーは等価である。",
+          "choices": ["exact", "essential", "entire", "equivalent"],
+          "answer": "equivalent",
+          "tags": ["test-9", "cset2600", "1201-1350"]
+        },
+        {
+          "id": "test9-q018",
+          "number": 18,
+          "answer_language": "en",
+          "prompt_en": "This is the largest ( ) telescope in the world.",
+          "prompt_ja": "これは世界最大の光学望遠鏡だ。",
+          "choices": ["visible", "bright", "optical", "entire"],
+          "answer": "optical",
+          "tags": ["test-9", "cset2600", "1201-1350"]
+        },
+        {
+          "id": "test9-q019",
+          "number": 19,
+          "answer_language": "en",
+          "prompt_en": "Only a gram of this material is ( ) tens of thousands of yen.",
+          "prompt_ja": "この材料はたった１グラムで数万円もの価値がある。",
+          "choices": ["essential", "equivalent", "worth", "firm"],
+          "answer": "worth",
+          "tags": ["test-9", "cset2600", "1201-1350"]
+        },
+        {
+          "id": "test9-q020",
+          "number": 20,
+          "answer_language": "en",
+          "prompt_en": "You must ( ) the terms beore discussion.",
+          "prompt_ja": "議論の前に用語を定義しなければいけません。",
+          "choices": ["assume", "define", "confirm", "intend"],
+          "answer": "define",
+          "tags": ["test-9", "cset2600", "1201-1350"]
+        },
+        {
+          "id": "test9-q021",
+          "number": 21,
+          "answer_language": "en",
+          "prompt_en": "It's an optical ( ) that the line looks curved.",
+          "prompt_ja": "その線が曲がって見えるのは眼の錯覚だ。",
+          "choices": ["illusion", "trap", "scope", "amplitude"],
+          "answer": "illusion",
+          "tags": ["test-9", "cset2600", "1201-1350"]
+        },
+        {
+          "id": "test9-q022",
+          "number": 22,
+          "answer_language": "en",
+          "prompt_en": "You must always pay ( ) to the device during the experiment.",
+          "prompt_ja": "実験中は常にその装置に注意を払っていなければいけません。",
+          "choices": ["attention", "phenomenon", "ripple", "statement"],
+          "answer": "attention",
+          "tags": ["test-9", "cset2600", "1201-1350"]
+        },
+        {
+          "id": "test9-q023",
+          "number": 23,
+          "answer_language": "en",
+          "prompt_en": "Chlorophyll is a green ( ) which is very important in photosynthesis.",
+          "prompt_ja": "葉緑素は光合成において重要な緑色の色素である。",
+          "choices": ["glue", "pigment", "starch", "glucose"],
+          "answer": "pigment",
+          "tags": ["test-9", "cset2600", "1201-1350"]
+        },
+        {
+          "id": "test9-q024",
+          "number": 24,
+          "answer_language": "en",
+          "prompt_en": "This is a ( ) for a next-generation PC system.",
+          "prompt_ja": "これは次世代ＰＣシステムの候補のひとつだ。",
+          "choices": ["candidate", "passion", "fragment", "phase"],
+          "answer": "candidate",
+          "tags": ["test-9", "cset2600", "1201-1350"]
+        },
+        {
+          "id": "test9-q025",
+          "number": 25,
+          "answer_language": "en",
+          "prompt_en": "These bacteria produce a strong ( ).",
+          "prompt_ja": "これらのバクテリアは強力な毒素を出す。",
+          "choices": ["favor", "danger", "yield", "toxin"],
+          "answer": "toxin",
+          "tags": ["test-9", "cset2600", "1201-1350"]
+        },
+        {
+          "id": "test9-q026",
+          "number": 26,
+          "answer_language": "ja",
+          "prompt_en": "This machine can bore two holes at once.",
+          "prompt_ja": "この機械は同時に２個の ( ) ことができる。",
+          "choices": ["切断をする", "穴をあける", "作業をする", "溶接をする"],
+          "answer": "穴をあける",
+          "tags": ["test-9", "cset2600", "1201-1350"]
+        },
+        {
+          "id": "test9-q027",
+          "number": 27,
+          "answer_language": "ja",
+          "prompt_en": "Join the two rods with a bolt at each end.",
+          "prompt_ja": "２本の ( ) の端をボルトでつなぎなさい。",
+          "choices": ["柱", "梁", "棒", "材料"],
+          "answer": "棒",
+          "tags": ["test-9", "cset2600", "1201-1350"]
+        },
+        {
+          "id": "test9-q028",
+          "number": 28,
+          "answer_language": "ja",
+          "prompt_en": "The two companies agreed on the contract.",
+          "prompt_ja": "その２社は ( ) に合意した。",
+          "choices": ["取引", "談合", "合併", "契約"],
+          "answer": "契約",
+          "tags": ["test-9", "cset2600", "1201-1350"]
+        },
+        {
+          "id": "test9-q029",
+          "number": 29,
+          "answer_language": "ja",
+          "prompt_en": "The tide falls by 10 meters in this bay.",
+          "prompt_ja": "この湾では ( ) は10メートル下がる。",
+          "choices": ["水深", "波高", "潮位", "堤防"],
+          "answer": "潮位",
+          "tags": ["test-9", "cset2600", "1201-1350"]
+        },
+        {
+          "id": "test9-q030",
+          "number": 30,
+          "answer_language": "ja",
+          "prompt_en": "The police are investigating the cause of the fire.",
+          "prompt_ja": "警察はその火事の原因を ( )。",
+          "choices": ["調査している", "実験している", "想像している", "特定している"],
+          "answer": "調査している",
+          "tags": ["test-9", "cset2600", "1201-1350"]
+        },
+        {
+          "id": "test9-q031",
+          "number": 31,
+          "answer_language": "ja",
+          "prompt_en": "The police are investigating the cause of the fire.",
+          "prompt_ja": "警察はその火事の原因を ( )。",
+          "choices": ["特定している", "調査している", "実験している", "想像している"],
+          "answer": "調査している",
+          "tags": ["test-9", "cset2600", "1201-1350"]
+        },
+        {
+          "id": "test9-q032",
+          "number": 32,
+          "answer_language": "ja",
+          "prompt_en": "This graph indicates a rapid change in the earth's temperature.",
+          "prompt_ja": "このグラフは地球の温度の急速な変化を ( )。",
+          "choices": ["示している", "疑っている", "関連付けている", "明らかにする"],
+          "answer": "示している",
+          "tags": ["test-9", "cset2600", "1201-1350"]
+        },
+        {
+          "id": "test9-q033",
+          "number": 33,
+          "answer_language": "ja",
+          "prompt_en": "Increasing exports of cars revived the Japanese economy.",
+          "prompt_ja": "増加する自動車輸出が日本経済を ( )。",
+          "choices": ["けん引している", "拡大している", "特徴付けている", "生き返らせた"],
+          "answer": "生き返らせた",
+          "tags": ["test-9", "cset2600", "1201-1350"]
+        },
+        {
+          "id": "test9-q034",
+          "number": 34,
+          "answer_language": "ja",
+          "prompt_en": "A major example of an ancient animal is ammonite.",
+          "prompt_ja": "( ) 生物の代表的な例はアンモナイトです。",
+          "choices": ["古代", "地層", "貴重な", "化石"],
+          "answer": "古代",
+          "tags": ["test-9", "cset2600", "1201-1350"]
+        },
+        {
+          "id": "test9-q035",
+          "number": 35,
+          "answer_language": "ja",
+          "prompt_en": "Watch the progress of the chemical reaction carefully.",
+          "prompt_ja": "その化学反応の ( ) を注意深く観察しなさい。",
+          "choices": ["様子", "結果", "色彩", "進行"],
+          "answer": "進行",
+          "tags": ["test-9", "cset2600", "1201-1350"]
+        },
+        {
+          "id": "test9-q036",
+          "number": 36,
+          "answer_language": "ja",
+          "prompt_en": "A big crowd was waiting for the famous actor's arrival at the airport.",
+          "prompt_ja": "空港では大勢の ( ) がその有名な俳優の到着を待っていた。",
+          "choices": ["群衆", "報道陣", "ファン", "警備員"],
+          "answer": "群衆",
+          "tags": ["test-9", "cset2600", "1201-1350"]
+        },
+        {
+          "id": "test9-q037",
+          "number": 37,
+          "answer_language": "ja",
+          "prompt_en": "Lincoln ordered all the slaves in the country to be set free.",
+          "prompt_ja": "リンカーンは国内すべての ( ) を解放するように命令した。",
+          "choices": ["移民", "労働者", "服役者", "奴隷"],
+          "answer": "奴隷",
+          "tags": ["test-9", "cset2600", "1201-1350"]
+        },
+        {
+          "id": "test9-q038",
+          "number": 38,
+          "answer_language": "ja",
+          "prompt_en": "Assuming that x is zero, what will y be?",
+          "prompt_ja": "xがゼロだと ( ) と、yはいくつになりますか。",
+          "choices": ["確認する", "仮定する", "定義する", "意図する"],
+          "answer": "仮定する",
+          "tags": ["test-9", "cset2600", "1201-1350"]
+        },
+        {
+          "id": "test9-q039",
+          "number": 39,
+          "answer_language": "ja",
+          "prompt_en": "Please confirm your ID number.",
+          "prompt_ja": "あなたのID番号を ( ) ください。",
+          "choices": ["定義して", "確認して", "添付して", "送信して"],
+          "answer": "確認して",
+          "tags": ["test-9", "cset2600", "1201-1350"]
+        },
+        {
+          "id": "test9-q040",
+          "number": 40,
+          "answer_language": "ja",
+          "prompt_en": "The same poles of magnets repel each other.",
+          "prompt_ja": "磁石の同極は ( ) 合う。",
+          "choices": ["動作し", "集中し", "反発し", "引きつけ"],
+          "answer": "反発し",
+          "tags": ["test-9", "cset2600", "1201-1350"]
+        },
+        {
+          "id": "test9-q041",
+          "number": 41,
+          "answer_language": "ja",
+          "prompt_en": "It was beyond the scope of our assumptions.",
+          "prompt_ja": "それは私たちの想定の ( ) を越えていた。",
+          "choices": ["範囲", "計画", "現象", "戦略"],
+          "answer": "範囲",
+          "tags": ["test-9", "cset2600", "1201-1350"]
+        },
+        {
+          "id": "test9-q042",
+          "number": 42,
+          "answer_language": "ja",
+          "prompt_en": "The Prime Minister made a statement to the newspapers.",
+          "prompt_ja": "総理大臣が新聞に ( ) を出した。",
+          "choices": ["計画", "注意", "規定", "声明"],
+          "answer": "声明",
+          "tags": ["test-9", "cset2600", "1201-1350"]
+        },
+        {
+          "id": "test9-q043",
+          "number": 43,
+          "answer_language": "ja",
+          "prompt_en": "Illusion is a phenomenon where the visual image is different from the actual image.",
+          "prompt_ja": "錯覚とは目に見える像が実際の像と異なる ( ) です。",
+          "choices": ["範囲", "現象", "規定", "状況"],
+          "answer": "現象",
+          "tags": ["test-9", "cset2600", "1201-1350"]
+        },
+        {
+          "id": "test9-q044",
+          "number": 44,
+          "answer_language": "ja",
+          "prompt_en": "She avoids eating carbohydrates such as bread and potatoes.",
+          "prompt_ja": "彼女はパンやイモなどの ( ) を食べないようにしている。",
+          "choices": ["炭水化物", "ブドウ糖", "栄養素", "でんぷん"],
+          "answer": "炭水化物",
+          "tags": ["test-9", "cset2600", "1201-1350"]
+        },
+        {
+          "id": "test9-q045",
+          "number": 45,
+          "answer_language": "ja",
+          "prompt_en": "Green plants need carbon dioxide for photosynthesis.",
+          "prompt_ja": "植物は ( ) のために二酸化炭素を必要とする。",
+          "choices": ["光合成", "葉緑素", "成長", "呼吸"],
+          "answer": "光合成",
+          "tags": ["test-9", "cset2600", "1201-1350"]
+        },
+        {
+          "id": "test9-q046",
+          "number": 46,
+          "answer_language": "ja",
+          "prompt_en": "Her passion for space science led her to the space mission.",
+          "prompt_ja": "彼女の宇宙科学に対する ( ) が彼女の宇宙での任務遂行につながった。",
+          "choices": ["情熱", "好意", "伝統", "立場"],
+          "answer": "情熱",
+          "tags": ["test-9", "cset2600", "1201-1350"]
+        },
+        {
+          "id": "test9-q047",
+          "number": 47,
+          "answer_language": "ja",
+          "prompt_en": "The accident was due to the train driver's fault.",
+          "prompt_ja": "その事故は列車運転士の ( ) によるものだった。",
+          "choices": ["状況", "困難さ", "過失", "危険"],
+          "answer": "過失",
+          "tags": ["test-9", "cset2600", "1201-1350"]
+        },
+        {
+          "id": "test9-q048",
+          "number": 48,
+          "answer_language": "ja",
+          "prompt_en": "You must follow the regulations of the contest.",
+          "prompt_ja": "コンテストの ( ) は遵守しなければならない。",
+          "choices": ["声明", "規定", "計画", "状況"],
+          "answer": "規定",
+          "tags": ["test-9", "cset2600", "1201-1350"]
+        },
+        {
+          "id": "test9-q049",
+          "number": 49,
+          "answer_language": "ja",
+          "prompt_en": "It is obvious that the experiment failed.",
+          "prompt_ja": "その実験が失敗だったのは ( ) だ。",
+          "choices": ["明らか", "秘密", "戦略", "不可欠"],
+          "answer": "明らか",
+          "tags": ["test-9", "cset2600", "1201-1350"]
+        },
+        {
+          "id": "test9-q050",
+          "number": 50,
+          "answer_language": "ja",
+          "prompt_en": "This disease causes a severe pain in your back.",
+          "prompt_ja": "この病気は背中に ( ) 痛みを生じさせる。",
+          "choices": ["激しい", "広い", "明らかな", "目に見える"],
+          "answer": "激しい",
+          "tags": ["test-9", "cset2600", "1201-1350"]
+        }
+      ]
     }
   ]
 }

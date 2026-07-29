@@ -4,20 +4,21 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="robots" content="noindex, nofollow, noarchive" />
-    <title>英単語テスト</title>
-    <link rel="stylesheet" href="styles.css?v=20260624-1" />
+    <title>期末200｜英単語スプリント</title>
+    <link rel="stylesheet" href="styles.css?v=20260730-1" />
   </head>
   <body>
     <main class="app-shell">
       <header class="topbar">
         <div>
-          <p class="eyebrow">Vocabulary Trainer</p>
-          <h1>英単語テスト</h1>
+          <p class="eyebrow">Final Exam · 200 Cards</p>
+          <h1>期末200</h1>
+          <p class="subtitle">見て、思い出して、3秒で仕分け。</p>
         </div>
         <div class="summary" aria-label="学習状況">
           <div>
             <span id="answerCount">0</span>
-            <small>回答数</small>
+            <small>学習回数</small>
           </div>
           <div>
             <span id="accuracyRate">0%</span>
@@ -25,12 +26,22 @@
           </div>
           <div>
             <span id="missedCount">0</span>
-            <small>前回ミス</small>
+            <small>要復習</small>
           </div>
         </div>
       </header>
 
       <section class="controls" aria-label="出題設定">
+        <div class="control-group control-group-primary">
+          <span class="control-label">学習</span>
+          <div class="segmented segmented-two" role="tablist" aria-label="学習方法">
+            <button class="segment is-active" type="button" data-study-mode="flash">
+              暗記カード
+            </button>
+            <button class="segment" type="button" data-study-mode="quiz">4択テスト</button>
+          </div>
+        </div>
+
         <div class="control-group">
           <span class="control-label">出題</span>
           <div class="segmented" role="tablist" aria-label="出題方向">
@@ -51,7 +62,7 @@
           <span class="control-label">復習</span>
           <div class="segmented" role="tablist" aria-label="復習方法">
             <button class="segment is-active" type="button" data-queue="all">全範囲</button>
-            <button class="segment" type="button" data-queue="missed">前回ミス</button>
+            <button class="segment" type="button" data-queue="missed">要復習</button>
             <button class="segment" type="button" data-queue="weak">苦手優先</button>
           </div>
         </div>
@@ -68,6 +79,23 @@
           </div>
 
           <div id="quizView">
+            <div class="cycle-progress" aria-label="現在の一周の進捗">
+              <div class="cycle-progress-copy">
+                <span>この一周</span>
+                <strong id="cycleProgressText">0 / 200</strong>
+              </div>
+              <div
+                class="progress-track"
+                role="progressbar"
+                aria-label="一周の進捗"
+                aria-valuemin="0"
+                aria-valuemax="200"
+                aria-valuenow="0"
+              >
+                <span id="cycleProgressBar"></span>
+              </div>
+            </div>
+
             <div class="question-meta">
               <span id="directionLabel" class="badge">混合</span>
               <span id="tagLabel" class="muted"></span>
@@ -89,7 +117,30 @@
               <p id="detailText" class="detail-text"></p>
             </div>
 
-            <div class="actions">
+            <div id="flashAnswer" class="flash-answer" hidden>
+              <p class="flash-answer-label">ANSWER</p>
+              <p id="flashAnswerText" class="flash-answer-text"></p>
+              <p id="flashDetailText" class="flash-detail-text"></p>
+            </div>
+
+            <div id="flashActions" class="flash-actions" hidden>
+              <button id="revealButton" class="reveal-button" type="button">
+                答えを見る <kbd>Space</kbd>
+              </button>
+              <div id="ratingButtons" class="rating-buttons" hidden>
+                <button class="rating-button rating-again" type="button" data-rating="again">
+                  <span>もう一度</span><small>すぐ復習 · 1</small>
+                </button>
+                <button class="rating-button rating-hard" type="button" data-rating="hard">
+                  <span>迷った</span><small>あとで復習 · 2</small>
+                </button>
+                <button class="rating-button rating-good" type="button" data-rating="good">
+                  <span>覚えた</span><small>次へ · 3</small>
+                </button>
+              </div>
+            </div>
+
+            <div id="quizActions" class="actions">
               <button id="nextButton" class="primary-button" type="button" disabled>次の問題</button>
             </div>
           </div>
@@ -98,7 +149,7 @@
         <aside class="side-panel">
           <section class="panel-section">
             <div class="section-title">
-              <h2>前回ミス</h2>
+              <h2>要復習</h2>
               <span id="missedListCount" class="count">0</span>
             </div>
             <ul id="missedList" class="missed-list"></ul>
@@ -116,6 +167,6 @@
       </section>
     </main>
 
-    <script src="app.js?v=20260624-1"></script>
+    <script src="app.js?v=20260730-1"></script>
   </body>
 </html>

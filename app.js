@@ -5,6 +5,7 @@ const state = {
   items: [],
   questions: [],
   stats: {},
+  studyMode: "flash",
   mode: "mixed",
   queue: "all",
   testFilter: "all",
@@ -13,7 +14,10 @@ const state = {
   direction: "en-ja",
   options: [],
   answered: false,
+  flashRevealed: false,
   cycleCompletedByKey: new Map(),
+  retryQueueByKey: new Map(),
+  reviewStepByKey: new Map(),
 };
 
 const els = {
@@ -24,6 +28,9 @@ const els = {
   itemCount: document.querySelector("#itemCount"),
   dataStatus: document.querySelector("#dataStatus"),
   testFilter: document.querySelector("#testFilter"),
+  cycleProgressText: document.querySelector("#cycleProgressText"),
+  cycleProgressBar: document.querySelector("#cycleProgressBar"),
+  progressTrack: document.querySelector(".progress-track"),
   directionLabel: document.querySelector("#directionLabel"),
   tagLabel: document.querySelector("#tagLabel"),
   promptLabel: document.querySelector("#promptLabel"),
@@ -34,6 +41,13 @@ const els = {
   resultLabel: document.querySelector("#resultLabel"),
   answerText: document.querySelector("#answerText"),
   detailText: document.querySelector("#detailText"),
+  flashAnswer: document.querySelector("#flashAnswer"),
+  flashAnswerText: document.querySelector("#flashAnswerText"),
+  flashDetailText: document.querySelector("#flashDetailText"),
+  flashActions: document.querySelector("#flashActions"),
+  revealButton: document.querySelector("#revealButton"),
+  ratingButtons: document.querySelector("#ratingButtons"),
+  quizActions: document.querySelector("#quizActions"),
   nextButton: document.querySelector("#nextButton"),
   resetButton: document.querySelector("#resetButton"),
   missedList: document.querySelector("#missedList"),
@@ -164,6 +178,19 @@ function normalizeAnswerLanguage(value) {
 }
 
 function bindEvents() {
+  document.querySelectorAll("[data-study-mode]").forEach((button) => {
+    button.addEventListener("click", () => {
+      const nextStudyMode = button.dataset.studyMode;
+      if (state.studyMode === nextStudyMode) {
+        return;
+      }
+
+      state.studyMode = nextStudyMode;
+      setActive("[data-study-mode]", button);
+      nextQuestion();
+    });
+  });
+
   document.querySelectorAll("[data-mode]").forEach((button) => {
     button.addEventListener("click", () => {
       const nextMode = button.dataset.mode;
@@ -200,15 +227,56 @@ function bindEvents() {
     nextQuestion();
   });
 
+  els.revealButton.addEventListener("click", revealFlashAnswer);
+  document.querySelectorAll("[data-rating]").forEach((button) => {
+    button.addEventListener("click", () => rateFlashCard(button.dataset.rating));
+  });
   els.nextButton.addEventListener("click", nextQuestion);
   els.restartCycleButton.addEventListener("click", restartCurrentCycle);
   els.resetButton.addEventListener("click", resetHistory);
+  document.addEventListener("keydown", handleKeyboardShortcut);
 }
 
 function setActive(selector, activeButton) {
   document.querySelectorAll(selector).forEach((button) => {
     button.classList.toggle("is-active", button === activeButton);
   });
+}
+
+function handleKeyboardShortcut(event) {
+  if (
+    event.defaultPrevented ||
+    event.metaKey ||
+    event.ctrlKey ||
+    event.altKey ||
+    ["INPUT", "SELECT", "TEXTAREA"].includes(document.activeElement?.tagName)
+  ) {
+    return;
+  }
+
+  if (state.studyMode === "flash") {
+    if (!state.flashRevealed && (event.key === " " || event.key === "Enter")) {
+      event.preventDefault();
+      revealFlashAnswer();
+      return;
+    }
+
+    const ratings = { "1": "again", "2": "hard", "3": "good" };
+    if (state.flashRevealed && ratings[event.key]) {
+      event.preventDefault();
+      rateFlashCard(ratings[event.key]);
+    }
+    return;
+  }
+
+  const optionIndex = Number(event.key) - 1;
+  if (!state.answered && optionIndex >= 0 && optionIndex < els.options.children.length) {
+    event.preventDefault();
+    els.options.children[optionIndex].click();
+  } else if (state.answered && event.key === "Enter" && !els.nextButton.disabled) {
+    event.preventDefault();
+    nextQuestion();
+  }
 }
 
 function nextQuestion() {
@@ -246,6 +314,7 @@ function nextQuestion() {
   state.direction = direction;
   state.options = isFormsQuestion ? buildQuestionOptions(entry) : buildOptions(entry, direction);
   state.answered = false;
+  state.flashRevealed = false;
 
   renderQuestion();
 }
@@ -330,9 +399,35 @@ function chooseItem(pool) {
     }
   });
 
-  const candidates = pool.filter((item) => !completedThisCycle.has(item.id));
+  const retryQueue = getCurrentRetryQueue();
+  [...retryQueue.keys()].forEach((id) => {
+    if (!poolIds.has(id) || completedThisCycle.has(id)) {
+      retryQueue.delete(id);
+    }
+  });
+
+  const reviewStep = getCurrentReviewStep();
+  const dueRetryIds = [...retryQueue.entries()]
+    .filter(([, dueStep]) => dueStep <= reviewStep)
+    .sort((a, b) => a[1] - b[1])
+    .map(([id]) => id);
+  const retryId = dueRetryIds[0];
+  if (retryId) {
+    retryQueue.delete(retryId);
+    return pool.find((item) => item.id === retryId) || null;
+  }
+
+  const candidates = pool.filter(
+    (item) => !completedThisCycle.has(item.id) && !retryQueue.has(item.id),
+  );
   if (!candidates.length) {
-    return null;
+    const nextRetryId = [...retryQueue.entries()].sort((a, b) => a[1] - b[1])[0]?.[0];
+    if (!nextRetryId) {
+      return null;
+    }
+
+    retryQueue.delete(nextRetryId);
+    return pool.find((item) => item.id === nextRetryId) || null;
   }
 
   return state.queue === "weak" ? chooseWeightedItem(candidates) : randomChoice(candidates);
@@ -395,8 +490,12 @@ function renderQuestion() {
 
   els.directionLabel.textContent = isFormsQuestion
     ? entry.answerLanguage === "ja"
-      ? "日本語を選ぶ"
-      : "英語を選ぶ"
+      ? state.studyMode === "flash"
+        ? "日本語で答える"
+        : "日本語を選ぶ"
+      : state.studyMode === "flash"
+        ? "英語で答える"
+        : "英語を選ぶ"
     : isEnglishToJapanese
       ? "英語→日本語"
       : "日本語→英語";
@@ -418,9 +517,20 @@ function renderQuestion() {
       ? entry.example_en
       : entry.example_ja;
   els.result.hidden = true;
+  els.flashAnswer.hidden = true;
+  els.ratingButtons.hidden = true;
+  els.revealButton.hidden = false;
   els.nextButton.disabled = true;
+  els.options.hidden = state.studyMode === "flash";
+  els.quizActions.hidden = state.studyMode === "flash";
+  els.flashActions.hidden = state.studyMode !== "flash";
 
   els.options.innerHTML = "";
+  if (state.studyMode === "flash") {
+    els.revealButton.focus({ preventScroll: true });
+    return;
+  }
+
   state.options.forEach((option) => {
     const button = document.createElement("button");
     button.className = "option-button";
@@ -438,23 +548,7 @@ function answer(option, selectedButton) {
 
   state.answered = true;
   const correct = option.correct;
-  const stat = getCleanStat(state.current.id);
-
-  stat.attempts += 1;
-  stat.lastSeen = new Date().toISOString();
-  stat.lastDirection = state.direction;
-  stat.lastResult = correct;
-
-  if (correct) {
-    stat.correct += 1;
-    stat.wrongStreak = 0;
-  } else {
-    stat.wrong += 1;
-    stat.wrongStreak = (stat.wrongStreak || 0) + 1;
-    stat.lastMissedAt = stat.lastSeen;
-  }
-
-  state.stats[state.current.id] = stat;
+  recordResult(correct, "quiz");
   markCurrentCycleCompleted(state.current.id);
   saveStats();
   updateSummary();
@@ -467,6 +561,73 @@ function answer(option, selectedButton) {
   paintAnsweredOptions(selectedButton);
   renderResult(correct);
   els.nextButton.disabled = false;
+}
+
+function revealFlashAnswer() {
+  if (state.studyMode !== "flash" || state.flashRevealed || !state.current) {
+    return;
+  }
+
+  state.flashRevealed = true;
+  const { answer, detail } = getAnswerDetail(state.current);
+  els.flashAnswerText.textContent = answer;
+  els.flashDetailText.textContent = detail;
+  els.flashAnswer.hidden = false;
+  els.revealButton.hidden = true;
+  els.ratingButtons.hidden = false;
+  document.querySelector('[data-rating="good"]').focus({ preventScroll: true });
+}
+
+function rateFlashCard(rating) {
+  if (
+    state.studyMode !== "flash" ||
+    !state.flashRevealed ||
+    !["again", "hard", "good"].includes(rating)
+  ) {
+    return;
+  }
+
+  const correct = rating === "good";
+  const stat = recordResult(correct, rating);
+  stat.flashAttempts = getStatCount(stat, "flashAttempts") + 1;
+
+  if (rating === "good") {
+    stat.mastery = Math.min(3, getStatCount(stat, "mastery") + 1);
+    markCurrentCycleCompleted(state.current.id);
+  } else {
+    stat.mastery =
+      rating === "again"
+        ? Math.max(0, getStatCount(stat, "mastery") - 1)
+        : Math.max(0, getStatCount(stat, "mastery"));
+    scheduleRetry(state.current.id, rating === "again" ? 3 : 8);
+  }
+
+  state.stats[state.current.id] = stat;
+  advanceReviewStep();
+  saveStats();
+  updateSummary();
+  nextQuestion();
+}
+
+function recordResult(correct, source) {
+  const stat = getCleanStat(state.current.id);
+  stat.attempts += 1;
+  stat.lastSeen = new Date().toISOString();
+  stat.lastDirection = state.direction;
+  stat.lastResult = correct;
+  stat.lastStudyMode = source;
+
+  if (correct) {
+    stat.correct += 1;
+    stat.wrongStreak = 0;
+  } else {
+    stat.wrong += 1;
+    stat.wrongStreak = (stat.wrongStreak || 0) + 1;
+    stat.lastMissedAt = stat.lastSeen;
+  }
+
+  state.stats[state.current.id] = stat;
+  return stat;
 }
 
 function paintAnsweredOptions(selectedButton) {
@@ -482,23 +643,26 @@ function paintAnsweredOptions(selectedButton) {
 }
 
 function renderResult(correct) {
-  const entry = state.current;
-  const isFormsQuestion = isQuestion(entry);
-  const answer = isFormsQuestion
-    ? entry.answer
-    : state.direction === "en-ja"
-      ? entry.japanese
-      : entry.english;
-  const detail = isFormsQuestion
-    ? entry.prompt
-    : state.direction === "en-ja"
-      ? `${entry.english} / ${entry.example_en}`
-      : `${entry.japanese} / ${entry.example_ja}`;
+  const { answer, detail } = getAnswerDetail(state.current);
 
   els.result.hidden = false;
   els.resultLabel.textContent = correct ? "正解" : "不正解";
   els.answerText.textContent = answer;
   els.detailText.textContent = detail;
+}
+
+function getAnswerDetail(entry) {
+  if (isQuestion(entry)) {
+    const detail =
+      entry.answerLanguage === "en"
+        ? entry.prompt_ja || entry.prompt
+        : entry.prompt_en || entry.prompt;
+    return { answer: entry.answer, detail };
+  }
+
+  return state.direction === "en-ja"
+    ? { answer: entry.japanese, detail: `${entry.english} / ${entry.example_en}` }
+    : { answer: entry.english, detail: `${entry.japanese} / ${entry.example_ja}` };
 }
 
 function updateSummary() {
@@ -518,7 +682,20 @@ function updateSummary() {
   els.missedListCount.textContent = String(missed.length);
   els.itemCount.textContent = `${entries.length}${unit}`;
 
+  updateCycleProgress(entries);
   renderMissedList(missed);
+}
+
+function updateCycleProgress(entries) {
+  const entryIds = new Set(entries.map((entry) => entry.id));
+  const completed = [...getCurrentCycleCompleted()].filter((id) => entryIds.has(id)).length;
+  const total = entries.length;
+  const percent = total ? Math.min(100, Math.round((completed / total) * 100)) : 0;
+
+  els.cycleProgressText.textContent = `${completed} / ${total}`;
+  els.cycleProgressBar.style.width = `${percent}%`;
+  els.progressTrack.setAttribute("aria-valuemax", String(total));
+  els.progressTrack.setAttribute("aria-valuenow", String(completed));
 }
 
 function renderMissedList(missed) {
@@ -526,7 +703,7 @@ function renderMissedList(missed) {
 
   if (!missed.length) {
     const item = document.createElement("li");
-    item.innerHTML = "<strong>なし</strong><span>前回ミスした単語がここに残ります。</span>";
+    item.innerHTML = "<strong>なし</strong><span>「もう一度」「迷った」のカードがここに残ります。</span>";
     els.missedList.append(item);
     return;
   }
@@ -567,14 +744,18 @@ function restartCurrentCycle() {
 
 function resetQuestionCycle(key = getCycleKey()) {
   state.cycleCompletedByKey.delete(key);
+  state.retryQueueByKey.delete(key);
+  state.reviewStepByKey.delete(key);
 }
 
 function resetQuestionCycles() {
   state.cycleCompletedByKey.clear();
+  state.retryQueueByKey.clear();
+  state.reviewStepByKey.clear();
 }
 
 function getCycleKey() {
-  return `${state.testFilter}:${state.mode}:${state.queue}`;
+  return `${state.studyMode}:${state.testFilter}:${state.mode}:${state.queue}`;
 }
 
 function getCurrentCycleCompleted() {
@@ -588,6 +769,30 @@ function getCurrentCycleCompleted() {
 
 function markCurrentCycleCompleted(entryId) {
   getCurrentCycleCompleted().add(entryId);
+  getCurrentRetryQueue().delete(entryId);
+}
+
+function getCurrentRetryQueue() {
+  const key = getCycleKey();
+  if (!state.retryQueueByKey.has(key)) {
+    state.retryQueueByKey.set(key, new Map());
+  }
+
+  return state.retryQueueByKey.get(key);
+}
+
+function scheduleRetry(entryId, delay) {
+  getCurrentCycleCompleted().delete(entryId);
+  getCurrentRetryQueue().set(entryId, getCurrentReviewStep() + delay);
+}
+
+function getCurrentReviewStep() {
+  return state.reviewStepByKey.get(getCycleKey()) || 0;
+}
+
+function advanceReviewStep() {
+  const key = getCycleKey();
+  state.reviewStepByKey.set(key, getCurrentReviewStep() + 1);
 }
 
 function getCleanStat(entryId) {
@@ -599,6 +804,8 @@ function getCleanStat(entryId) {
     correct: getStatCount(stat, "correct"),
     wrong: getStatCount(stat, "wrong"),
     wrongStreak: getStatCount(stat, "wrongStreak"),
+    flashAttempts: getStatCount(stat, "flashAttempts"),
+    mastery: getStatCount(stat, "mastery"),
   };
 }
 
@@ -611,7 +818,7 @@ function showCycleComplete(poolCount) {
   const countText = poolCount > 0 ? `${poolCount}問` : "対象の問題";
   const message =
     state.queue === "missed"
-      ? "前回ミスの問題をすべて解き終わりました。"
+      ? "要復習の問題をすべてやり切りました。"
       : `${getTestFilterLabel()} / ${getModeLabel()} / ${getQueueLabel()} の${countText}を一周しました。`;
 
   showEmpty("一周完了", message, { restart: poolCount > 0 });
@@ -619,7 +826,7 @@ function showCycleComplete(poolCount) {
 
 function getNoQuestionMessage() {
   if (state.queue === "missed") {
-    return "前回間違えた問題はありません。";
+    return "いま要復習になっている問題はありません。";
   }
 
   return "この出題方法で出せる問題がありません。";
@@ -717,7 +924,7 @@ function getModeLabel() {
 
 function getQueueLabel() {
   if (state.queue === "missed") {
-    return "前回ミス";
+    return "要復習";
   }
 
   if (state.queue === "weak") {

@@ -1,6 +1,6 @@
 # 英単語テスト
 
-期末範囲200問を、暗記カードと4択テストで反復できる静的Webアプリです。
+後期中間範囲150問を、暗記カードと4択テストで反復できる静的Webアプリです。
 
 ## 暗記カード
 
@@ -33,7 +33,7 @@ python3 -m http.server 8000
 https://haruki113.github.io/english-vocab-trainer/
 ```
 
-`zenki-kimatsu` ブランチにpushすると、`.github/workflows/pages.yml` がGitHub Pagesへ自動デプロイします。
+`kouki-chukan` ブランチにpushすると、`.github/workflows/pages.yml` がGitHub Pagesへ自動デプロイします。
 初回だけGitHubのリポジトリ設定で `Settings` -> `Pages` -> `Build and deployment` のSourceを `GitHub Actions` にしてください。
 
 公開対象は `index.html`、`app.js`、`styles.css`、`data/vocab.json`、`robots.txt` に限定しています。

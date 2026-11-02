@@ -2,2026 +2,2870 @@
   "items": [],
   "tests": [
     {
-      "id": "test-8",
-      "title": "R8(AZ1)_COSET2600 単語テスト［1051番～1200番］（前期期末）",
+      "id": "kouki-1",
+      "title": "R8(AZ1)_COSET2600 単語テスト［1801番～1850番］（後期中間）",
       "questions": [
         {
-          "id": "test8-q001",
+          "id": "kouki1-q001",
           "number": 1,
           "answer_language": "en",
-          "prompt_en": "There was once a ( ) to build a bridge over the river.",
-          "prompt_ja": "以前、その川に橋を架ける計画があった。",
-          "choices": ["budget", "receptor", "property", "scheme"],
-          "answer": "scheme",
-          "tags": ["test-8", "cset2600", "1051-1200"]
+          "prompt_en": "You should not ( ) all your money in one company.",
+          "prompt_ja": "一つの会社に全財産を投資するべきではない。",
+          "choices": [
+            "derive",
+            "commit",
+            "invest",
+            "deny"
+          ],
+          "answer": "invest",
+          "tags": [
+            "kouki-1",
+            "cset2600",
+            "1801-1850"
+          ]
         },
         {
-          "id": "test8-q002",
+          "id": "kouki1-q002",
           "number": 2,
           "answer_language": "en",
-          "prompt_en": "The ( ) of the computer has been still accelerating.",
-          "prompt_ja": "コンピュータの進化はまだ加速し続けている。",
-          "choices": ["evolution", "generation", "revolution", "relation"],
-          "answer": "evolution",
-          "tags": ["test-8", "cset2600", "1051-1200"]
+          "prompt_en": "You need to collect a number of known facts to ( ) unknown facts.",
+          "prompt_ja": "未知の事実を導き出すためには数多くの既知の事実を集める必要がある。",
+          "choices": [
+            "derive",
+            "commit",
+            "adjust",
+            "dye"
+          ],
+          "answer": "derive",
+          "tags": [
+            "kouki-1",
+            "cset2600",
+            "1801-1850"
+          ]
         },
         {
-          "id": "test8-q003",
+          "id": "kouki1-q003",
           "number": 3,
           "answer_language": "en",
-          "prompt_en": "Place your ( ) together.",
-          "prompt_ja": "手のひらを合わせなさい。",
-          "choices": ["palms", "toes", "wrists", "thumb"],
-          "answer": "palms",
-          "tags": ["test-8", "cset2600", "1051-1200"]
+          "prompt_en": "As my bicycle tire went flat, I ( ) it with a patch kit.",
+          "prompt_ja": "自転車のタイヤがパンクしたので、修理キットで継ぎ当てした。",
+          "choices": [
+            "cured",
+            "inherited",
+            "patched",
+            "decorated"
+          ],
+          "answer": "patched",
+          "tags": [
+            "kouki-1",
+            "cset2600",
+            "1801-1850"
+          ]
         },
         {
-          "id": "test8-q004",
+          "id": "kouki1-q004",
           "number": 4,
           "answer_language": "en",
-          "prompt_en": "I got a fish bone stuck in my ( ).",
-          "prompt_ja": "魚の骨がのどに刺さった。",
-          "choices": ["neck", "forehead", "throat", "knee"],
-          "answer": "throat",
-          "tags": ["test-8", "cset2600", "1051-1200"]
+          "prompt_en": "These plants are mainly grown for the purpose of ( ) fabric.",
+          "prompt_ja": "これらの植物は、おもに布地を染める目的で栽培されています。",
+          "choices": [
+            "investing",
+            "patching",
+            "dyeing",
+            "denying"
+          ],
+          "answer": "dyeing",
+          "tags": [
+            "kouki-1",
+            "cset2600",
+            "1801-1850"
+          ]
         },
         {
-          "id": "test8-q005",
+          "id": "kouki1-q005",
           "number": 5,
           "answer_language": "en",
-          "prompt_en": "The shark has powerful ( ).",
-          "prompt_ja": "そのサメは強力なあごを持っている。",
-          "choices": ["thighs", "ribs", "jaws", "shoulders"],
-          "answer": "jaws",
-          "tags": ["test-8", "cset2600", "1051-1200"]
+          "prompt_en": "The car company is ( ) its new model extensively.",
+          "prompt_ja": "その自動車会社は新しいモデルを大々的に宣伝している。",
+          "choices": [
+            "patching",
+            "incorporating",
+            "advertising",
+            "decorating"
+          ],
+          "answer": "advertising",
+          "tags": [
+            "kouki-1",
+            "cset2600",
+            "1801-1850"
+          ]
         },
         {
-          "id": "test8-q006",
+          "id": "kouki1-q006",
           "number": 6,
           "answer_language": "en",
-          "prompt_en": "He rolled up the ( ) of his shirt.",
-          "prompt_ja": "彼はシャツの袖をまくり上げた。",
-          "choices": ["collars", "claws", "thighs", "sleeves"],
-          "answer": "sleeves",
-          "tags": ["test-8", "cset2600", "1051-1200"]
+          "prompt_en": "The doctor ( ) her cancer by using radiation therapy.",
+          "prompt_ja": "その医師は放射線治療によって彼女のガンを治した。",
+          "choices": [
+            "dyed",
+            "inherited",
+            "derived",
+            "cured"
+          ],
+          "answer": "cured",
+          "tags": [
+            "kouki-1",
+            "cset2600",
+            "1801-1850"
+          ]
         },
         {
-          "id": "test8-q007",
+          "id": "kouki1-q007",
           "number": 7,
           "answer_language": "en",
-          "prompt_en": "After several years, the tree will ( ) produce apples.",
-          "prompt_ja": "何年か後に、やがてその木はリンゴを実らせる。",
-          "choices": ["definitely", "approximately", "gradually", "eventually"],
-          "answer": "eventually",
-          "tags": ["test-8", "cset2600", "1051-1200"]
+          "prompt_en": "For building the music hall, he ( ) most of the money that he inherited.",
+          "prompt_ja": "音楽ホール建設のため、彼は相続したお金のほとんどを寄付した。",
+          "choices": [
+            "decorated",
+            "donated",
+            "cured",
+            "transplanted"
+          ],
+          "answer": "donated",
+          "tags": [
+            "kouki-1",
+            "cset2600",
+            "1801-1850"
+          ]
         },
         {
-          "id": "test8-q008",
+          "id": "kouki1-q008",
           "number": 8,
           "answer_language": "en",
-          "prompt_en": "According to the data, water pollution is ( ) increasing.",
-          "prompt_ja": "そのデータによれば、水質汚染は確かに進んでいる。",
-          "choices": ["eventually", "shortly", "closely", "definitely"],
-          "answer": "definitely",
-          "tags": ["test-8", "cset2600", "1051-1200"]
+          "prompt_en": "Australia used to be a British ( ).",
+          "prompt_ja": "オーストラリアはかつてイギリスの植民地だった。",
+          "choices": [
+            "affair",
+            "capital",
+            "donor",
+            "colony"
+          ],
+          "answer": "colony",
+          "tags": [
+            "kouki-1",
+            "cset2600",
+            "1801-1850"
+          ]
         },
         {
-          "id": "test8-q009",
+          "id": "kouki1-q009",
           "number": 9,
           "answer_language": "en",
-          "prompt_en": "I haven't found any interesting programs on TV ( ).",
-          "prompt_ja": "最近はテレビに面白い番組がない。",
-          "choices": ["merely", "shortly", "lately", "closely"],
-          "answer": "lately",
-          "tags": ["test-8", "cset2600", "1051-1200"]
+          "prompt_en": "I don't know very much about political ( ).",
+          "prompt_ja": "私は政治の出来事についてはあまりよく知りません。",
+          "choices": [
+            "logics",
+            "affairs",
+            "capitals",
+            "colonies"
+          ],
+          "answer": "affairs",
+          "tags": [
+            "kouki-1",
+            "cset2600",
+            "1801-1850"
+          ]
         },
         {
-          "id": "test8-q010",
+          "id": "kouki1-q010",
           "number": 10,
           "answer_language": "en",
-          "prompt_en": "There is a/an ( ) number of prime numbers.",
-          "prompt_ja": "素数の数は無限である。",
-          "choices": ["definite", "particular", "finite", "infinite"],
-          "answer": "infinite",
-          "tags": ["test-8", "cset2600", "1051-1200"]
+          "prompt_en": "A job advertisement must not be in conflict with social ( ).",
+          "prompt_ja": "求人広告は社会倫理に反するものであってはいけない。",
+          "choices": [
+            "algorithms",
+            "affairs",
+            "ethics",
+            "logics"
+          ],
+          "answer": "ethics",
+          "tags": [
+            "kouki-1",
+            "cset2600",
+            "1801-1850"
+          ]
         },
         {
-          "id": "test8-q011",
+          "id": "kouki1-q011",
           "number": 11,
           "answer_language": "en",
-          "prompt_en": "This substance has a/an ( ) property.",
-          "prompt_ja": "この物質は特有の性質をもっている。",
-          "choices": ["definite", "particular", "finite", "infinite"],
-          "answer": "particular",
-          "tags": ["test-8", "cset2600", "1051-1200"]
+          "prompt_en": "Logical thinking is necessary for understanding ( ).",
+          "prompt_ja": "アルゴリズムを理解するには論理的思考が必要だ。",
+          "choices": [
+            "affairs",
+            "algorithms",
+            "ethics",
+            "logics"
+          ],
+          "answer": "algorithms",
+          "tags": [
+            "kouki-1",
+            "cset2600",
+            "1801-1850"
+          ]
         },
         {
-          "id": "test8-q012",
+          "id": "kouki1-q012",
           "number": 12,
           "answer_language": "en",
-          "prompt_en": "Cover your mouth when you ( ).",
-          "prompt_ja": "くしゃみをする時は口を覆いなさい。",
-          "choices": ["sneeze", "yawn", "cough", "lick"],
-          "answer": "sneeze",
-          "tags": ["test-8", "cset2600", "1051-1200"]
+          "prompt_en": "Our team developed a new solar energy system in ( ) with the company.",
+          "prompt_ja": "私たちのチームはその会社と共同で新しい太陽エネルギーシステムを開発した。",
+          "choices": [
+            "altitude",
+            "algorithm",
+            "collaboration",
+            "permit"
+          ],
+          "answer": "collaboration",
+          "tags": [
+            "kouki-1",
+            "cset2600",
+            "1801-1850"
+          ]
         },
         {
-          "id": "test8-q013",
+          "id": "kouki1-q013",
           "number": 13,
           "answer_language": "en",
-          "prompt_en": "Japanese people ( ) to work long hours.",
-          "prompt_ja": "日本人は長時間働く傾向がある。",
-          "choices": ["peel", "scare", "tend", "slash"],
-          "answer": "tend",
-          "tags": ["test-8", "cset2600", "1051-1200"]
+          "prompt_en": "Only staff members are ( ) to enter this room.",
+          "prompt_ja": "職員のみがこの部屋に入ることを許されています。",
+          "choices": [
+            "permitted",
+            "enhanced",
+            "dominated",
+            "eliminated"
+          ],
+          "answer": "permitted",
+          "tags": [
+            "kouki-1",
+            "cset2600",
+            "1801-1850"
+          ]
         },
         {
-          "id": "test8-q014",
+          "id": "kouki1-q014",
           "number": 14,
           "answer_language": "en",
-          "prompt_en": "We study how life ( ) on the earth.",
-          "prompt_ja": "私たちは地球上にどうやって生命が現れたかを研究している。",
-          "choices": ["scared", "replaced", "emerged", "established"],
-          "answer": "emerged",
-          "tags": ["test-8", "cset2600", "1051-1200"]
+          "prompt_en": "We no longer know which country ( ) the world economy today.",
+          "prompt_ja": "どの国が今の世界経済を支配しているのか、もはやわからなくなっている。",
+          "choices": [
+            "dominates",
+            "earns",
+            "corresponds",
+            "spiils"
+          ],
+          "answer": "dominates",
+          "tags": [
+            "kouki-1",
+            "cset2600",
+            "1801-1850"
+          ]
         },
         {
-          "id": "test8-q015",
+          "id": "kouki1-q015",
           "number": 15,
           "answer_language": "en",
-          "prompt_en": "Speed and distance are quantities which have only ( ) but no direction.",
-          "prompt_ja": "速さと距離は、大きさだけで方向を持たない量である。",
-          "choices": ["friction", "instrument", "magnitude", "instruction"],
-          "answer": "magnitude",
-          "tags": ["test-8", "cset2600", "1051-1200"]
+          "prompt_en": "You need to revise the algorithm to ( ) the bugs from this program.",
+          "prompt_ja": "このプログラムからバグを取り除くためにはアルゴリズムを見直す必要がある。",
+          "choices": [
+            "dominate",
+            "eliminate",
+            "reproduce",
+            "induce"
+          ],
+          "answer": "eliminate",
+          "tags": [
+            "kouki-1",
+            "cset2600",
+            "1801-1850"
+          ]
         },
         {
-          "id": "test8-q016",
+          "id": "kouki1-q016",
           "number": 16,
           "answer_language": "en",
-          "prompt_en": "The mathematician established his ( ) in his twenties.",
-          "prompt_ja": "その数学者は20代のときに自らの名声を確立した。",
-          "choices": ["culture", "ability", "fame", "bit"],
-          "answer": "fame",
-          "tags": ["test-8", "cset2600", "1051-1200"]
+          "prompt_en": "Be careful not to ( ) your coffee on the keyboard.",
+          "prompt_ja": "キーボードの上にコーヒーをこぼさないように気を付けなさい。",
+          "choices": [
+            "earn",
+            "spill",
+            "permit",
+            "enhance"
+          ],
+          "answer": "spill",
+          "tags": [
+            "kouki-1",
+            "cset2600",
+            "1801-1850"
+          ]
         },
         {
-          "id": "test8-q017",
+          "id": "kouki1-q017",
           "number": 17,
           "answer_language": "en",
-          "prompt_en": "The ( ) of 10 divided by 3 is 1.",
-          "prompt_ja": "10割る3の余りは1です。",
-          "choices": ["remainder", "variable", "relation", "circumference"],
-          "answer": "remainder",
-          "tags": ["test-8", "cset2600", "1051-1200"]
+          "prompt_en": "You can ( ) income on the Internet these days.",
+          "prompt_ja": "最近はインターネットで収入を得ることができます。",
+          "choices": [
+            "earn",
+            "induce",
+            "dissolve",
+            "spill"
+          ],
+          "answer": "earn",
+          "tags": [
+            "kouki-1",
+            "cset2600",
+            "1801-1850"
+          ]
         },
         {
-          "id": "test8-q018",
+          "id": "kouki1-q018",
           "number": 18,
           "answer_language": "en",
-          "prompt_en": "This device ( ) signals from space.",
-          "prompt_ja": "この装置は宇宙からの信号を分析する。",
-          "choices": ["ensures", "infects", "reflects", "analyzes"],
-          "answer": "analyzes",
-          "tags": ["test-8", "cset2600", "1051-1200"]
+          "prompt_en": "The temperature of 100 degrees Celsius ( ) to 212 degrees Fahrenheit.",
+          "prompt_ja": "摂氏100度は華氏212度に相当します。",
+          "choices": [
+            "deduces",
+            "corresponds",
+            "highlights",
+            "reproduces"
+          ],
+          "answer": "corresponds",
+          "tags": [
+            "kouki-1",
+            "cset2600",
+            "1801-1850"
+          ]
         },
         {
-          "id": "test8-q019",
+          "id": "kouki1-q019",
           "number": 19,
           "answer_language": "en",
-          "prompt_en": "Most drivers hit the brakes hard to ( ) an accident.",
-          "prompt_ja": "ほとんどのドライバーは事故を回避するために急ブレーキを踏む。",
-          "choices": ["avoid", "combine", "stress", "escape"],
-          "answer": "avoid",
-          "tags": ["test-8", "cset2600", "1051-1200"]
+          "prompt_en": "Sugar ( ) well in hot water.",
+          "prompt_ja": "砂糖は熱いお湯によく溶ける。",
+          "choices": [
+            "deduces",
+            "dissolves",
+            "composes",
+            "induces"
+          ],
+          "answer": "dissolves",
+          "tags": [
+            "kouki-1",
+            "cset2600",
+            "1801-1850"
+          ]
         },
         {
-          "id": "test8-q020",
+          "id": "kouki1-q020",
           "number": 20,
           "answer_language": "en",
-          "prompt_en": "When a thing burns, it usually ( ) light and heat.",
-          "prompt_ja": "物が燃えると、それはたいてい光と熱を発する。",
-          "choices": ["transports", "emits", "maintains", "doubts"],
-          "answer": "emits",
-          "tags": ["test-8", "cset2600", "1051-1200"]
+          "prompt_en": "The team members ( ) which engine was better for the new car.",
+          "prompt_ja": "チームのメンバーたちは、どちらのエンジンが新しい車にふさわしいかを議論した。",
+          "choices": [
+            "reproduced",
+            "dissolved",
+            "deduced",
+            "disputed"
+          ],
+          "answer": "disputed",
+          "tags": [
+            "kouki-1",
+            "cset2600",
+            "1801-1850"
+          ]
         },
         {
-          "id": "test8-q021",
+          "id": "kouki1-q021",
           "number": 21,
           "answer_language": "en",
-          "prompt_en": "The accident ( ) the workers to radiation.",
-          "prompt_ja": "その事故で作業員たちは放射能にさらされた。",
-          "choices": ["attended", "exposed", "admitted", "enabled"],
-          "answer": "exposed",
-          "tags": ["test-8", "cset2600", "1051-1200"]
+          "prompt_en": "The patient had an artificial heart ( ).",
+          "prompt_ja": "その患者は人工心臓を移植された。",
+          "choices": [
+            "induced",
+            "located",
+            "implanted",
+            "composed"
+          ],
+          "answer": "implanted",
+          "tags": [
+            "kouki-1",
+            "cset2600",
+            "1801-1850"
+          ]
         },
         {
-          "id": "test8-q022",
+          "id": "kouki1-q022",
           "number": 22,
           "answer_language": "en",
-          "prompt_en": "What is the ( ) goal of this project?",
-          "prompt_ja": "このプロジェクトの最終的な目標は何ですか。",
-          "choices": ["ultimate", "alter", "exact", "specific"],
-          "answer": "ultimate",
-          "tags": ["test-8", "cset2600", "1051-1200"]
+          "prompt_en": "The engineers are trying hard to ( ) their skills in advanced technologies.",
+          "prompt_ja": "技術者たちは懸命に先端分野での技術力を維持しようとしている。",
+          "choices": [
+            "compose",
+            "sustain",
+            "enhance",
+            "correspond"
+          ],
+          "answer": "sustain",
+          "tags": [
+            "kouki-1",
+            "cset2600",
+            "1801-1850"
+          ]
         },
         {
-          "id": "test8-q023",
+          "id": "kouki1-q023",
           "number": 23,
           "answer_language": "en",
-          "prompt_en": "This program can handle only ( ) data.",
-          "prompt_ja": "このプログラムは静的なデータしか扱えません。",
-          "choices": ["significant", "dynamic", "static", "absolute"],
-          "answer": "static",
-          "tags": ["test-8", "cset2600", "1051-1200"]
+          "prompt_en": "It's ( ) of you to smoke without permission.",
+          "prompt_ja": "断りなしにタバコを吸うなんて、あなたは失礼ですね。",
+          "choices": [
+            "vulnerable",
+            "faint",
+            "rude",
+            "prompt"
+          ],
+          "answer": "rude",
+          "tags": [
+            "kouki-1",
+            "cset2600",
+            "1801-1850"
+          ]
         },
         {
-          "id": "test8-q024",
+          "id": "kouki1-q024",
           "number": 24,
           "answer_language": "en",
-          "prompt_en": "The ( ) of action and reaction is explained by Newton's third law.",
-          "prompt_ja": "作用反作用の原理はニュートンの第3法則で説明される。",
-          "choices": ["conclusion", "principle", "influence", "treaty"],
-          "answer": "principle",
-          "tags": ["test-8", "cset2600", "1051-1200"]
+          "prompt_en": "This textbook is the most ( ) for learning international affairs.",
+          "prompt_ja": "この教科書は国際情勢を学ぶのに最も適している。",
+          "choices": [
+            "suitable",
+            "proper",
+            "prompt",
+            "permanent"
+          ],
+          "answer": "suitable",
+          "tags": [
+            "kouki-1",
+            "cset2600",
+            "1801-1850"
+          ]
         },
         {
-          "id": "test8-q025",
+          "id": "kouki1-q025",
           "number": 25,
           "answer_language": "en",
-          "prompt_en": "The plane ( ) about 45 degrees to the ground.",
-          "prompt_ja": "その飛行機は地面に対して約45度に傾いた。",
-          "choices": ["declined", "bored", "inclined", "converted"],
-          "answer": "inclined",
-          "tags": ["test-8", "cset2600", "1051-1200"]
+          "prompt_en": "This report is based on his ( ) observation notes.",
+          "prompt_ja": "この報告は彼が毎週観察した記録に基づいている。",
+          "choices": [
+            "daily",
+            "weekly",
+            "suitable",
+            "prompt"
+          ],
+          "answer": "weekly",
+          "tags": [
+            "kouki-1",
+            "cset2600",
+            "1801-1850"
+          ]
         },
         {
-          "id": "test8-q026",
+          "id": "kouki1-q026",
           "number": 26,
           "answer_language": "ja",
-          "prompt_en": "The cost of this project will be almost equal to the budget of a small country.",
-          "prompt_ja": "このプロジェクトの費用は小国の国の ( ) に匹敵する。",
-          "choices": ["予算", "収入", "税金", "計画"],
-          "answer": "予算",
-          "tags": ["test-8", "cset2600", "1051-1200"]
+          "prompt_en": "I don't believe that he committed any crime.",
+          "prompt_ja": "私は彼が罪を ( ) いないと信じる。",
+          "choices": [
+            "認めて",
+            "犯す",
+            "認識して",
+            "償って"
+          ],
+          "answer": "犯す",
+          "tags": [
+            "kouki-1",
+            "cset2600",
+            "1801-1850"
+          ]
         },
         {
-          "id": "test8-q027",
+          "id": "kouki1-q027",
           "number": 27,
           "answer_language": "ja",
-          "prompt_en": "Our boss has a high forehead.",
-          "prompt_ja": "私たちの上司は ( ) が広い。",
-          "choices": ["あご", "ひたい", "顔", "ほほ"],
-          "answer": "ひたい",
-          "tags": ["test-8", "cset2600", "1051-1200"]
+          "prompt_en": "That new PC incorporates the newest CPU.",
+          "prompt_ja": "あの新型パソコンには最新のCPUが ( )。",
+          "choices": [
+            "ふさわしい",
+            "必要である",
+            "限定されている",
+            "組み込んである"
+          ],
+          "answer": "組み込んである",
+          "tags": [
+            "kouki-1",
+            "cset2600",
+            "1801-1850"
+          ]
         },
         {
-          "id": "test8-q028",
+          "id": "kouki1-q028",
           "number": 28,
           "answer_language": "ja",
-          "prompt_en": "You must reduce the fat around your waist.",
-          "prompt_ja": "あなたは ( ) の周りの脂肪を落とさなければいけません。",
-          "choices": ["首", "あご", "おなか", "腰"],
-          "answer": "腰",
-          "tags": ["test-8", "cset2600", "1051-1200"]
+          "prompt_en": "We always decorate a tree at Christmas.",
+          "prompt_ja": "私たちはクリスマスにはいつもツリーを ( )。",
+          "choices": [
+            "宣伝する",
+            "飾る",
+            "寄付する",
+            "引き継ぐ"
+          ],
+          "answer": "飾る",
+          "tags": [
+            "kouki-1",
+            "cset2600",
+            "1801-1850"
+          ]
         },
         {
-          "id": "test8-q029",
+          "id": "kouki1-q029",
           "number": 29,
           "answer_language": "ja",
-          "prompt_en": "I feel pain in the back of my thighs.",
-          "prompt_ja": "( ) の裏側に痛みを感じます。",
-          "choices": ["もも", "ひざ", "舌", "唇"],
-          "answer": "もも",
-          "tags": ["test-8", "cset2600", "1051-1200"]
+          "prompt_en": "I will eventually inherit my father's factory.",
+          "prompt_ja": "ゆくゆくは私が父の工場を ( )。",
+          "choices": [
+            "宣伝します",
+            "責任を持ちます",
+            "合併します",
+            "引き継ぎます"
+          ],
+          "answer": "引き継ぎます",
+          "tags": [
+            "kouki-1",
+            "cset2600",
+            "1801-1850"
+          ]
         },
         {
-          "id": "test8-q030",
+          "id": "kouki1-q030",
           "number": 30,
           "answer_language": "ja",
-          "prompt_en": "Science is not merely a collection of facts.",
-          "prompt_ja": "科学とは ( ) 事実を集めることではない。",
-          "choices": ["純粋に", "徐々に", "ただ単に", "ひたすらに"],
-          "answer": "ただ単に",
-          "tags": ["test-8", "cset2600", "1051-1200"]
+          "prompt_en": "I had surgery to transplant skin from my leg onto my burnt hand.",
+          "prompt_ja": "私はやけどした手から足に皮膚を ( ) 手術を受けた。",
+          "choices": [
+            "再生する",
+            "組み込む",
+            "治す",
+            "移植する"
+          ],
+          "answer": "移植する",
+          "tags": [
+            "kouki-1",
+            "cset2600",
+            "1801-1850"
+          ]
         },
         {
-          "id": "test8-q031",
+          "id": "kouki1-q031",
           "number": 31,
           "answer_language": "ja",
-          "prompt_en": "A pure substance melts and boils at definite temperatures.",
-          "prompt_ja": "純粋な物質は ( ) 温度で融解したり沸騰したりする。",
-          "choices": ["不安定な", "特定の", "無限の", "有限の"],
-          "answer": "特定の",
-          "tags": ["test-8", "cset2600", "1051-1200"]
+          "prompt_en": "The recipient will not know who the donor is.",
+          "prompt_ja": "( ) が誰かということを被提供者が知ることはありません。",
+          "choices": [
+            "執刀医",
+            "仲介者",
+            "臓器提供者",
+            "相談者"
+          ],
+          "answer": "臓器提供者",
+          "tags": [
+            "kouki-1",
+            "cset2600",
+            "1801-1850"
+          ]
         },
         {
-          "id": "test8-q032",
+          "id": "kouki1-q032",
           "number": 32,
           "answer_language": "ja",
-          "prompt_en": "That foreign professor speaks fluent Japanese.",
-          "prompt_ja": "あの外国人教授は ( ) 日本語を話す。",
-          "choices": ["すさまじい", "純粋", "特有の", "流暢な"],
-          "answer": "流暢な",
-          "tags": ["test-8", "cset2600", "1051-1200"]
+          "prompt_en": "The capital of a country is not necessarily the largest city in that country.",
+          "prompt_ja": "ある国の ( ) が必ずしもその国の最大都市であるとは限らない。",
+          "choices": [
+            "植民地",
+            "沿岸",
+            "中心",
+            "首都"
+          ],
+          "answer": "首都",
+          "tags": [
+            "kouki-1",
+            "cset2600",
+            "1801-1850"
+          ]
         },
         {
-          "id": "test8-q033",
+          "id": "kouki1-q033",
           "number": 33,
           "answer_language": "ja",
-          "prompt_en": "This college was established a hundred years ago.",
-          "prompt_ja": "この大学は100年前に ( )。",
-          "choices": ["提携された", "解体された", "設立された", "合併され"],
-          "answer": "設立された",
-          "tags": ["test-8", "cset2600", "1051-1200"]
+          "prompt_en": "You can use the same logic as the above to solve this problem.",
+          "prompt_ja": "この問題を解くには上と同じ ( ) を使えばよい。",
+          "choices": [
+            "根拠",
+            "真理",
+            "倫理",
+            "論理"
+          ],
+          "answer": "論理",
+          "tags": [
+            "kouki-1",
+            "cset2600",
+            "1801-1850"
+          ]
         },
         {
-          "id": "test8-q034",
+          "id": "kouki1-q034",
           "number": 34,
           "answer_language": "ja",
-          "prompt_en": "Our company achieved its goal of selling one million cars a year.",
-          "prompt_ja": "わが社は1年に100万台の車を販売するという目標を ( )。",
-          "choices": ["取り替えた", "伝えた", "達成した", "約束した"],
-          "answer": "達成した",
-          "tags": ["test-8", "cset2600", "1051-1200"]
+          "prompt_en": "Air pressure decreases as altitude increases.",
+          "prompt_ja": "( ) が上がるにつれて気圧は下がる。",
+          "choices": [
+            "湿度",
+            "高度",
+            "密度",
+            "気温"
+          ],
+          "answer": "高度",
+          "tags": [
+            "kouki-1",
+            "cset2600",
+            "1801-1850"
+          ]
         },
         {
-          "id": "test8-q035",
+          "id": "kouki1-q035",
           "number": 35,
           "answer_language": "ja",
-          "prompt_en": "I want to have the ability to speak English fluently.",
-          "prompt_ja": "私は英語をすらすらと話せる ( ) がほしい。",
-          "choices": ["職員", "名声", "教養", "能力"],
-          "answer": "能力",
-          "tags": ["test-8", "cset2600", "1051-1200"]
+          "prompt_en": "Japan's asteroid probe Hayabusa returned to Earth after its seven-year journey.",
+          "prompt_ja": "日本の小惑星探査機「はやぶさ」が７年間の ( ) を終えて地球に帰還した。",
+          "choices": [
+            "飛行",
+            "旅",
+            "調査",
+            "苦難"
+          ],
+          "answer": "旅",
+          "tags": [
+            "kouki-1",
+            "cset2600",
+            "1801-1850"
+          ]
         },
         {
-          "id": "test8-q036",
+          "id": "kouki1-q036",
           "number": 36,
           "answer_language": "ja",
-          "prompt_en": "Cell phones caused a revolution in the information and communication industry.",
-          "prompt_ja": "携帯電話は情報通信産業に ( ) を起こした。",
-          "choices": ["名声", "誕生", "革命", "進化"],
-          "answer": "革命",
-          "tags": ["test-8", "cset2600", "1051-1200"]
+          "prompt_en": "The purpose of this study is to enhance the energy efficiency of the equipment.",
+          "prompt_ja": "本研究の目的はその装置のエネルギー効率を ( ) ことである。",
+          "choices": [
+            "調査する",
+            "優位にする",
+            "向上させる",
+            "明らかにする"
+          ],
+          "answer": "向上させる",
+          "tags": [
+            "kouki-1",
+            "cset2600",
+            "1801-1850"
+          ]
         },
         {
-          "id": "test8-q037",
+          "id": "kouki1-q037",
           "number": 37,
           "answer_language": "ja",
-          "prompt_en": "Friction can be decreased by greasing.",
-          "prompt_ja": "油をさすことで ( ) は減らせます。",
-          "choices": ["変形", "仕事", "道具", "摩擦"],
-          "answer": "摩擦",
-          "tags": ["test-8", "cset2600", "1051-1200"]
+          "prompt_en": "What is the best color to highlight these lines?",
+          "prompt_ja": "これらの線を ( ) のに最適な色は何ですか。",
+          "choices": [
+            "目立たせる",
+            "変更する",
+            "描く",
+            "取り除く"
+          ],
+          "answer": "目立たせる",
+          "tags": [
+            "kouki-1",
+            "cset2600",
+            "1801-1850"
+          ]
         },
         {
-          "id": "test8-q038",
+          "id": "kouki1-q038",
           "number": 38,
           "answer_language": "ja",
-          "prompt_en": "The function of this instrument is to measure the magnitude of the light.",
-          "prompt_ja": "この計器の ( ) は光の強さを測定することです。",
-          "choices": ["特性", "目的", "役割", "機能"],
-          "answer": "機能",
-          "tags": ["test-8", "cset2600", "1051-1200"]
+          "prompt_en": "No part of this book may be reproduced without permission.",
+          "prompt_ja": "本書のいかなる部分も許可なくして ( ) ことを禁ずる。",
+          "choices": [
+            "削除する",
+            "変更する",
+            "宣伝する",
+            "複製する"
+          ],
+          "answer": "複製する",
+          "tags": [
+            "kouki-1",
+            "cset2600",
+            "1801-1850"
+          ]
         },
         {
-          "id": "test8-q039",
+          "id": "kouki1-q039",
           "number": 39,
           "answer_language": "ja",
-          "prompt_en": "Statistics show that the number of children has been decreasing.",
-          "prompt_ja": "( ) から、子供の数が減少してきていることがわかる。",
-          "choices": ["分析", "統計", "予測", "調査"],
-          "answer": "統計",
-          "tags": ["test-8", "cset2600", "1051-1200"]
+          "prompt_en": "A hydrogen atom is composed of one proton and one electron.",
+          "prompt_ja": "水素原子は１個の陽子と１個の電子から ( )。",
+          "choices": [
+            "再生される",
+            "合成される",
+            "構成される",
+            "結合される"
+          ],
+          "answer": "構成される",
+          "tags": [
+            "kouki-1",
+            "cset2600",
+            "1801-1850"
+          ]
         },
         {
-          "id": "test8-q040",
+          "id": "kouki1-q040",
           "number": 40,
           "answer_language": "ja",
-          "prompt_en": "Analysis showed that the material was 50 percent carbon.",
-          "prompt_ja": "( ) によって、その物質は50%が炭素であることがわかった。",
-          "choices": ["統計", "分析", "調査", "予測"],
-          "answer": "分析",
-          "tags": ["test-8", "cset2600", "1051-1200"]
+          "prompt_en": "This medicine has the effect of inducing the patient to sleep deeply.",
+          "prompt_ja": "この薬はその患者を深い眠りに ( ) 効果がある。",
+          "choices": [
+            "誘導する",
+            "維持する",
+            "向上する",
+            "治療する"
+          ],
+          "answer": "誘導する",
+          "tags": [
+            "kouki-1",
+            "cset2600",
+            "1801-1850"
+          ]
         },
         {
-          "id": "test8-q041",
+          "id": "kouki1-q041",
           "number": 41,
           "answer_language": "ja",
-          "prompt_en": "The medicine will ensure that you have a good sleep.",
-          "prompt_ja": "この薬はあなたがぐっすり眠れることを ( )。",
-          "choices": ["保証します", "強調します", "可能にします", "維持します"],
-          "answer": "保証します",
-          "tags": ["test-8", "cset2600", "1051-1200"]
+          "prompt_en": "We can deduce the composition of planets by examining the light from them.",
+          "prompt_ja": "惑星からの光を調べることで、その惑星の組成を ( ) ことができる。",
+          "choices": [
+            "複製する",
+            "調査する",
+            "推測する",
+            "構成する"
+          ],
+          "answer": "推測する",
+          "tags": [
+            "kouki-1",
+            "cset2600",
+            "1801-1850"
+          ]
         },
         {
-          "id": "test8-q042",
+          "id": "kouki1-q042",
           "number": 42,
           "answer_language": "ja",
-          "prompt_en": "Sodium and chlorine combine to form salt.",
-          "prompt_ja": "ナトリウムと塩素が ( ) 塩になる。",
-          "choices": ["反応して", "分離して", "結合して", "影響して"],
-          "answer": "結合して",
-          "tags": ["test-8", "cset2600", "1051-1200"]
+          "prompt_en": "The shop is located in the center of the town.",
+          "prompt_ja": "その店は町の中心に ( )。",
+          "choices": [
+            "出店する",
+            "稼いでいる",
+            "誘導している",
+            "位置している"
+          ],
+          "answer": "位置している",
+          "tags": [
+            "kouki-1",
+            "cset2600",
+            "1801-1850"
+          ]
         },
         {
-          "id": "test8-q043",
+          "id": "kouki1-q043",
           "number": 43,
           "answer_language": "ja",
-          "prompt_en": "It is not so easy to maintain a constant speed on the expressway.",
-          "prompt_ja": "高速道路で一定のスピードを ( ) のはそんなに簡単ではない。",
-          "choices": ["避ける", "伝える", "保証する", "維持する"],
-          "answer": "維持する",
-          "tags": ["test-8", "cset2600", "1051-1200"]
+          "prompt_en": "Do you know how to plot a graph of the sine function?",
+          "prompt_ja": "サイン関数のグラフを ( ) 方法を知っていますか。",
+          "choices": [
+            "描く",
+            "推測する",
+            "修正する",
+            "導き出す"
+          ],
+          "answer": "描く",
+          "tags": [
+            "kouki-1",
+            "cset2600",
+            "1801-1850"
+          ]
         },
         {
-          "id": "test8-q044",
+          "id": "kouki1-q044",
           "number": 44,
           "answer_language": "ja",
-          "prompt_en": "Nobody doubted what he told.",
-          "prompt_ja": "彼が言ったことを ( ) 者はいなかった。",
-          "choices": ["伝える", "避ける", "疑う", "認める"],
-          "answer": "疑う",
-          "tags": ["test-8", "cset2600", "1051-1200"]
+          "prompt_en": "A smaller animal's heart beats faster than that of a larger animal.",
+          "prompt_ja": "小さな動物の心臓は、大きな動物の心臓よりも速く ( )。",
+          "choices": [
+            "弱る",
+            "再生する",
+            "脈打つ",
+            "治る"
+          ],
+          "answer": "脈打つ",
+          "tags": [
+            "kouki-1",
+            "cset2600",
+            "1801-1850"
+          ]
         },
         {
-          "id": "test8-q045",
+          "id": "kouki1-q045",
           "number": 45,
           "answer_language": "ja",
-          "prompt_en": "He admitted his mistake.",
-          "prompt_ja": "彼は自分の間違いを ( )。",
-          "choices": ["疑った", "認めた", "気付いた", "発表した"],
-          "answer": "認めた",
-          "tags": ["test-8", "cset2600", "1051-1200"]
+          "prompt_en": "They dug the ground before they planted the flowers.",
+          "prompt_ja": "かれらは花を植える前に地面を ( )。",
+          "choices": [
+            "入れ替えた",
+            "保持した",
+            "整えた",
+            "掘り起こした"
+          ],
+          "answer": "掘り起こした",
+          "tags": [
+            "kouki-1",
+            "cset2600",
+            "1801-1850"
+          ]
         },
         {
-          "id": "test8-q046",
+          "id": "kouki1-q046",
           "number": 46,
           "answer_language": "ja",
-          "prompt_en": "A home fuel cell is an alternative energy technology.",
-          "prompt_ja": "家庭用燃料電池は ( ) エネルギー技術の一つである。",
-          "choices": ["代替の", "究極の", "現実の", "無用の"],
-          "answer": "代替の",
-          "tags": ["test-8", "cset2600", "1051-1200"]
+          "prompt_en": "The website's security was so vulnerable that the users' passwords leaked.",
+          "prompt_ja": "そのウェブサイトのセキュリティが ( ) だったのでユーザーのパスワードが漏れた。",
+          "choices": [
+            "脆弱",
+            "単純",
+            "迅速",
+            "不適切"
+          ],
+          "answer": "脆弱",
+          "tags": [
+            "kouki-1",
+            "cset2600",
+            "1801-1850"
+          ]
         },
         {
-          "id": "test8-q047",
+          "id": "kouki1-q047",
           "number": 47,
           "answer_language": "ja",
-          "prompt_en": "Our boss always gives us specific instructions.",
-          "prompt_ja": "上司はいつも私たちに ( ) 指示を出してくれる。",
-          "choices": ["明確な", "逆の", "重要な", "正確な"],
-          "answer": "明確な",
-          "tags": ["test-8", "cset2600", "1051-1200"]
+          "prompt_en": "The dog seemed dead, but it still had a faint pulse.",
+          "prompt_ja": "その犬は死んでいるように見えたが、まだ ( ) 脈があった。",
+          "choices": [
+            "かすかな",
+            "安定した",
+            "迅速な",
+            "正確な"
+          ],
+          "answer": "かすかな",
+          "tags": [
+            "kouki-1",
+            "cset2600",
+            "1801-1850"
+          ]
         },
         {
-          "id": "test8-q048",
+          "id": "kouki1-q048",
           "number": 48,
           "answer_language": "ja",
-          "prompt_en": "Absolute zero is a significant temperature in science.",
-          "prompt_ja": "絶対零度は科学において ( ) 意味を持つ温度だ。",
-          "choices": ["重要な", "正確な", "明確な", "究極の"],
-          "answer": "重要な",
-          "tags": ["test-8", "cset2600", "1051-1200"]
+          "prompt_en": "Lack of oxygen leads to permanent brain damage.",
+          "prompt_ja": "酸素不足は ( ) 脳障害につながる。",
+          "choices": [
+            "わずかな",
+            "根本的な",
+            "永久的な",
+            "迅速な"
+          ],
+          "answer": "永久的な",
+          "tags": [
+            "kouki-1",
+            "cset2600",
+            "1801-1850"
+          ]
         },
         {
-          "id": "test8-q049",
+          "id": "kouki1-q049",
           "number": 49,
           "answer_language": "ja",
-          "prompt_en": "You should not try to escape from reality.",
-          "prompt_ja": "( ) から逃避しようとしてはいけない。",
-          "choices": ["関係", "結論", "現実", "評判"],
-          "answer": "現実",
-          "tags": ["test-8", "cset2600", "1051-1200"]
+          "prompt_en": "Daily exercise will make you healthy.",
+          "prompt_ja": "( ) 運動すると健康になりますよ。",
+          "choices": [
+            "毎週",
+            "根本的に",
+            "適切に",
+            "毎日"
+          ],
+          "answer": "毎日",
+          "tags": [
+            "kouki-1",
+            "cset2600",
+            "1801-1850"
+          ]
         },
         {
-          "id": "test8-q050",
+          "id": "kouki1-q050",
           "number": 50,
           "answer_language": "ja",
-          "prompt_en": "The population of this city has declined in recent years.",
-          "prompt_ja": "この市の人口は近年 ( ) してきた。",
-          "choices": ["変更", "増加", "維持", "減少"],
-          "answer": "減少",
-          "tags": ["test-8", "cset2600", "1051-1200"]
+          "prompt_en": "We need to make a prompt decision where to locate our new factory.",
+          "prompt_ja": "新しい工場がどこにするか、( ) 決定が必要だ。",
+          "choices": [
+            "客観的な",
+            "適切な",
+            "迅速な",
+            "包括的な"
+          ],
+          "answer": "迅速な",
+          "tags": [
+            "kouki-1",
+            "cset2600",
+            "1801-1850"
+          ]
         }
       ]
     },
     {
-      "id": "test-9",
-      "title": "R8(AZ1)_COSET2600 単語テスト［1201番～1350番］",
+      "id": "kouki-2",
+      "title": "R8(AZ1)_COSET2600 単語テスト［1851番～1900番］（後期中間）",
       "questions": [
         {
-          "id": "test9-q001",
+          "id": "kouki2-q001",
           "number": 1,
           "answer_language": "en",
-          "prompt_en": "You should not ( ) on science and technology too much.",
-          "prompt_ja": "科学技術に頼りすぎてはいけない。",
-          "choices": ["incline", "rely", "seek", "convert"],
-          "answer": "rely",
-          "tags": ["test-9", "cset2600", "1201-1350"]
+          "prompt_en": "The administration made a ( ) revision of the network system.",
+          "prompt_ja": "管理部門がネットワークシステムの根本的な変更を行った。",
+          "choices": [
+            "radical",
+            "proper",
+            "faint",
+            "prompt"
+          ],
+          "answer": "radical",
+          "tags": [
+            "kouki-2",
+            "cset2600",
+            "1851-1900"
+          ]
         },
         {
-          "id": "test9-q002",
+          "id": "kouki2-q002",
           "number": 2,
           "answer_language": "en",
-          "prompt_en": "Rubber is a good material to ( ) electricity.",
-          "prompt_ja": "ゴムは電気を絶縁するのによい材料である。",
-          "choices": ["convert", "decline", "conduct", "insulate"],
-          "answer": "insulate",
-          "tags": ["test-9", "cset2600", "1201-1350"]
+          "prompt_en": "The students know what the proper laboratory ( ) is.",
+          "prompt_ja": "学生たちは実験室にふさわしい服装が何か知っている。",
+          "choices": [
+            "fee",
+            "outocome",
+            "outfit",
+            "stuff"
+          ],
+          "answer": "outfit",
+          "tags": [
+            "kouki-2",
+            "cset2600",
+            "1851-1900"
+          ]
         },
         {
-          "id": "test9-q003",
+          "id": "kouki2-q003",
           "number": 3,
           "answer_language": "en",
-          "prompt_en": "Lack of exercise can be a ( ) of diseases.",
-          "prompt_ja": "運動不足は病気の引き金にもなる。",
-          "choices": ["grant", "edge", "trigger", "bullet"],
-          "answer": "trigger",
-          "tags": ["test-9", "cset2600", "1201-1350"]
+          "prompt_en": "You have to pay a monthly ( ) to access this website.",
+          "prompt_ja": "このウェブサイトにアクセスするには月額料金を払う必要があります。",
+          "choices": [
+            "outcome",
+            "fee",
+            "stuff",
+            "outfit"
+          ],
+          "answer": "fee",
+          "tags": [
+            "kouki-2",
+            "cset2600",
+            "1851-1900"
+          ]
         },
         {
-          "id": "test9-q004",
+          "id": "kouki2-q004",
           "number": 4,
           "answer_language": "en",
-          "prompt_en": "A computer has some electronic ( ) to process information.",
-          "prompt_ja": "コンピュータの中には情報を処理するための電子部品がある。",
-          "choices": ["component", "convert", "contract", "conduct"],
-          "answer": "component",
-          "tags": ["test-9", "cset2600", "1201-1350"]
+          "prompt_en": "The king's ( ) was to control the whole world.",
+          "prompt_ja": "その王の望みは全世界を支配することだった。",
+          "choices": [
+            "desire",
+            "plenty",
+            "outfit",
+            "outcome"
+          ],
+          "answer": "desire",
+          "tags": [
+            "kouki-2",
+            "cset2600",
+            "1851-1900"
+          ]
         },
         {
-          "id": "test9-q005",
+          "id": "kouki2-q005",
           "number": 5,
           "answer_language": "en",
-          "prompt_en": "He was taken to the hospital by ( ).",
-          "prompt_ja": "彼は救急車で病院に運ばれた。",
-          "choices": ["emergency", "ambulance", "aircraft", "vehicle"],
-          "answer": "ambulance",
-          "tags": ["test-9", "cset2600", "1201-1350"]
+          "prompt_en": "There are ( ) of books on the shelf.",
+          "prompt_ja": "棚にたくさんの本がある。",
+          "choices": [
+            "moth",
+            "stuff",
+            "proper",
+            "plenty"
+          ],
+          "answer": "plenty",
+          "tags": [
+            "kouki-2",
+            "cset2600",
+            "1851-1900"
+          ]
         },
         {
-          "id": "test9-q006",
+          "id": "kouki2-q006",
           "number": 6,
           "answer_language": "en",
-          "prompt_en": "I would like an ( ) seat on the airplane.",
-          "prompt_ja": "私は飛行機の通路側の席がいいです。",
-          "choices": ["fasten", "tide", "aisle", "coast"],
-          "answer": "aisle",
-          "tags": ["test-9", "cset2600", "1201-1350"]
+          "prompt_en": "Underground ( ) fertilize the soil.",
+          "prompt_ja": "地中のミミズは土を肥沃にしてくれる。",
+          "choices": [
+            "worm",
+            "moth",
+            "parasite",
+            "mosquito"
+          ],
+          "answer": "worm",
+          "tags": [
+            "kouki-2",
+            "cset2600",
+            "1851-1900"
+          ]
         },
         {
-          "id": "test9-q007",
+          "id": "kouki2-q007",
           "number": 7,
           "answer_language": "en",
-          "prompt_en": "Construction equipment ( ) in Japan is sold in various countries.",
-          "prompt_ja": "日本で製造された建設機械はさまざまな国で売られている。",
-          "choices": ["demonstrated", "convinced", "investigated", "manufactured"],
-          "answer": "manufactured",
-          "tags": ["test-9", "cset2600", "1201-1350"]
+          "prompt_en": "Mosquitoes carry various kinds of ( ).",
+          "prompt_ja": "蚊はさまざまな種類の寄生虫を運ぶ。",
+          "choices": [
+            "worms",
+            "hazards",
+            "parasites",
+            "pests"
+          ],
+          "answer": "parasites",
+          "tags": [
+            "kouki-2",
+            "cset2600",
+            "1851-1900"
+          ]
         },
         {
-          "id": "test9-q008",
+          "id": "kouki2-q008",
           "number": 8,
           "answer_language": "en",
-          "prompt_en": "They are trying to ( ) people of the need for a nuclear power plant.",
-          "prompt_ja": "かれらは原発の必要性を住民に納得させようとしている。",
-          "choices": ["indicate", "convince", "suspect", "associate"],
-          "answer": "convince",
-          "tags": ["test-9", "cset2600", "1201-1350"]
+          "prompt_en": "A tornado ( ) is located in the basement of this building.",
+          "prompt_ja": "竜巻用の避難所がこのビルの地下にある。",
+          "choices": [
+            "pest",
+            "shelter",
+            "eruption",
+            "hazard"
+          ],
+          "answer": "shelter",
+          "tags": [
+            "kouki-2",
+            "cset2600",
+            "1851-1900"
+          ]
         },
         {
-          "id": "test9-q009",
+          "id": "kouki2-q009",
           "number": 9,
           "answer_language": "en",
-          "prompt_en": "The engineer ( ) the circuit board as the cause of the voltage drop.",
-          "prompt_ja": "その技術者は電圧降下の原因が回路基板にあるのではないかと疑った。",
-          "choices": ["suspected", "associated", "arrested", "prepared"],
-          "answer": "suspected",
-          "tags": ["test-9", "cset2600", "1201-1350"]
+          "prompt_en": "One tenth of the world's ( ) are in and around Japan.",
+          "prompt_ja": "世界の火山の10分の１が日本国内およびその周辺にあります。",
+          "choices": [
+            "lavas",
+            "volcanoes",
+            "caves",
+            "eruptions"
+          ],
+          "answer": "volcanoes",
+          "tags": [
+            "kouki-2",
+            "cset2600",
+            "1851-1900"
+          ]
         },
         {
-          "id": "test9-q010",
+          "id": "kouki2-q010",
           "number": 10,
           "answer_language": "en",
-          "prompt_en": "Students are ( ) for a chemical experiment in the laboratory.",
-          "prompt_ja": "学生たちが実験室で化学実験の準備をしている。",
-          "choices": ["utilizing", "preparing", "associating", "extending"],
-          "answer": "preparing",
-          "tags": ["test-9", "cset2600", "1201-1350"]
+          "prompt_en": "The temperature of the ( ) flowing out of that volcano's crater is about 1000℃.",
+          "prompt_ja": "あの火山から流れ出ている溶岩の温度は約1000℃です。",
+          "choices": [
+            "lava",
+            "volcano",
+            "eruption",
+            "cavity"
+          ],
+          "answer": "lava",
+          "tags": [
+            "kouki-2",
+            "cset2600",
+            "1851-1900"
+          ]
         },
         {
-          "id": "test9-q011",
+          "id": "kouki2-q011",
           "number": 11,
           "answer_language": "en",
-          "prompt_en": "Please ( ) this graphical image and print it out.",
-          "prompt_ja": "このグラフィックイメージを拡大して印刷してください。",
-          "choices": ["export", "gain", "enlarge", "revive"],
-          "answer": "enlarge",
-          "tags": ["test-9", "cset2600", "1201-1350"]
+          "prompt_en": "Tens of thousands of bats live in the ( ).",
+          "prompt_ja": "その洞窟には何万匹ものコウモリが住んでいる。",
+          "choices": [
+            "volcano",
+            "cave",
+            "pest",
+            "cavity"
+          ],
+          "answer": "cave",
+          "tags": [
+            "kouki-2",
+            "cset2600",
+            "1851-1900"
+          ]
         },
         {
-          "id": "test9-q012",
+          "id": "kouki2-q012",
           "number": 12,
           "answer_language": "en",
-          "prompt_en": "The knot was so ( ) that no one could untie it.",
-          "prompt_ja": "その結び目はきつすぎて誰もほどくことができなかった。",
-          "choices": ["ugly", "cruel", "tight", "steep"],
-          "answer": "tight",
-          "tags": ["test-9", "cset2600", "1201-1350"]
+          "prompt_en": "The North Pole is not on land but in the ( ) Ocean.",
+          "prompt_ja": "北極点は陸の上ではなく北極海の中にある。",
+          "choices": [
+            "Antarctic",
+            "Pacific",
+            "Atlantic",
+            "Arctic"
+          ],
+          "answer": "Arctic",
+          "tags": [
+            "kouki-2",
+            "cset2600",
+            "1851-1900"
+          ]
         },
         {
-          "id": "test9-q013",
+          "id": "kouki2-q013",
           "number": 13,
           "answer_language": "en",
-          "prompt_en": "The experiment was banned because it was ( ) to animals.",
-          "prompt_ja": "その実験は動物にとって残酷なので禁止された。",
-          "choices": ["steep", "cruel", "firm", "ugly"],
-          "answer": "cruel",
-          "tags": ["test-9", "cset2600", "1201-1350"]
+          "prompt_en": "The first successful Antarctic ( ) by Japanese was made in 1912.",
+          "prompt_ja": "日本人が最初に南極探検に成功したのは1912年である。",
+          "choices": [
+            "experiment",
+            "primate",
+            "destiny",
+            "expedition"
+          ],
+          "answer": "expedition",
+          "tags": [
+            "kouki-2",
+            "cset2600",
+            "1851-1900"
+          ]
         },
         {
-          "id": "test9-q014",
+          "id": "kouki2-q014",
           "number": 14,
           "answer_language": "en",
-          "prompt_en": "Pyramids are thought to be ( ) of ancient kings.",
-          "prompt_ja": "ピラミッドは古代の王の墓だと考えられている。",
-          "choices": ["shots", "graves", "doses", "courts"],
-          "answer": "graves",
-          "tags": ["test-9", "cset2600", "1201-1350"]
+          "prompt_en": "The DNA test revealed that those two species had the same ( ).",
+          "prompt_ja": "DNA検査によってその２つの種は同じ祖先を持つことがわかった。",
+          "choices": [
+            "offspring",
+            "ancestor",
+            "ape",
+            "primate"
+          ],
+          "answer": "ancestor",
+          "tags": [
+            "kouki-2",
+            "cset2600",
+            "1851-1900"
+          ]
         },
         {
-          "id": "test9-q015",
+          "id": "kouki2-q015",
           "number": 15,
           "answer_language": "en",
-          "prompt_en": "To apply to the school, you need a ( ) proving your English skills.",
-          "prompt_ja": "その学校の出願には、英語の技能を証明する証明書が必要です。",
-          "choices": ["landscape", "portrait", "certificate", "signature"],
-          "answer": "certificate",
-          "tags": ["test-9", "cset2600", "1201-1350"]
+          "prompt_en": "I think it was his ( ) to become a scientist.",
+          "prompt_ja": "彼が科学者になったのは運命だったのだと思う。",
+          "choices": [
+            "ancestor",
+            "destiny",
+            "mutation",
+            "catalyst"
+          ],
+          "answer": "destiny",
+          "tags": [
+            "kouki-2",
+            "cset2600",
+            "1851-1900"
+          ]
         },
         {
-          "id": "test9-q016",
+          "id": "kouki2-q016",
           "number": 16,
           "answer_language": "en",
-          "prompt_en": "Please explain your ( ) for solving this equation.",
-          "prompt_ja": "この方程式を解くための、あなたの方略を説明してください。",
-          "choices": ["signature", "certificate", "therapy", "strategy"],
-          "answer": "strategy",
-          "tags": ["test-9", "cset2600", "1201-1350"]
+          "prompt_en": "It is the ( ) of parents to eliminate every possible hazard to their children.",
+          "prompt_ja": "子供に起こりうるあらゆる危険を排除するのは親の義務だ。",
+          "choices": [
+            "destiny",
+            "catalyst",
+            "duty",
+            "mutation"
+          ],
+          "answer": "duty",
+          "tags": [
+            "kouki-2",
+            "cset2600",
+            "1851-1900"
+          ]
         },
         {
-          "id": "test9-q017",
+          "id": "kouki2-q017",
           "number": 17,
           "answer_language": "en",
-          "prompt_en": "According to the theory of relativity, mass and energy are ( ).",
-          "prompt_ja": "相対性理論によれば、質量とエネルギーは等価である。",
-          "choices": ["exact", "essential", "entire", "equivalent"],
-          "answer": "equivalent",
-          "tags": ["test-9", "cset2600", "1201-1350"]
+          "prompt_en": "Thinner is a typical ( ).",
+          "prompt_ja": "シンナーは代表的な溶剤である。",
+          "choices": [
+            "mutation",
+            "catalyst",
+            "solvent",
+            "offspring"
+          ],
+          "answer": "solvent",
+          "tags": [
+            "kouki-2",
+            "cset2600",
+            "1851-1900"
+          ]
         },
         {
-          "id": "test9-q018",
+          "id": "kouki2-q018",
           "number": 18,
           "answer_language": "en",
-          "prompt_en": "This is the largest ( ) telescope in the world.",
-          "prompt_ja": "これは世界最大の光学望遠鏡だ。",
-          "choices": ["visible", "bright", "optical", "entire"],
-          "answer": "optical",
-          "tags": ["test-9", "cset2600", "1201-1350"]
+          "prompt_en": "They ( ) of the local office about the situation of the construction site.",
+          "prompt_ja": "かれらは工事現場の状況について現地の事務所に問い合わせた。",
+          "choices": [
+            "inquired",
+            "acknowledged",
+            "arranged",
+            "harmed"
+          ],
+          "answer": "inquired",
+          "tags": [
+            "kouki-2",
+            "cset2600",
+            "1851-1900"
+          ]
         },
         {
-          "id": "test9-q019",
+          "id": "kouki2-q019",
           "number": 19,
           "answer_language": "en",
-          "prompt_en": "Only a gram of this material is ( ) tens of thousands of yen.",
-          "prompt_ja": "この材料はたった１グラムで数万円もの価値がある。",
-          "choices": ["essential", "equivalent", "worth", "firm"],
-          "answer": "worth",
-          "tags": ["test-9", "cset2600", "1201-1350"]
+          "prompt_en": "The industries in that country still ( ) behind other developed countries.",
+          "prompt_ja": "その国の産業はまだ他の先進国よりも遅れている。",
+          "choices": [
+            "harm",
+            "differ",
+            "inquire",
+            "lag"
+          ],
+          "answer": "lag",
+          "tags": [
+            "kouki-2",
+            "cset2600",
+            "1851-1900"
+          ]
         },
         {
-          "id": "test9-q020",
+          "id": "kouki2-q020",
           "number": 20,
           "answer_language": "en",
-          "prompt_en": "You must ( ) the terms beore discussion.",
-          "prompt_ja": "議論の前に用語を定義しなければいけません。",
-          "choices": ["assume", "define", "confirm", "intend"],
-          "answer": "define",
-          "tags": ["test-9", "cset2600", "1201-1350"]
+          "prompt_en": "We ( ) the desks in two rows.",
+          "prompt_ja": "私たちは机を２列に並べた。",
+          "choices": [
+            "voted",
+            "settled",
+            "tuned",
+            "arranged"
+          ],
+          "answer": "arranged",
+          "tags": [
+            "kouki-2",
+            "cset2600",
+            "1851-1900"
+          ]
         },
         {
-          "id": "test9-q021",
+          "id": "kouki2-q021",
           "number": 21,
           "answer_language": "en",
-          "prompt_en": "It's an optical ( ) that the line looks curved.",
-          "prompt_ja": "その線が曲がって見えるのは眼の錯覚だ。",
-          "choices": ["illusion", "trap", "scope", "amplitude"],
-          "answer": "illusion",
-          "tags": ["test-9", "cset2600", "1201-1350"]
+          "prompt_en": "I can't ( ) to buy a car.",
+          "prompt_ja": "私には車を買う余裕がない。",
+          "choices": [
+            "afford",
+            "tune",
+            "mimic",
+            "elect"
+          ],
+          "answer": "afford",
+          "tags": [
+            "kouki-2",
+            "cset2600",
+            "1851-1900"
+          ]
         },
         {
-          "id": "test9-q022",
+          "id": "kouki2-q022",
           "number": 22,
           "answer_language": "en",
-          "prompt_en": "You must always pay ( ) to the device during the experiment.",
-          "prompt_ja": "実験中は常にその装置に注意を払っていなければいけません。",
-          "choices": ["attention", "phenomenon", "ripple", "statement"],
-          "answer": "attention",
-          "tags": ["test-9", "cset2600", "1201-1350"]
+          "prompt_en": "People aged 18 or above have the right to ( ) in Japan.",
+          "prompt_ja": "日本では18歳以上の人が投票権を持つ。",
+          "choices": [
+            "bend",
+            "mimic",
+            "vote",
+            "settle"
+          ],
+          "answer": "vote",
+          "tags": [
+            "kouki-2",
+            "cset2600",
+            "1851-1900"
+          ]
         },
         {
-          "id": "test9-q023",
+          "id": "kouki2-q023",
           "number": 23,
           "answer_language": "en",
-          "prompt_en": "Chlorophyll is a green ( ) which is very important in photosynthesis.",
-          "prompt_ja": "葉緑素は光合成において重要な緑色の色素である。",
-          "choices": ["glue", "pigment", "starch", "glucose"],
-          "answer": "pigment",
-          "tags": ["test-9", "cset2600", "1201-1350"]
+          "prompt_en": "The person who could ( ) this dispute must be elected as the leader.",
+          "prompt_ja": "この紛争を解決できる人物が指導者として選ばなければならない。",
+          "choices": [
+            "settle",
+            "neglect",
+            "bend",
+            "dismiss"
+          ],
+          "answer": "settle",
+          "tags": [
+            "kouki-2",
+            "cset2600",
+            "1851-1900"
+          ]
         },
         {
-          "id": "test9-q024",
+          "id": "kouki2-q024",
           "number": 24,
           "answer_language": "en",
-          "prompt_en": "This is a ( ) for a next-generation PC system.",
-          "prompt_ja": "これは次世代ＰＣシステムの候補のひとつだ。",
-          "choices": ["candidate", "passion", "fragment", "phase"],
-          "answer": "candidate",
-          "tags": ["test-9", "cset2600", "1201-1350"]
+          "prompt_en": "You can ( ) air resistance in the calculation of gravitational acceleration.",
+          "prompt_ja": "重力加速度の計算では空気抵抗は無視してよい。",
+          "choices": [
+            "arrange",
+            "settle",
+            "neglect",
+            "dismiss"
+          ],
+          "answer": "neglect",
+          "tags": [
+            "kouki-2",
+            "cset2600",
+            "1851-1900"
+          ]
         },
         {
-          "id": "test9-q025",
+          "id": "kouki2-q025",
           "number": 25,
           "answer_language": "en",
-          "prompt_en": "These bacteria produce a strong ( ).",
-          "prompt_ja": "これらのバクテリアは強力な毒素を出す。",
-          "choices": ["favor", "danger", "yield", "toxin"],
-          "answer": "toxin",
-          "tags": ["test-9", "cset2600", "1201-1350"]
+          "prompt_en": "A fisherman ( ) a net into the water from the boat.",
+          "prompt_ja": "漁師が船の上から水中に網を投げた。",
+          "choices": [
+            "halt",
+            "dismiss",
+            "cast",
+            "bend"
+          ],
+          "answer": "cast",
+          "tags": [
+            "kouki-2",
+            "cset2600",
+            "1851-1900"
+          ]
         },
         {
-          "id": "test9-q026",
+          "id": "kouki2-q026",
           "number": 26,
           "answer_language": "ja",
-          "prompt_en": "This machine can bore two holes at once.",
-          "prompt_ja": "この機械は同時に２個の ( ) ことができる。",
-          "choices": ["切断をする", "穴をあける", "作業をする", "溶接をする"],
-          "answer": "穴をあける",
-          "tags": ["test-9", "cset2600", "1201-1350"]
+          "prompt_en": "This substance must be kept at the proper temperature.",
+          "prompt_ja": "この物質は ( ) 温度で保管しなければならない。",
+          "choices": [
+            "溶ける",
+            "適切な",
+            "許可された",
+            "一定の"
+          ],
+          "answer": "適切な",
+          "tags": [
+            "kouki-2",
+            "cset2600",
+            "1851-1900"
+          ]
         },
         {
-          "id": "test9-q027",
+          "id": "kouki2-q027",
           "number": 27,
           "answer_language": "ja",
-          "prompt_en": "Join the two rods with a bolt at each end.",
-          "prompt_ja": "２本の ( ) の端をボルトでつなぎなさい。",
-          "choices": ["柱", "梁", "棒", "材料"],
-          "answer": "棒",
-          "tags": ["test-9", "cset2600", "1201-1350"]
+          "prompt_en": "Analog TV broadcasting in Japan ended in 2011.",
+          "prompt_ja": "日本での ( ) テレビ放送は2011年に終了した。",
+          "choices": [
+            "ブラウン管",
+            "衛星",
+            "アナログ",
+            "白黒"
+          ],
+          "answer": "アナログ",
+          "tags": [
+            "kouki-2",
+            "cset2600",
+            "1851-1900"
+          ]
         },
         {
-          "id": "test9-q028",
+          "id": "kouki2-q028",
           "number": 28,
           "answer_language": "ja",
-          "prompt_en": "The two companies agreed on the contract.",
-          "prompt_ja": "その２社は ( ) に合意した。",
-          "choices": ["取引", "談合", "合併", "契約"],
-          "answer": "契約",
-          "tags": ["test-9", "cset2600", "1201-1350"]
+          "prompt_en": "Some people believe in ghosts and stuff like that.",
+          "prompt_ja": "幽霊やその類の ( ) を信じる人もいる。",
+          "choices": [
+            "もの",
+            "迷信",
+            "霊感",
+            "才能"
+          ],
+          "answer": "もの",
+          "tags": [
+            "kouki-2",
+            "cset2600",
+            "1851-1900"
+          ]
         },
         {
-          "id": "test9-q029",
+          "id": "kouki2-q029",
           "number": 29,
           "answer_language": "ja",
-          "prompt_en": "The tide falls by 10 meters in this bay.",
-          "prompt_ja": "この湾では ( ) は10メートル下がる。",
-          "choices": ["水深", "波高", "潮位", "堤防"],
-          "answer": "潮位",
-          "tags": ["test-9", "cset2600", "1201-1350"]
+          "prompt_en": "The store opens on weekdays.",
+          "prompt_ja": "その店は ( ) 営業です。",
+          "choices": [
+            "週末",
+            "平日",
+            "年中",
+            "休日"
+          ],
+          "answer": "平日",
+          "tags": [
+            "kouki-2",
+            "cset2600",
+            "1851-1900"
+          ]
         },
         {
-          "id": "test9-q030",
+          "id": "kouki2-q030",
           "number": 30,
           "answer_language": "ja",
-          "prompt_en": "The police are investigating the cause of the fire.",
-          "prompt_ja": "警察はその火事の原因を ( )。",
-          "choices": ["調査している", "実験している", "想像している", "特定している"],
-          "answer": "調査している",
-          "tags": ["test-9", "cset2600", "1201-1350"]
+          "prompt_en": "The project produced an ideal outcome.",
+          "prompt_ja": "そのプロジェクトは理想的な ( ) を出した。",
+          "choices": [
+            "売上",
+            "傾向",
+            "状態",
+            "成果"
+          ],
+          "answer": "成果",
+          "tags": [
+            "kouki-2",
+            "cset2600",
+            "1851-1900"
+          ]
         },
         {
-          "id": "test9-q031",
+          "id": "kouki2-q031",
           "number": 31,
           "answer_language": "ja",
-          "prompt_en": "The police are investigating the cause of the fire.",
-          "prompt_ja": "警察はその火事の原因を ( )。",
-          "choices": ["特定している", "調査している", "実験している", "想像している"],
-          "answer": "調査している",
-          "tags": ["test-9", "cset2600", "1201-1350"]
+          "prompt_en": "A mosquito bites animals to take in blood.",
+          "prompt_ja": "( ) は血を吸うために動物を刺す。",
+          "choices": [
+            "蜂",
+            "害虫",
+            "蚊",
+            "寄生虫"
+          ],
+          "answer": "蚊",
+          "tags": [
+            "kouki-2",
+            "cset2600",
+            "1851-1900"
+          ]
         },
         {
-          "id": "test9-q032",
+          "id": "kouki2-q032",
           "number": 32,
           "answer_language": "ja",
-          "prompt_en": "This graph indicates a rapid change in the earth's temperature.",
-          "prompt_ja": "このグラフは地球の温度の急速な変化を ( )。",
-          "choices": ["示している", "疑っている", "関連付けている", "明らかにする"],
-          "answer": "示している",
-          "tags": ["test-9", "cset2600", "1201-1350"]
+          "prompt_en": "Can you tell a moth from a butterfly.",
+          "prompt_ja": "( ) と蝶を見分けられますか。",
+          "choices": [
+            "蛾",
+            "蝿",
+            "蚊",
+            "害虫"
+          ],
+          "answer": "蛾",
+          "tags": [
+            "kouki-2",
+            "cset2600",
+            "1851-1900"
+          ]
         },
         {
-          "id": "test9-q033",
+          "id": "kouki2-q033",
           "number": 33,
           "answer_language": "ja",
-          "prompt_en": "Increasing exports of cars revived the Japanese economy.",
-          "prompt_ja": "増加する自動車輸出が日本経済を ( )。",
-          "choices": ["けん引している", "拡大している", "特徴付けている", "生き返らせた"],
-          "answer": "生き返らせた",
-          "tags": ["test-9", "cset2600", "1201-1350"]
+          "prompt_en": "A new pest is making trouble in Japan's rice fields.",
+          "prompt_ja": "新種の ( ) が日本の稲作地で問題になっている。",
+          "choices": [
+            "害虫",
+            "幼虫",
+            "昆虫",
+            "寄生虫"
+          ],
+          "answer": "害虫",
+          "tags": [
+            "kouki-2",
+            "cset2600",
+            "1851-1900"
+          ]
         },
         {
-          "id": "test9-q034",
+          "id": "kouki2-q034",
           "number": 34,
           "answer_language": "ja",
-          "prompt_en": "A major example of an ancient animal is ammonite.",
-          "prompt_ja": "( ) 生物の代表的な例はアンモナイトです。",
-          "choices": ["古代", "地層", "貴重な", "化石"],
-          "answer": "古代",
-          "tags": ["test-9", "cset2600", "1201-1350"]
+          "prompt_en": "This symbol tells us there is a kind of hazard here.",
+          "prompt_ja": "このマークはここに何らかの ( ) があることを示している。",
+          "choices": [
+            "空洞",
+            "危険",
+            "害",
+            "避難所"
+          ],
+          "answer": "危険",
+          "tags": [
+            "kouki-2",
+            "cset2600",
+            "1851-1900"
+          ]
         },
         {
-          "id": "test9-q035",
+          "id": "kouki2-q035",
           "number": 35,
           "answer_language": "ja",
-          "prompt_en": "Watch the progress of the chemical reaction carefully.",
-          "prompt_ja": "その化学反応の ( ) を注意深く観察しなさい。",
-          "choices": ["様子", "結果", "色彩", "進行"],
-          "answer": "進行",
-          "tags": ["test-9", "cset2600", "1201-1350"]
+          "prompt_en": "After the eruption of the volcano, a lava dome formed on its mountainside.",
+          "prompt_ja": "その火山の ( ) の後、山の中腹に溶岩ドームができた。",
+          "choices": [
+            "変化",
+            "崩壊",
+            "地震",
+            "噴火"
+          ],
+          "answer": "噴火",
+          "tags": [
+            "kouki-2",
+            "cset2600",
+            "1851-1900"
+          ]
         },
         {
-          "id": "test9-q036",
+          "id": "kouki2-q036",
           "number": 36,
           "answer_language": "ja",
-          "prompt_en": "A big crowd was waiting for the famous actor's arrival at the airport.",
-          "prompt_ja": "空港では大勢の ( ) がその有名な俳優の到着を待っていた。",
-          "choices": ["群衆", "報道陣", "ファン", "警備員"],
-          "answer": "群衆",
-          "tags": ["test-9", "cset2600", "1201-1350"]
+          "prompt_en": "If you don't keep your mouth clean, you'll get cavities.",
+          "prompt_ja": "口の中をきれいにしておかないと ( ) になりますよ。",
+          "choices": [
+            "口内炎",
+            "虫歯",
+            "病気",
+            "口臭"
+          ],
+          "answer": "虫歯",
+          "tags": [
+            "kouki-2",
+            "cset2600",
+            "1851-1900"
+          ]
         },
         {
-          "id": "test9-q037",
+          "id": "kouki2-q037",
           "number": 37,
           "answer_language": "ja",
-          "prompt_en": "Lincoln ordered all the slaves in the country to be set free.",
-          "prompt_ja": "リンカーンは国内すべての ( ) を解放するように命令した。",
-          "choices": ["移民", "労働者", "服役者", "奴隷"],
-          "answer": "奴隷",
-          "tags": ["test-9", "cset2600", "1201-1350"]
+          "prompt_en": "The Antarctic continent is located in the southernmost part of the world.",
+          "prompt_ja": "( ) 大陸は世界の最も南に位置する。",
+          "choices": [
+            "北極",
+            "南極",
+            "ゴンドワナ",
+            "ユーラシア"
+          ],
+          "answer": "南極",
+          "tags": [
+            "kouki-2",
+            "cset2600",
+            "1851-1900"
+          ]
         },
         {
-          "id": "test9-q038",
+          "id": "kouki2-q038",
           "number": 38,
           "answer_language": "ja",
-          "prompt_en": "Assuming that x is zero, what will y be?",
-          "prompt_ja": "xがゼロだと ( ) と、yはいくつになりますか。",
-          "choices": ["確認する", "仮定する", "定義する", "意図する"],
-          "answer": "仮定する",
-          "tags": ["test-9", "cset2600", "1201-1350"]
+          "prompt_en": "Human beings and monkeys are both primates.",
+          "prompt_ja": "ヒトと猿はどちらも ( ) だ。",
+          "choices": [
+            "類人猿",
+            "哺乳類",
+            "霊長類",
+            "脊椎動物"
+          ],
+          "answer": "霊長類",
+          "tags": [
+            "kouki-2",
+            "cset2600",
+            "1851-1900"
+          ]
         },
         {
-          "id": "test9-q039",
+          "id": "kouki2-q039",
           "number": 39,
           "answer_language": "ja",
-          "prompt_en": "Please confirm your ID number.",
-          "prompt_ja": "あなたのID番号を ( ) ください。",
-          "choices": ["定義して", "確認して", "添付して", "送信して"],
-          "answer": "確認して",
-          "tags": ["test-9", "cset2600", "1201-1350"]
+          "prompt_en": "Apes are different from monkeys.",
+          "prompt_ja": "( ) は猿とは異なる。",
+          "choices": [
+            "類人猿",
+            "古代人",
+            "遺伝子",
+            "子孫"
+          ],
+          "answer": "類人猿",
+          "tags": [
+            "kouki-2",
+            "cset2600",
+            "1851-1900"
+          ]
         },
         {
-          "id": "test9-q040",
+          "id": "kouki2-q040",
           "number": 40,
           "answer_language": "ja",
-          "prompt_en": "The same poles of magnets repel each other.",
-          "prompt_ja": "磁石の同極は ( ) 合う。",
-          "choices": ["動作し", "集中し", "反発し", "引きつけ"],
-          "answer": "反発し",
-          "tags": ["test-9", "cset2600", "1201-1350"]
+          "prompt_en": "Animals produce and raise offspring for the next generation.",
+          "prompt_ja": "動物は次世代のために ( ) を生み、育てる。",
+          "choices": [
+            "遺伝子",
+            "祖先",
+            "子孫",
+            "血統"
+          ],
+          "answer": "子孫",
+          "tags": [
+            "kouki-2",
+            "cset2600",
+            "1851-1900"
+          ]
         },
         {
-          "id": "test9-q041",
+          "id": "kouki2-q041",
           "number": 41,
           "answer_language": "ja",
-          "prompt_en": "It was beyond the scope of our assumptions.",
-          "prompt_ja": "それは私たちの想定の ( ) を越えていた。",
-          "choices": ["範囲", "計画", "現象", "戦略"],
-          "answer": "範囲",
-          "tags": ["test-9", "cset2600", "1201-1350"]
+          "prompt_en": "Quite a few mutations have been discovered so far.",
+          "prompt_ja": "これまでにかなりの数の ( ) が発見されている。",
+          "choices": [
+            "遺伝子異常",
+            "子孫",
+            "突然変異",
+            "祖先"
+          ],
+          "answer": "突然変異",
+          "tags": [
+            "kouki-2",
+            "cset2600",
+            "1851-1900"
+          ]
         },
         {
-          "id": "test9-q042",
+          "id": "kouki2-q042",
           "number": 42,
           "answer_language": "ja",
-          "prompt_en": "The Prime Minister made a statement to the newspapers.",
-          "prompt_ja": "総理大臣が新聞に ( ) を出した。",
-          "choices": ["計画", "注意", "規定", "声明"],
-          "answer": "声明",
-          "tags": ["test-9", "cset2600", "1201-1350"]
+          "prompt_en": "A catalyst is a substance which controls the rate of reaction.",
+          "prompt_ja": "( ) とは反応の速さを操作するための物質である。",
+          "choices": [
+            "溶剤",
+            "ホルモン",
+            "触媒",
+            "遺伝子"
+          ],
+          "answer": "触媒",
+          "tags": [
+            "kouki-2",
+            "cset2600",
+            "1851-1900"
+          ]
         },
         {
-          "id": "test9-q043",
+          "id": "kouki2-q043",
           "number": 43,
           "answer_language": "ja",
-          "prompt_en": "Illusion is a phenomenon where the visual image is different from the actual image.",
-          "prompt_ja": "錯覚とは目に見える像が実際の像と異なる ( ) です。",
-          "choices": ["範囲", "現象", "規定", "状況"],
-          "answer": "現象",
-          "tags": ["test-9", "cset2600", "1201-1350"]
+          "prompt_en": "Too much pesticide can harm the ecological system.",
+          "prompt_ja": "殺虫剤の使い過ぎは生態系を ( ) 可能性がある。",
+          "choices": [
+            "変質される",
+            "破壊する",
+            "害する",
+            "無視する"
+          ],
+          "answer": "害する",
+          "tags": [
+            "kouki-2",
+            "cset2600",
+            "1851-1900"
+          ]
         },
         {
-          "id": "test9-q044",
+          "id": "kouki2-q044",
           "number": 44,
           "answer_language": "ja",
-          "prompt_en": "She avoids eating carbohydrates such as bread and potatoes.",
-          "prompt_ja": "彼女はパンやイモなどの ( ) を食べないようにしている。",
-          "choices": ["炭水化物", "ブドウ糖", "栄養素", "でんぷん"],
-          "answer": "炭水化物",
-          "tags": ["test-9", "cset2600", "1201-1350"]
+          "prompt_en": "He is acknowledged as one of the greatest scientists in the world.",
+          "prompt_ja": "彼は世界で最も偉大な科学者の一人として ( )。",
+          "choices": [
+            "選ばれている",
+            "保証されている",
+            "運命づけられている",
+            "認められている"
+          ],
+          "answer": "認められている",
+          "tags": [
+            "kouki-2",
+            "cset2600",
+            "1851-1900"
+          ]
         },
         {
-          "id": "test9-q045",
+          "id": "kouki2-q045",
           "number": 45,
           "answer_language": "ja",
-          "prompt_en": "Green plants need carbon dioxide for photosynthesis.",
-          "prompt_ja": "植物は ( ) のために二酸化炭素を必要とする。",
-          "choices": ["光合成", "葉緑素", "成長", "呼吸"],
-          "answer": "光合成",
-          "tags": ["test-9", "cset2600", "1201-1350"]
+          "prompt_en": "The results of the two experiments differ from each other.",
+          "prompt_ja": "２つの実験の結果はそれぞれ ( )。",
+          "choices": [
+            "保証されている",
+            "異なっている",
+            "整理されている",
+            "認められている"
+          ],
+          "answer": "異なっている",
+          "tags": [
+            "kouki-2",
+            "cset2600",
+            "1851-1900"
+          ]
         },
         {
-          "id": "test9-q046",
+          "id": "kouki2-q046",
           "number": 46,
           "answer_language": "ja",
-          "prompt_en": "Her passion for space science led her to the space mission.",
-          "prompt_ja": "彼女の宇宙科学に対する ( ) が彼女の宇宙での任務遂行につながった。",
-          "choices": ["情熱", "好意", "伝統", "立場"],
-          "answer": "情熱",
-          "tags": ["test-9", "cset2600", "1201-1350"]
+          "prompt_en": "Tune the receiver to the specified frequency.",
+          "prompt_ja": "受信機を指定された周波数に ( )。",
+          "choices": [
+            "操作しなさい",
+            "保持しなさい",
+            "合わせなさい",
+            "選びなさい"
+          ],
+          "answer": "合わせなさい",
+          "tags": [
+            "kouki-2",
+            "cset2600",
+            "1851-1900"
+          ]
         },
         {
-          "id": "test9-q047",
+          "id": "kouki2-q047",
           "number": 47,
           "answer_language": "ja",
-          "prompt_en": "The accident was due to the train driver's fault.",
-          "prompt_ja": "その事故は列車運転士の ( ) によるものだった。",
-          "choices": ["状況", "困難さ", "過失", "危険"],
-          "answer": "過失",
-          "tags": ["test-9", "cset2600", "1201-1350"]
+          "prompt_en": "Monkeys often mimic human actions.",
+          "prompt_ja": "サルはしばしば人間の行動を ( )。",
+          "choices": [
+            "邪魔する",
+            "まねる",
+            "害する",
+            "無視する"
+          ],
+          "answer": "まねる",
+          "tags": [
+            "kouki-2",
+            "cset2600",
+            "1851-1900"
+          ]
         },
         {
-          "id": "test9-q048",
+          "id": "kouki2-q048",
           "number": 48,
           "answer_language": "ja",
-          "prompt_en": "You must follow the regulations of the contest.",
-          "prompt_ja": "コンテストの ( ) は遵守しなければならない。",
-          "choices": ["声明", "規定", "計画", "状況"],
-          "answer": "規定",
-          "tags": ["test-9", "cset2600", "1201-1350"]
+          "prompt_en": "The people elected him the next president.",
+          "prompt_ja": "国民は次期大統領に彼を ( )。",
+          "choices": [
+            "望んだ",
+            "応援した",
+            "推薦した",
+            "選んだ"
+          ],
+          "answer": "選んだ",
+          "tags": [
+            "kouki-2",
+            "cset2600",
+            "1851-1900"
+          ]
         },
         {
-          "id": "test9-q049",
+          "id": "kouki2-q049",
           "number": 49,
           "answer_language": "ja",
-          "prompt_en": "It is obvious that the experiment failed.",
-          "prompt_ja": "その実験が失敗だったのは ( ) だ。",
-          "choices": ["明らか", "秘密", "戦略", "不可欠"],
-          "answer": "明らか",
-          "tags": ["test-9", "cset2600", "1201-1350"]
+          "prompt_en": "This metal becomes easy to bend when it's heated.",
+          "prompt_ja": "この金属は熱すると ( ) やすくなる。",
+          "choices": [
+            "曲げ",
+            "変形し",
+            "延び",
+            "溶け"
+          ],
+          "answer": "曲げ",
+          "tags": [
+            "kouki-2",
+            "cset2600",
+            "1851-1900"
+          ]
         },
         {
-          "id": "test9-q050",
+          "id": "kouki2-q050",
           "number": 50,
           "answer_language": "ja",
-          "prompt_en": "This disease causes a severe pain in your back.",
-          "prompt_ja": "この病気は背中に ( ) 痛みを生じさせる。",
-          "choices": ["激しい", "広い", "明らかな", "目に見える"],
-          "answer": "激しい",
-          "tags": ["test-9", "cset2600", "1201-1350"]
+          "prompt_en": "He was dismissed for neglect of duty.",
+          "prompt_ja": "彼は職務怠慢で ( )。",
+          "choices": [
+            "非難された",
+            "抗議された",
+            "告訴された",
+            "解雇された"
+          ],
+          "answer": "解雇された",
+          "tags": [
+            "kouki-2",
+            "cset2600",
+            "1851-1900"
+          ]
         }
       ]
     },
     {
-      "id": "test-10",
-      "title": "R8(AZ1)_COSET2600 単語テスト［1351番～1500番］",
+      "id": "kouki-3",
+      "title": "R8(AZ1)_COSET2600 単語テスト［1901番～1950番］（後期中間）",
       "questions": [
         {
-          "id": "test10-q001",
+          "id": "kouki3-q001",
           "number": 1,
           "answer_language": "en",
-          "prompt_en": "The road was too ( ) for my car to pass.",
-          "prompt_ja": "その道路は狭かったので私の車は通れなかった。",
-          "choices": ["broad", "obvious", "narrow", "pale"],
-          "answer": "narrow",
-          "tags": ["test-10", "cset2600", "1351-1500"]
+          "prompt_en": "All the electronic machines ( ) because of the blackout.",
+          "prompt_ja": "停電ですべての電子機器が止まった。",
+          "choices": [
+            "dismissed",
+            "occupied",
+            "halted",
+            "settled"
+          ],
+          "answer": "halted",
+          "tags": [
+            "kouki-3",
+            "cset2600",
+            "1901-1950"
+          ]
         },
         {
-          "id": "test10-q002",
+          "id": "kouki3-q002",
           "number": 2,
           "answer_language": "en",
-          "prompt_en": "A hydrogen atom has one ( ).",
-          "prompt_ja": "水素原子は１個の陽子を持つ。",
-          "choices": ["neutron", "nucleus", "proton", "radioactive"],
-          "answer": "proton",
-          "tags": ["test-10", "cset2600", "1351-1500"]
+          "prompt_en": "All the people in the stadium ( ) the players.",
+          "prompt_ja": "スタジアム内の人々全員が選手たちに声援を送った。",
+          "choices": [
+            "voted",
+            "wonded",
+            "cheered",
+            "guaranteed"
+          ],
+          "answer": "cheered",
+          "tags": [
+            "kouki-3",
+            "cset2600",
+            "1901-1950"
+          ]
         },
         {
-          "id": "test10-q003",
+          "id": "kouki3-q003",
           "number": 3,
           "answer_language": "en",
-          "prompt_en": "Most kinds of vegetable oil are ( ) from nuts or seeds.",
-          "prompt_ja": "ほとんどの種類の植物油は木の実や種から抽出される。",
-          "choices": ["smashed", "extracted", "transformed", "preserved"],
-          "answer": "extracted",
-          "tags": ["test-10", "cset2600", "1351-1500"]
+          "prompt_en": "Please ( ) the dust that has settled on the floor.",
+          "prompt_ja": "床に積もったほこりを掃いて下さい。",
+          "choices": [
+            "afford",
+            "elect",
+            "sweep",
+            "neglect"
+          ],
+          "answer": "sweep",
+          "tags": [
+            "kouki-3",
+            "cset2600",
+            "1901-1950"
+          ]
         },
         {
-          "id": "test10-q004",
+          "id": "kouki3-q004",
           "number": 4,
           "answer_language": "en",
-          "prompt_en": "The bottom number of a fraction is the ( ).",
-          "prompt_ja": "分数の下段の数字が分母である。",
-          "choices": ["denominator", "numerator", "polygon", "integer"],
-          "answer": "denominator",
-          "tags": ["test-10", "cset2600", "1351-1500"]
+          "prompt_en": "Many people were shot and ( ) in the battle.",
+          "prompt_ja": "その戦闘で多くの人が撃たれて負傷した。",
+          "choices": [
+            "occupied",
+            "guaranteed",
+            "overcame",
+            "wounded"
+          ],
+          "answer": "wounded",
+          "tags": [
+            "kouki-3",
+            "cset2600",
+            "1901-1950"
+          ]
         },
         {
-          "id": "test10-q005",
+          "id": "kouki3-q005",
           "number": 5,
           "answer_language": "en",
-          "prompt_en": "Find two ( ) numbers with a product of 156.",
-          "prompt_ja": "その積が156になる連続した２つの数を求めよ。",
-          "choices": ["numerous", "numerical", "ordinary", "consecutive"],
-          "answer": "consecutive",
-          "tags": ["test-10", "cset2600", "1351-1500"]
+          "prompt_en": "You should change this ( ) at least once a day.",
+          "prompt_ja": "少なくとも１日１回はこの包帯を交換して下さい。",
+          "choices": [
+            "pad",
+            "bandage",
+            "bruise",
+            "wound"
+          ],
+          "answer": "bandage",
+          "tags": [
+            "kouki-3",
+            "cset2600",
+            "1901-1950"
+          ]
         },
         {
-          "id": "test10-q006",
+          "id": "kouki3-q006",
           "number": 6,
           "answer_language": "en",
-          "prompt_en": "He is one of the ( ) who developed optical fiber.",
-          "prompt_ja": "彼は光ファイバーを開発した先駆者の一人です。",
-          "choices": ["responsibilities", "careers", "pioneers", "aspects"],
-          "answer": "pioneers",
-          "tags": ["test-10", "cset2600", "1351-1500"]
+          "prompt_en": "A ( ) appeared on my shoulder where I was hit by a baseball.",
+          "prompt_ja": "野球のボールが当たって肩にあざができた。",
+          "choices": [
+            "debt",
+            "bruise",
+            "pad",
+            "halt"
+          ],
+          "answer": "bruise",
+          "tags": [
+            "kouki-3",
+            "cset2600",
+            "1901-1950"
+          ]
         },
         {
-          "id": "test10-q007",
+          "id": "kouki3-q007",
           "number": 7,
           "answer_language": "en",
-          "prompt_en": "The town was destroyed by the ( ).",
-          "prompt_ja": "その町は洪水で破壊された。",
-          "choices": ["drought", "vessel", "stream", "flood"],
-          "answer": "flood",
-          "tags": ["test-10", "cset2600", "1351-1500"]
+          "prompt_en": "We have ( ) to choose our occupation.",
+          "prompt_ja": "私たちには職業選択の自由がある。",
+          "choices": [
+            "currency",
+            "wealth",
+            "welfare",
+            "freedom"
+          ],
+          "answer": "freedom",
+          "tags": [
+            "kouki-3",
+            "cset2600",
+            "1901-1950"
+          ]
         },
         {
-          "id": "test10-q008",
+          "id": "kouki3-q008",
           "number": 8,
           "answer_language": "en",
-          "prompt_en": "The most important thing for salespeople is to take good care of their ( ).",
-          "prompt_ja": "営業担当者にとって最も大切なことは、顧客を大事にすることである。",
-          "choices": ["foundations", "opportunities", "contents", "customers"],
-          "answer": "customers",
-          "tags": ["test-10", "cset2600", "1351-1500"]
+          "prompt_en": "The minister made efforts to improve Japan's ( ).",
+          "prompt_ja": "その大臣は日本の財政を改善しようとした。",
+          "choices": [
+            "depression",
+            "currency",
+            "finance",
+            "debt"
+          ],
+          "answer": "finance",
+          "tags": [
+            "kouki-3",
+            "cset2600",
+            "1901-1950"
+          ]
         },
         {
-          "id": "test10-q009",
+          "id": "kouki3-q009",
           "number": 9,
           "answer_language": "en",
-          "prompt_en": "I have ( ) this problem before.",
-          "prompt_ja": "この問題については前に言及しています。",
-          "choices": ["bined", "mentioned", "recommended", "whispered"],
-          "answer": "mentioned",
-          "tags": ["test-10", "cset2600", "1351-1500"]
+          "prompt_en": "I have paid off the ( ) on my house.",
+          "prompt_ja": "私は家のローンを完済した。",
+          "choices": [
+            "loan",
+            "wealth",
+            "finance",
+            "currency"
+          ],
+          "answer": "loan",
+          "tags": [
+            "kouki-3",
+            "cset2600",
+            "1901-1950"
+          ]
         },
         {
-          "id": "test10-q010",
+          "id": "kouki3-q010",
           "number": 10,
           "answer_language": "en",
-          "prompt_en": "If you ( ) the law, you might lose your license.",
-          "prompt_ja": "法律に違反すると免許を取り消されることがあります。",
-          "choices": ["violate", "puzzle", "insult", "arise"],
-          "answer": "violate",
-          "tags": ["test-10", "cset2600", "1351-1500"]
+          "prompt_en": "A ( ) is sometimes caused by overproduction.",
+          "prompt_ja": "不景気は時として過剰生産によって引き起こされる。",
+          "choices": [
+            "currency",
+            "depression",
+            "finance",
+            "poverty"
+          ],
+          "answer": "depression",
+          "tags": [
+            "kouki-3",
+            "cset2600",
+            "1901-1950"
+          ]
         },
         {
-          "id": "test10-q011",
+          "id": "kouki3-q011",
           "number": 11,
           "answer_language": "en",
-          "prompt_en": "They built a small log ( ) in the forest.",
-          "prompt_ja": "彼らは森に小さな丸太小屋を作った。",
-          "choices": ["cabin", "bowl", "deck", "stock"],
-          "answer": "cabin",
-          "tags": ["test-10", "cset2600", "1351-1500"]
+          "prompt_en": "There is still a lot of ( ) in many parts of the world.",
+          "prompt_ja": "世界のいたるところでいまだに多くの貧困が存在している。",
+          "choices": [
+            "depression",
+            "bruise",
+            "poverty",
+            "fortune"
+          ],
+          "answer": "poverty",
+          "tags": [
+            "kouki-3",
+            "cset2600",
+            "1901-1950"
+          ]
         },
         {
-          "id": "test10-q012",
+          "id": "kouki3-q012",
           "number": 12,
           "answer_language": "en",
-          "prompt_en": "First ( ) tend to stick in our minds.",
-          "prompt_ja": "第一印象は心に残りやすい。",
-          "choices": ["impression", "respect", "path", "log"],
-          "answer": "impression",
-          "tags": ["test-10", "cset2600", "1351-1500"]
+          "prompt_en": "You can draw a ( ) line of the land by connecting these dots.",
+          "prompt_ja": "これらの点を結ぶことで、その土地の輪郭線を描くことができます。",
+          "choices": [
+            "moss",
+            "profile",
+            "stem",
+            "fortune"
+          ],
+          "answer": "profile",
+          "tags": [
+            "kouki-3",
+            "cset2600",
+            "1901-1950"
+          ]
         },
         {
-          "id": "test10-q013",
+          "id": "kouki3-q013",
           "number": 13,
           "answer_language": "en",
-          "prompt_en": "If you turn the handle ( ), the door will open.",
-          "prompt_ja": "ハンドルを時計回りに回せばドアが開きます。",
-          "choices": ["upright", "altogether", "clockwise", "respectively"],
-          "answer": "clockwise",
-          "tags": ["test-10", "cset2600", "1351-1500"]
+          "prompt_en": "Leaves of a plant usually grow on a ( ).",
+          "prompt_ja": "通常、植物の葉は茎の上に生える。",
+          "choices": [
+            "petal",
+            "stem",
+            "moss",
+            "petrol"
+          ],
+          "answer": "stem",
+          "tags": [
+            "kouki-3",
+            "cset2600",
+            "1901-1950"
+          ]
         },
         {
-          "id": "test10-q014",
+          "id": "kouki3-q014",
           "number": 14,
           "answer_language": "en",
-          "prompt_en": "In that country, you can't drink alcohol ( ) of age.",
-          "prompt_ja": "その国では年齢にかかわらずお酒を飲むことはできません。",
-          "choices": ["regardless", "respectively", "altogether", "upright"],
-          "answer": "regardless",
-          "tags": ["test-10", "cset2600", "1351-1500"]
+          "prompt_en": "The bright color of ( ) attracts certain kinds of insects.",
+          "prompt_ja": "花びらの鮮やかな色が、ある種の昆虫を引き寄せる。",
+          "choices": [
+            "profiles",
+            "stems",
+            "petals",
+            "pollens"
+          ],
+          "answer": "petals",
+          "tags": [
+            "kouki-3",
+            "cset2600",
+            "1901-1950"
+          ]
         },
         {
-          "id": "test10-q015",
+          "id": "kouki3-q015",
           "number": 15,
           "answer_language": "en",
-          "prompt_en": "You should never smoke regardless of whether it's ( ) or illegal.",
-          "prompt_ja": "合法か違法かに関わらず、決してタバコは吸うべきではない。",
-          "choices": ["gentle", "legal", "critical", "thermal"],
-          "answer": "legal",
-          "tags": ["test-10", "cset2600", "1351-1500"]
+          "prompt_en": "( ) is a kind of plant, but it has no roots, stems or leaves.",
+          "prompt_ja": "苔は植物の一種だが、根も茎も葉も持たない。",
+          "choices": [
+            "Pollen",
+            "Weed",
+            "Moss",
+            "Petal"
+          ],
+          "answer": "Moss",
+          "tags": [
+            "kouki-3",
+            "cset2600",
+            "1901-1950"
+          ]
         },
         {
-          "id": "test10-q016",
+          "id": "kouki3-q016",
           "number": 16,
           "answer_language": "en",
-          "prompt_en": "The country is in a ( ) situation after the terrorist attack.",
-          "prompt_ja": "テロ攻撃の後、その国は危機的状況になっている。",
-          "choices": ["critical", "vast", "legal", "crucial"],
-          "answer": "critical",
-          "tags": ["test-10", "cset2600", "1351-1500"]
+          "prompt_en": "He began a new ( ) with a loan from a bank.",
+          "prompt_ja": "彼は銀行から融資を受けて新しい事業を始めた。",
+          "choices": [
+            "corporation",
+            "circumstance",
+            "category",
+            "enterprise"
+          ],
+          "answer": "enterprise",
+          "tags": [
+            "kouki-3",
+            "cset2600",
+            "1901-1950"
+          ]
         },
         {
-          "id": "test10-q017",
+          "id": "kouki3-q017",
           "number": 17,
           "answer_language": "en",
-          "prompt_en": "Never forget to check tools ( ) to using them.",
-          "prompt_ja": "道具を使う前には点検を忘れないこと。",
-          "choices": ["senior", "prior", "nearby", "fertile"],
-          "answer": "prior",
-          "tags": ["test-10", "cset2600", "1351-1500"]
+          "prompt_en": "One ( ) is roughly equal to 4 liters.",
+          "prompt_ja": "１ガロンはおおざっぱに言って４リットルです。",
+          "choices": [
+            "grease",
+            "grin",
+            "gallon",
+            "glue"
+          ],
+          "answer": "gallon",
+          "tags": [
+            "kouki-3",
+            "cset2600",
+            "1901-1950"
+          ]
         },
         {
-          "id": "test10-q018",
+          "id": "kouki3-q018",
           "number": 18,
           "answer_language": "en",
-          "prompt_en": "My wife is eight months ( ).",
-          "prompt_ja": "私の妻は妊娠８ヶ月です。",
-          "choices": ["pregnant", "sterile", "sperm", "fertile"],
-          "answer": "pregnant",
-          "tags": ["test-10", "cset2600", "1351-1500"]
+          "prompt_en": "In a library, books are arranged by ( ).",
+          "prompt_ja": "図書館では、本はカテゴリー順に並べられている。",
+          "choices": [
+            "category",
+            "circumstance",
+            "perspective",
+            "appendix"
+          ],
+          "answer": "category",
+          "tags": [
+            "kouki-3",
+            "cset2600",
+            "1901-1950"
+          ]
         },
         {
-          "id": "test10-q019",
+          "id": "kouki3-q019",
           "number": 19,
           "answer_language": "en",
-          "prompt_en": "We have to ( ) the program to fit the customer's request.",
-          "prompt_ja": "顧客の要求に合わせるためにプログラムを修正する必要がある。",
-          "choices": ["modify", "pretend", "mount", "exchange"],
-          "answer": "modify",
-          "tags": ["test-10", "cset2600", "1351-1500"]
+          "prompt_en": "We get ( ) from the food we eat every day.",
+          "prompt_ja": "私たちは毎日食べる食物から栄養を摂取する。",
+          "choices": [
+            "digest",
+            "ingredient",
+            "impurity",
+            "nutrition"
+          ],
+          "answer": "nutrition",
+          "tags": [
+            "kouki-3",
+            "cset2600",
+            "1901-1950"
+          ]
         },
         {
-          "id": "test10-q020",
+          "id": "kouki3-q020",
           "number": 20,
           "answer_language": "en",
-          "prompt_en": "The use of this new drug has not been ( ).",
-          "prompt_ja": "この新薬の使用はまだ承認されていない。",
-          "choices": ["modified", "approved", "refused", "blamed"],
-          "answer": "approved",
-          "tags": ["test-10", "cset2600", "1351-1500"]
+          "prompt_en": "This mathematical formula is ( ) to the dimensions for each part.",
+          "prompt_ja": "この数式が各部分の寸法と関連している。",
+          "choices": [
+            "relevant",
+            "comprehensive",
+            "extinct",
+            "objective"
+          ],
+          "answer": "relevant",
+          "tags": [
+            "kouki-3",
+            "cset2600",
+            "1901-1950"
+          ]
         },
         {
-          "id": "test10-q021",
+          "id": "kouki3-q021",
           "number": 21,
           "answer_language": "en",
-          "prompt_en": "Some insects ( ) to be objects like twigs or leaves.",
-          "prompt_ja": "木や枝の葉のような物体のふりをする虫がいる。",
-          "choices": ["hide", "pretend", "blow", "bother"],
-          "answer": "pretend",
-          "tags": ["test-10", "cset2600", "1351-1500"]
+          "prompt_en": "The famous painter's work was set in a ( ) wooden frame.",
+          "prompt_ja": "その有名な画家の作品は簡素な木の額に入っていた。",
+          "choices": [
+            "extinct",
+            "plain",
+            "subtle",
+            "raw"
+          ],
+          "answer": "plain",
+          "tags": [
+            "kouki-3",
+            "cset2600",
+            "1901-1950"
+          ]
         },
         {
-          "id": "test10-q022",
+          "id": "kouki3-q022",
           "number": 22,
           "answer_language": "en",
-          "prompt_en": "She is one of the pioneers who ( ) the deep seas.",
-          "prompt_ja": "彼女は深海を探検した先駆者の一人だ。",
-          "choices": ["dumped", "bothered", "explored", "fertilized"],
-          "answer": "explored",
-          "tags": ["test-10", "cset2600", "1351-1500"]
+          "prompt_en": "This table shows the ( ) data of the previous questionnaire's results.",
+          "prompt_ja": "この表は前回のアンケート結果の生データを示している。",
+          "choices": [
+            "comprehensive",
+            "objective",
+            "raw",
+            "primary"
+          ],
+          "answer": "raw",
+          "tags": [
+            "kouki-3",
+            "cset2600",
+            "1901-1950"
+          ]
         },
         {
-          "id": "test10-q023",
+          "id": "kouki3-q023",
           "number": 23,
           "answer_language": "en",
-          "prompt_en": "The ball's path had the shape of a ( ).",
-          "prompt_ja": "そのボールの軌跡は放物線の形をしていた。",
-          "choices": ["parabola", "comet", "flame", "disaster"],
-          "answer": "parabola",
-          "tags": ["test-10", "cset2600", "1351-1500"]
+          "prompt_en": "There is a ( ) difference in meaning between the two words.",
+          "prompt_ja": "その２つの単語の間には微妙な意味の違いがある。",
+          "choices": [
+            "subtle",
+            "confident",
+            "keen",
+            "relevant"
+          ],
+          "answer": "subtle",
+          "tags": [
+            "kouki-3",
+            "cset2600",
+            "1901-1950"
+          ]
         },
         {
-          "id": "test10-q024",
+          "id": "kouki3-q024",
           "number": 24,
           "answer_language": "en",
-          "prompt_en": "There are still many unknown ( ) on earth.",
-          "prompt_ja": "地球上にはまだ未知の生き物がたくさんいる。",
-          "choices": ["mammal", "reptile", "creatures", "threat"],
-          "answer": "creatures",
-          "tags": ["test-10", "cset2600", "1351-1500"]
+          "prompt_en": "This new software will ( ) all the problems we have had.",
+          "prompt_ja": "この新しいソフトはこれまで私たちが抱えてきた問題をすべて解決してくれるだろう。",
+          "choices": [
+            "accompany",
+            "resolve",
+            "confine",
+            "shrink"
+          ],
+          "answer": "resolve",
+          "tags": [
+            "kouki-3",
+            "cset2600",
+            "1901-1950"
+          ]
         },
         {
-          "id": "test10-q025",
+          "id": "kouki3-q025",
           "number": 25,
           "answer_language": "en",
-          "prompt_en": "We can't ( ) all the information on the Internet.",
-          "prompt_ja": "インターネット上の情報を全て信用するわけにはいかない。",
-          "choices": ["entitle", "trust", "classify", "split"],
-          "answer": "trust",
-          "tags": ["test-10", "cset2600", "1351-1500"]
+          "prompt_en": "We should ( ) the topic of today's meeting to domestic issues.",
+          "prompt_ja": "今日の会議の話題は国内の問題に限定すべきだ。",
+          "choices": [
+            "shrink",
+            "confine",
+            "impose",
+            "interpret"
+          ],
+          "answer": "confine",
+          "tags": [
+            "kouki-3",
+            "cset2600",
+            "1901-1950"
+          ]
         },
         {
-          "id": "test10-q026",
+          "id": "kouki3-q026",
           "number": 26,
           "answer_language": "ja",
-          "prompt_en": "Newspapers and broadcasting are traditional ways to obtain information.",
-          "prompt_ja": "新聞と放送は情報を ( ) ための伝統的な手段である。",
-          "choices": ["変換する", "保存する", "代用する", "手に入れる"],
-          "answer": "手に入れる",
-          "tags": ["test-10", "cset2600", "1351-1500"]
+          "prompt_en": "Environmental problems cannot be overcome without the citizens' continued efforts.",
+          "prompt_ja": "環境問題は市民の継続的な努力なくしては ( ) できない。",
+          "choices": [
+            "無視",
+            "認知",
+            "克服",
+            "解決"
+          ],
+          "answer": "克服",
+          "tags": [
+            "kouki-3",
+            "cset2600",
+            "1901-1950"
+          ]
         },
         {
-          "id": "test10-q027",
+          "id": "kouki3-q027",
           "number": 27,
           "answer_language": "ja",
-          "prompt_en": "He is regarded as the best candidate for next president.",
-          "prompt_ja": "彼は次の大統領候補の筆頭と ( ) 。",
-          "choices": ["保護されている", "定義されている", "みなされている", "採用されている"],
-          "answer": "みなされている",
-          "tags": ["test-10", "cset2600", "1351-1500"]
+          "prompt_en": "Most of the seats in the library are occupied by students.",
+          "prompt_ja": "図書館のほとんどの席が学生に ( ) されている。",
+          "choices": [
+            "用意",
+            "保証",
+            "占有",
+            "組織"
+          ],
+          "answer": "占有",
+          "tags": [
+            "kouki-3",
+            "cset2600",
+            "1901-1950"
+          ]
         },
         {
-          "id": "test10-q028",
+          "id": "kouki3-q028",
           "number": 28,
           "answer_language": "ja",
-          "prompt_en": "We decided to adopt a new method for building the bridge.",
-          "prompt_ja": "私たちはその端の建設に新工法を ( ) ことに決めた。",
-          "choices": ["採用する", "保護する", "変換する", "代用する"],
-          "answer": "採用する",
-          "tags": ["test-10", "cset2600", "1351-1500"]
+          "prompt_en": "The boss told me to organize a new team for developing the next product.",
+          "prompt_ja": "上司は私に、次の製品を開発するための新しいチームを ( ) ようにと言った。",
+          "choices": [
+            "組織する",
+            "模倣する",
+            "克服する",
+            "解散する"
+          ],
+          "answer": "組織する",
+          "tags": [
+            "kouki-3",
+            "cset2600",
+            "1901-1950"
+          ]
         },
         {
-          "id": "test10-q029",
+          "id": "kouki3-q029",
           "number": 29,
           "answer_language": "ja",
-          "prompt_en": "Kinetic energy is transformed into heat energy.",
-          "prompt_ja": "運動エネルギーは熱エネルギーに ( )。",
-          "choices": ["代用される", "みなされる", "保護される", "変換される"],
-          "answer": "変換される",
-          "tags": ["test-10", "cset2600", "1351-1500"]
+          "prompt_en": "That store guarantees all PCs for five years.",
+          "prompt_ja": "あの店は、パソコンはすべて5年間 ( ) してくれる。",
+          "choices": [
+            "保証",
+            "維持",
+            "融資",
+            "用意"
+          ],
+          "answer": "保証",
+          "tags": [
+            "kouki-3",
+            "cset2600",
+            "1901-1950"
+          ]
         },
         {
-          "id": "test10-q030",
+          "id": "kouki3-q030",
           "number": 30,
           "answer_language": "ja",
-          "prompt_en": "The new machine is twice as efficient as the old one.",
-          "prompt_ja": "この新しい機械は以前の機械より２倍 ( ) 。",
-          "choices": ["価値がある", "効率がよい", "影響がある", "重要である"],
-          "answer": "効率がよい",
-          "tags": ["test-10", "cset2600", "1351-1500"]
+          "prompt_en": "The nurse put a pad on my cut and bandaged it.",
+          "prompt_ja": "看護師は私の切り傷に ( ) をしてから包帯をした。",
+          "choices": [
+            "縫合",
+            "移植",
+            "当て布",
+            "消毒"
+          ],
+          "answer": "当て布",
+          "tags": [
+            "kouki-3",
+            "cset2600",
+            "1901-1950"
+          ]
         },
         {
-          "id": "test10-q031",
+          "id": "kouki3-q031",
           "number": 31,
           "answer_language": "ja",
-          "prompt_en": "You can simply apply the formula to solve this equation.",
-          "prompt_ja": "この方程式を解くには、単純に ( ) を適用すればよい。",
-          "choices": ["公式", "整数", "分数", "総和"],
-          "answer": "公式",
-          "tags": ["test-10", "cset2600", "1351-1500"]
+          "prompt_en": "I'm looking for an occupation in which I can operate vehicles.",
+          "prompt_ja": "私は乗り物を運転できるような ( ) を探しています。",
+          "choices": [
+            "組織",
+            "自由",
+            "職業",
+            "きっかけ"
+          ],
+          "answer": "職業",
+          "tags": [
+            "kouki-3",
+            "cset2600",
+            "1901-1950"
+          ]
         },
         {
-          "id": "test10-q032",
+          "id": "kouki3-q032",
           "number": 32,
           "answer_language": "ja",
-          "prompt_en": "First of all, you have to answer some fundamental questions.",
-          "prompt_ja": "まず最初に、いくつかの ( ) 質問に答えてください。",
-          "choices": ["ありふれた", "基本的な", "効果的な", "連続した"],
-          "answer": "基本的な",
-          "tags": ["test-10", "cset2600", "1351-1500"]
+          "prompt_en": "The wealth of that country largely depends on oil industry.",
+          "prompt_ja": "その国の ( ) は石油産業に負うところが大きい。",
+          "choices": [
+            "福祉",
+            "融資",
+            "富",
+            "財政"
+          ],
+          "answer": "富",
+          "tags": [
+            "kouki-3",
+            "cset2600",
+            "1901-1950"
+          ]
         },
         {
-          "id": "test10-q033",
+          "id": "kouki3-q033",
           "number": 33,
           "answer_language": "ja",
-          "prompt_en": "The annual conference will be held in March this year.",
-          "prompt_ja": "その ( ) 会議は今年は３月に開かれる。",
-          "choices": ["ありふれた", "不可欠な", "基本的な", "年１回の"],
-          "answer": "年１回の",
-          "tags": ["test-10", "cset2600", "1351-1500"]
+          "prompt_en": "The Euro is the single currency of the EU.",
+          "prompt_ja": "ユーロはEUの統一 ( ) だ。",
+          "choices": [
+            "財政",
+            "財産",
+            "借金",
+            "通貨"
+          ],
+          "answer": "通貨",
+          "tags": [
+            "kouki-3",
+            "cset2600",
+            "1901-1950"
+          ]
         },
         {
-          "id": "test10-q034",
+          "id": "kouki3-q034",
           "number": 34,
           "answer_language": "ja",
-          "prompt_en": "Let's have a look at other aspects of this matter.",
-          "prompt_ja": "この問題の別の ( ) を見てみましょう。",
-          "choices": ["概念", "内容", "機会", "側面"],
-          "answer": "側面",
-          "tags": ["test-10", "cset2600", "1351-1500"]
+          "prompt_en": "I am in debt to my father for a million yen.",
+          "prompt_ja": "私は父親に100万円の ( ) がある。",
+          "choices": [
+            "融資",
+            "借金",
+            "奨学金",
+            "貯金"
+          ],
+          "answer": "借金",
+          "tags": [
+            "kouki-3",
+            "cset2600",
+            "1901-1950"
+          ]
         },
         {
-          "id": "test10-q035",
+          "id": "kouki3-q035",
           "number": 35,
           "answer_language": "ja",
-          "prompt_en": "I'm very happy to have an opportunity to talk with you today.",
-          "prompt_ja": "今日はあなたとお話する ( ) を持ててとてもうれしいです。",
-          "choices": ["機会", "状況", "概念", "計画"],
-          "answer": "機会",
-          "tags": ["test-10", "cset2600", "1351-1500"]
+          "prompt_en": "The organization was set up for the welfare of old people.",
+          "prompt_ja": "この組織は老人の ( ) のために設立された。",
+          "choices": [
+            "利益",
+            "貧困",
+            "自由",
+            "福祉"
+          ],
+          "answer": "福祉",
+          "tags": [
+            "kouki-3",
+            "cset2600",
+            "1901-1950"
+          ]
         },
         {
-          "id": "test10-q036",
+          "id": "kouki3-q036",
           "number": 36,
           "answer_language": "ja",
-          "prompt_en": "Light stimulates plant growth.",
-          "prompt_ja": "光は植物の成長を ( )。",
-          "choices": ["遅らせる", "満足させる", "刺激する", "促進する"],
-          "answer": "刺激する",
-          "tags": ["test-10", "cset2600", "1351-1500"]
+          "prompt_en": "The young man made his fortune in the IT business.",
+          "prompt_ja": "その若者はITビジネスで ( ) を築いた。",
+          "choices": [
+            "成果",
+            "信用",
+            "借金",
+            "財産"
+          ],
+          "answer": "財産",
+          "tags": [
+            "kouki-3",
+            "cset2600",
+            "1901-1950"
+          ]
         },
         {
-          "id": "test10-q037",
+          "id": "kouki3-q037",
           "number": 37,
           "answer_language": "ja",
-          "prompt_en": "We have to assign unique names to each of these computers.",
-          "prompt_ja": "これらのコンピューターそれぞれに固有の名前を ( ) 必要がある。",
-          "choices": ["固定する", "承認する", "割り当てる", "設定する"],
-          "answer": "割り当てる",
-          "tags": ["test-10", "cset2600", "1351-1500"]
+          "prompt_en": "Insects transfer pollen from one flower to another.",
+          "prompt_ja": "昆虫が花から花へと ( ) を運ぶ。",
+          "choices": [
+            "病気",
+            "栄養",
+            "蜜",
+            "花粉"
+          ],
+          "answer": "花粉",
+          "tags": [
+            "kouki-3",
+            "cset2600",
+            "1901-1950"
+          ]
         },
         {
-          "id": "test10-q038",
+          "id": "kouki3-q038",
           "number": 38,
           "answer_language": "ja",
-          "prompt_en": "You must not ignore the warning signs on the machine.",
-          "prompt_ja": "機械の警告表示を ( ) はならない。",
-          "choices": ["無視して", "違反して", "発生させて", "遅らせて"],
-          "answer": "無視して",
-          "tags": ["test-10", "cset2600", "1351-1500"]
+          "prompt_en": "The success of the plan depends on the surrounding circumstances.",
+          "prompt_ja": "その計画が成功するかどうかは周囲の ( ) による。",
+          "choices": [
+            "財産",
+            "観点",
+            "組織",
+            "状況"
+          ],
+          "answer": "状況",
+          "tags": [
+            "kouki-3",
+            "cset2600",
+            "1901-1950"
+          ]
         },
         {
-          "id": "test10-q039",
+          "id": "kouki3-q039",
           "number": 39,
           "answer_language": "ja",
-          "prompt_en": "If a problem arises, please let me know as soon as possible.",
-          "prompt_ja": "問題が ( ) できるだけ早く知らせてください。",
-          "choices": ["発覚したら", "起きたら", "連続したら", "集中したら"],
-          "answer": "起きたら",
-          "tags": ["test-10", "cset2600", "1351-1500"]
+          "prompt_en": "They deal with a number of corporations.",
+          "prompt_ja": "かれらは多くの ( ) と取引している。",
+          "choices": [
+            "自治体",
+            "市場",
+            "株主",
+            "企業"
+          ],
+          "answer": "企業",
+          "tags": [
+            "kouki-3",
+            "cset2600",
+            "1901-1950"
+          ]
         },
         {
-          "id": "test10-q040",
+          "id": "kouki3-q040",
           "number": 40,
           "answer_language": "ja",
-          "prompt_en": "Be careful not to insult other people when you speak in public.",
-          "prompt_ja": "人前で話すときは人を ( ) しないように気をつけなさい。",
-          "choices": ["脅迫", "非難", "侮辱", "困惑"],
-          "answer": "侮辱",
-          "tags": ["test-10", "cset2600", "1351-1500"]
+          "prompt_en": "Various kinds of venture industries are developing in that country.",
+          "prompt_ja": "その国ではさまざまな種類の ( ) 産業が発展しつつある。",
+          "choices": [
+            "情報",
+            "ベンチャー",
+            "ロボット",
+            "中小"
+          ],
+          "answer": "ベンチャー",
+          "tags": [
+            "kouki-3",
+            "cset2600",
+            "1901-1950"
+          ]
         },
         {
-          "id": "test10-q041",
+          "id": "kouki3-q041",
           "number": 41,
           "answer_language": "ja",
-          "prompt_en": "His quick action saved the building from collapse.",
-          "prompt_ja": "彼の素早い行動によって建物の ( ) をまぬがれた。",
-          "choices": ["修理", "違反", "損傷", "崩壊"],
-          "answer": "崩壊",
-          "tags": ["test-10", "cset2600", "1351-1500"]
+          "prompt_en": "We can avoid the power crisis if the power plant works well.",
+          "prompt_ja": "その発電所がうまく稼働すれば電力 ( ) を回避できる。",
+          "choices": [
+            "状況",
+            "不足",
+            "変調",
+            "危機"
+          ],
+          "answer": "危機",
+          "tags": [
+            "kouki-3",
+            "cset2600",
+            "1901-1950"
+          ]
         },
         {
-          "id": "test10-q042",
+          "id": "kouki3-q042",
           "number": 42,
           "answer_language": "ja",
-          "prompt_en": "He has been promoted to the chief of the branch.",
-          "prompt_ja": "彼は ( ) の主任に昇進した。",
-          "choices": ["本店", "支店", "経営", "現場"],
-          "answer": "支店",
-          "tags": ["test-10", "cset2600", "1351-1500"]
+          "prompt_en": "This engine burns petrol to produce power.",
+          "prompt_ja": "このエンジンは ( ) を燃やして動力を生み出す。",
+          "choices": [
+            "重油",
+            "ガソリン",
+            "軽油",
+            "灯油"
+          ],
+          "answer": "ガソリン",
+          "tags": [
+            "kouki-3",
+            "cset2600",
+            "1901-1950"
+          ]
         },
         {
-          "id": "test10-q043",
+          "id": "kouki3-q043",
           "number": 43,
           "answer_language": "ja",
-          "prompt_en": "The new management system contributed to reducing overall cost of production.",
-          "prompt_ja": "新しい管理システムは ( ) 生産コストの削減に貢献した。",
-          "choices": ["効率的な", "決定的な", "全体的な", "莫大な"],
-          "answer": "全体的な",
-          "tags": ["test-10", "cset2600", "1351-1500"]
+          "prompt_en": "See the appendix at the end.",
+          "prompt_ja": "巻末の ( ) を参照してください。",
+          "choices": [
+            "索引",
+            "参考文献",
+            "付録",
+            "裏表紙"
+          ],
+          "answer": "付録",
+          "tags": [
+            "kouki-3",
+            "cset2600",
+            "1901-1950"
+          ]
         },
         {
-          "id": "test10-q044",
+          "id": "kouki3-q044",
           "number": 44,
           "answer_language": "ja",
-          "prompt_en": "Fertile land allows fruits and vegetables to grow well.",
-          "prompt_ja": "( ) 土地では果物や野菜が良く育つ。",
-          "choices": ["微生物がいる", "肥沃な", "広大な", "手入れされた"],
-          "answer": "肥沃な",
-          "tags": ["test-10", "cset2600", "1351-1500"]
+          "prompt_en": "Let's look at the problem from a different perspective.",
+          "prompt_ja": "その問題を別の ( ) から見てみよう。",
+          "choices": [
+            "組織",
+            "観点",
+            "財産",
+            "状況"
+          ],
+          "answer": "観点",
+          "tags": [
+            "kouki-3",
+            "cset2600",
+            "1901-1950"
+          ]
         },
         {
-          "id": "test10-q045",
+          "id": "kouki3-q045",
           "number": 45,
           "answer_language": "ja",
-          "prompt_en": "He refused the committee's request to resign.",
-          "prompt_ja": "彼は委員会の辞任要求を ( )。",
-          "choices": ["修正した", "拒否した", "非難した", "承認した"],
-          "answer": "拒否した",
-          "tags": ["test-10", "cset2600", "1351-1500"]
+          "prompt_en": "Objective and logical thinking is required especially in science.",
+          "prompt_ja": "( ) かつ論理的な思考は、特に科学において必要だ。",
+          "choices": [
+            "包括的",
+            "主観的",
+            "総括的",
+            "客観的"
+          ],
+          "answer": "客観的",
+          "tags": [
+            "kouki-3",
+            "cset2600",
+            "1901-1950"
+          ]
         },
         {
-          "id": "test10-q046",
+          "id": "kouki3-q046",
           "number": 46,
           "answer_language": "ja",
-          "prompt_en": "People blamed the mayor for his approving of the tax increase.",
-          "prompt_ja": "人々は市長が増税を認めたことを ( )。",
-          "choices": ["修正した", "承認した", "非難した", "拒否した"],
-          "answer": "非難した",
-          "tags": ["test-10", "cset2600", "1351-1500"]
+          "prompt_en": "Many kinds of species are in danger of becoming extinct.",
+          "prompt_ja": "多くの生物種が ( ) の危機にある。",
+          "choices": [
+            "繁栄",
+            "絶滅",
+            "突然変異",
+            "再生"
+          ],
+          "answer": "絶滅",
+          "tags": [
+            "kouki-3",
+            "cset2600",
+            "1901-1950"
+          ]
         },
         {
-          "id": "test10-q047",
+          "id": "kouki3-q047",
           "number": 47,
           "answer_language": "ja",
-          "prompt_en": "Someone dumps garbage into the river and bothers people in the area.",
-          "prompt_ja": "ゴミを川に ( ) 地域の住民に迷惑をかけている人がいる。",
-          "choices": ["放置して", "投げ捨てて", "流して", "持ち込んで"],
-          "answer": "投げ捨てて",
-          "tags": ["test-10", "cset2600", "1351-1500"]
+          "prompt_en": "All the nations reached a comprehensive agreement at the congress.",
+          "prompt_ja": "その会議ではすべての国が ( ) 合意に達した。",
+          "choices": [
+            "適切な",
+            "客観的な",
+            "包括的な",
+            "簡素な"
+          ],
+          "answer": "包括的な",
+          "tags": [
+            "kouki-3",
+            "cset2600",
+            "1901-1950"
+          ]
         },
         {
-          "id": "test10-q048",
+          "id": "kouki3-q048",
           "number": 48,
           "answer_language": "ja",
-          "prompt_en": "The people in that area are always under threat of war.",
-          "prompt_ja": "その地域の人々は常に戦争の ( ) にさらされている。",
-          "choices": ["勃発", "災害", "最前線", "脅威"],
-          "answer": "脅威",
-          "tags": ["test-10", "cset2600", "1351-1500"]
+          "prompt_en": "The firefighters extinguished the forest fire in a few hours.",
+          "prompt_ja": "消防士たちは山火事を数時間で ( )。",
+          "choices": [
+            "克服した",
+            "消火した",
+            "支配した",
+            "解決した"
+          ],
+          "answer": "消火した",
+          "tags": [
+            "kouki-3",
+            "cset2600",
+            "1901-1950"
+          ]
         },
         {
-          "id": "test10-q049",
+          "id": "kouki3-q049",
           "number": 49,
           "answer_language": "ja",
-          "prompt_en": "Reptile has existed on earth long before mammals appeared.",
-          "prompt_ja": "( ) は哺乳類が出現するよりずっと以前に地球上に存在した。",
-          "choices": ["脊椎動物", "甲殻類", "恐竜", "爬虫類"],
-          "answer": "爬虫類",
-          "tags": ["test-10", "cset2600", "1351-1500"]
+          "prompt_en": "Decreases in temperature of a substance are usually accompanied by decreases in volume.",
+          "prompt_ja": "通常、物質の温度低下は体積の減少を ( )。",
+          "choices": [
+            "誘導する",
+            "伴う",
+            "促進する",
+            "阻害する"
+          ],
+          "answer": "伴う",
+          "tags": [
+            "kouki-3",
+            "cset2600",
+            "1901-1950"
+          ]
         },
         {
-          "id": "test10-q050",
+          "id": "kouki3-q050",
           "number": 50,
           "answer_language": "ja",
-          "prompt_en": "The company split the stock.",
-          "prompt_ja": "その会社は株式を ( )。",
-          "choices": ["公開した", "分割した", "買収した", "購入した"],
-          "answer": "分割した",
-          "tags": ["test-10", "cset2600", "1351-1500"]
-        }
-      ]
-    },
-    {
-      "id": "test-11",
-      "title": "R8(AZ1)_COSET2600 単語テスト［1501番～1650番］",
-      "questions": [
-        {
-          "id": "test11-q001",
-          "number": 1,
-          "answer_language": "en",
-          "prompt_en": "The executives of this company have their own ( ).",
-          "prompt_ja": "この会社の重役たちはそれぞれ自分の秘書がいる。",
-          "choices": ["facilities", "cooperations", "clerks", "secretaries"],
-          "answer": "secretaries",
-          "tags": ["test-11", "cset2600", "1501-1650"]
-        },
-        {
-          "id": "test11-q002",
-          "number": 2,
-          "answer_language": "en",
-          "prompt_en": "Safety is the first ( ) in public transportation.",
-          "prompt_ja": "安全は公共交通機関における最優先事項だ。",
-          "choices": ["intelligence", "instinct", "cabinet", "priority"],
-          "answer": "priority",
-          "tags": ["test-11", "cset2600", "1501-1650"]
-        },
-        {
-          "id": "test11-q003",
-          "number": 3,
-          "answer_language": "en",
-          "prompt_en": "We walked along the underground ( ).",
-          "prompt_ja": "私たちは地下の廊下を歩いていた。",
-          "choices": ["corridor", "stair", "pillar", "ceiling"],
-          "answer": "corridor",
-          "tags": ["test-11", "cset2600", "1501-1650"]
-        },
-        {
-          "id": "test11-q004",
-          "number": 4,
-          "answer_language": "en",
-          "prompt_en": "Thermal power stations have very tall ( ).",
-          "prompt_ja": "火力発電所にはとても高い煙突がある。",
-          "choices": ["chimney", "compost", "architecture", "wedge"],
-          "answer": "chimney",
-          "tags": ["test-11", "cset2600", "1501-1650"]
-        },
-        {
-          "id": "test11-q005",
-          "number": 5,
-          "answer_language": "en",
-          "prompt_en": "Operation of the plant is ( ) due to a power failure.",
-          "prompt_ja": "停電のために工場の操業が中断されている。",
-          "choices": ["consumed", "tackled", "suspended", "revised"],
-          "answer": "suspended",
-          "tags": ["test-11", "cset2600", "1501-1650"]
-        },
-        {
-          "id": "test11-q006",
-          "number": 6,
-          "answer_language": "en",
-          "prompt_en": "Many of the world's children suffer from ( ).",
-          "prompt_ja": "世界中のたくさんの子供たちが飢餓で苦しんでいる。",
-          "choices": ["paste", "hunger", "antigen", "dignity"],
-          "answer": "hunger",
-          "tags": ["test-11", "cset2600", "1501-1650"]
-        },
-        {
-          "id": "test11-q007",
-          "number": 7,
-          "answer_language": "en",
-          "prompt_en": "Some kinds of ( ) are useful in studying genetic engineering.",
-          "prompt_ja": "ある種の微生物は遺伝子工学の研究において有用である。",
-          "choices": ["antibody", "antigen", "organism", "enzyme"],
-          "answer": "organism",
-          "tags": ["test-11", "cset2600", "1501-1650"]
-        },
-        {
-          "id": "test11-q008",
-          "number": 8,
-          "answer_language": "en",
-          "prompt_en": "You should always apply the ( ) method for the experiment.",
-          "prompt_ja": "実際には常に適切な方法を用いなければならない。",
-          "choices": ["polite", "immediate", "enormous", "appropriate"],
-          "answer": "appropriate",
-          "tags": ["test-11", "cset2600", "1501-1650"]
-        },
-        {
-          "id": "test11-q009",
-          "number": 9,
-          "answer_language": "en",
-          "prompt_en": "The training of a/an ( ) is very hard.",
-          "prompt_ja": "宇宙飛行士の訓練は非常に厳しい。",
-          "choices": ["astronaut", "astronomy", "philosophy", "shuttle"],
-          "answer": "astronaut",
-          "tags": ["test-11", "cset2600", "1501-1650"]
-        },
-        {
-          "id": "test11-q010",
-          "number": 10,
-          "answer_language": "en",
-          "prompt_en": "There is no war which has no ( ).",
-          "prompt_ja": "犠牲者のいない戦争などない。",
-          "choices": ["assessments", "victims", "expenditures", "boundaries"],
-          "answer": "victims",
-          "tags": ["test-11", "cset2600", "1501-1650"]
-        },
-        {
-          "id": "test11-q011",
-          "number": 11,
-          "answer_language": "en",
-          "prompt_en": "Applying just one drop of oil can ( ) the gears.",
-          "prompt_ja": "油を１滴さすだけで、それらのギアを潤滑させることができます。",
-          "choices": ["cite", "lubricate", "inject", "rob"],
-          "answer": "lubricate",
-          "tags": ["test-11", "cset2600", "1501-1650"]
-        },
-        {
-          "id": "test11-q012",
-          "number": 12,
-          "answer_language": "en",
-          "prompt_en": "Please do not ( ) your pets once you start keeping them.",
-          "prompt_ja": "いったんペットを飼ったなら捨てるのはやめてください。",
-          "choices": ["excite", "employ", "reject", "abandon"],
-          "answer": "abandon",
-          "tags": ["test-11", "cset2600", "1501-1650"]
-        },
-        {
-          "id": "test11-q013",
-          "number": 13,
-          "answer_language": "en",
-          "prompt_en": "( ) for peace in the region are not very bright.",
-          "prompt_ja": "その地域が平和になるという見通しはあまり明るくない。",
-          "choices": ["Prospects", "Symptoms", "Appetites", "Wages"],
-          "answer": "Prospects",
-          "tags": ["test-11", "cset2600", "1501-1650"]
-        },
-        {
-          "id": "test11-q014",
-          "number": 14,
-          "answer_language": "en",
-          "prompt_en": "The ( ) of hydrogen produces no carbon dioxide.",
-          "prompt_ja": "水素の燃焼では二酸化炭素は発生しない。",
-          "choices": ["symptom", "appetite", "fever", "combustion"],
-          "answer": "combustion",
-          "tags": ["test-11", "cset2600", "1501-1650"]
-        },
-        {
-          "id": "test11-q015",
-          "number": 15,
-          "answer_language": "en",
-          "prompt_en": "Fever can be a ( ) of a serious disease.",
-          "prompt_ja": "発熱が重大な病気の徴候である可能性がある。",
-          "choices": ["combustion", "membran", "symptom", "appetite"],
-          "answer": "symptom",
-          "tags": ["test-11", "cset2600", "1501-1650"]
-        },
-        {
-          "id": "test11-q016",
-          "number": 16,
-          "answer_language": "en",
-          "prompt_en": "The teacher explained the ( ) structure of a hard disk.",
-          "prompt_ja": "先生はハードディスクの内部構造を説明した。",
-          "choices": ["internal", "externa", "odd", "widsprea"],
-          "answer": "internal",
-          "tags": ["test-11", "cset2600", "1501-1650"]
-        },
-        {
-          "id": "test11-q017",
-          "number": 17,
-          "answer_language": "en",
-          "prompt_en": "The weather is fine today because the air is ( ).",
-          "prompt_ja": "大気が安定しているので今日は天気が良い。",
-          "choices": ["widespread", "sligh", "violent", "stable"],
-          "answer": "stable",
-          "tags": ["test-11", "cset2600", "1501-1650"]
-        },
-        {
-          "id": "test11-q018",
-          "number": 18,
-          "answer_language": "en",
-          "prompt_en": "The sensor ( ) the light from the remote star.",
-          "prompt_ja": "センサーが遠い星からの光をとらえた。",
-          "choices": ["capture", "posed", "appealed", "edited"],
-          "answer": "capture",
-          "tags": ["test-11", "cset2600", "1501-1650"]
-        },
-        {
-          "id": "test11-q019",
-          "number": 19,
-          "answer_language": "en",
-          "prompt_en": "The company ( ) bridges and dams throughout Japan.",
-          "prompt_ja": "その会社は日本の至る所で橋やダムを建設している。",
-          "choices": ["competes", "persuade", "constructs", "adapts"],
-          "answer": "constructs",
-          "tags": ["test-11", "cset2600", "1501-1650"]
-        },
-        {
-          "id": "test11-q020",
-          "number": 20,
-          "answer_language": "en",
-          "prompt_en": "They are doing research on purifying ( ) water.",
-          "prompt_ja": "彼らは汚染された水を浄化する研究をしている。",
-          "choices": ["registered", "contaminated", "accquired", "endangere"],
-          "answer": "contaminated",
-          "tags": ["test-11", "cset2600", "1501-1650"]
-        },
-        {
-          "id": "test11-q021",
-          "number": 21,
-          "answer_language": "en",
-          "prompt_en": "How can I ( ) programming skills?",
-          "prompt_ja": "どうすればプログラミングの技術が習得できますか。",
-          "choices": ["persuade", "compet", "adapt", "acquire"],
-          "answer": "acquire",
-          "tags": ["test-11", "cset2600", "1501-1650"]
-        },
-        {
-          "id": "test11-q022",
-          "number": 22,
-          "answer_language": "en",
-          "prompt_en": "No ( ) reactors have yet been in practical use.",
-          "prompt_ja": "核融合炉はまだ実用化されていない。",
-          "choices": ["crack", "fusion", "fission", "defect"],
-          "answer": "fusion",
-          "tags": ["test-11", "cset2600", "1501-1650"]
-        },
-        {
-          "id": "test11-q023",
-          "number": 23,
-          "answer_language": "en",
-          "prompt_en": "The ( ) between the political leaders was very constructive.",
-          "prompt_ja": "その政治リーダーたちの対話は非常に建設的だった。",
-          "choices": ["dialogu", "nes", "sigh", "disorder"],
-          "answer": "dialogu",
-          "tags": ["test-11", "cset2600", "1501-1650"]
-        },
-        {
-          "id": "test11-q024",
-          "number": 24,
-          "answer_language": "en",
-          "prompt_en": "( ) troops have been fighting with the anti-government forces for weeks.",
-          "prompt_ja": "連合軍はもう数週間にわたって反政府軍と戦っている。",
-          "choices": ["Nest", "Nav", "Coalition", "Arm"],
-          "answer": "Coalition",
-          "tags": ["test-11", "cset2600", "1501-1650"]
-        },
-        {
-          "id": "test11-q025",
-          "number": 25,
-          "answer_language": "en",
-          "prompt_en": "My best friend was once my ( ).",
-          "prompt_ja": "私の一番の親友は、かつては私の敵だった。",
-          "choices": ["nav", "comflict", "arm", "enemy"],
-          "answer": "enemy",
-          "tags": ["test-11", "cset2600", "1501-1650"]
-        },
-        {
-          "id": "test11-q026",
-          "number": 26,
-          "answer_language": "ja",
-          "prompt_en": "All the facilities of the library are open to everybody.",
-          "prompt_ja": "その図書館の ( ) は全て誰でも利用できます。",
-          "choices": ["係員", "施設", "戸棚", "家具"],
-          "answer": "施設",
-          "tags": ["test-11", "cset2600", "1501-1650"]
-        },
-        {
-          "id": "test11-q027",
-          "number": 27,
-          "answer_language": "ja",
-          "prompt_en": "Everything on today's agenda is of great importance.",
-          "prompt_ja": "今日の ( ) になっていることはすべてとても重要だ。",
-          "choices": ["会議", "設定", "優先事項", "議題"],
-          "answer": "議題",
-          "tags": ["test-11", "cset2600", "1501-1650"]
-        },
-        {
-          "id": "test11-q028",
-          "number": 28,
-          "answer_language": "ja",
-          "prompt_en": "All creatures have an instinct for survival.",
-          "prompt_ja": "すべての生き物は生きるための ( ) を持っている。",
-          "choices": ["強さ", "知能", "戦略", "本能"],
-          "answer": "本能",
-          "tags": ["test-11", "cset2600", "1501-1650"]
-        },
-        {
-          "id": "test11-q029",
-          "number": 29,
-          "answer_language": "ja",
-          "prompt_en": "No pillars are used to support the ceiling of the dome.",
-          "prompt_ja": "そのドームの ( ) を支えるのに柱は１本も使われていない。",
-          "choices": ["出入口", "屋根", "階段", "廊下"],
-          "answer": "屋根",
-          "tags": ["test-11", "cset2600", "1501-1650"]
-        },
-        {
-          "id": "test11-q030",
-          "number": 30,
-          "answer_language": "ja",
-          "prompt_en": "The administration building is next to the library.",
-          "prompt_ja": "( ) 棟は図書館のとなりにあります。",
-          "choices": ["建築", "管理", "実験", "施設"],
-          "answer": "管理",
-          "tags": ["test-11", "cset2600", "1501-1650"]
-        },
-        {
-          "id": "test11-q031",
-          "number": 31,
-          "answer_language": "ja",
-          "prompt_en": "She insisted that we should change the plan.",
-          "prompt_ja": "彼女は、我々は計画を変えるべきだと ( )。",
-          "choices": ["主張した", "評価した", "見直した", "表した"],
-          "answer": "主張した",
-          "tags": ["test-11", "cset2600", "1501-1650"]
-        },
-        {
-          "id": "test11-q032",
-          "number": 32,
-          "answer_language": "ja",
-          "prompt_en": "Before the experiment, you have to gather all the equipment you will need.",
-          "prompt_ja": "実験の前に、必要になる装置をすべて ( ) おく必要がある。",
-          "choices": ["吊るして", "見直して", "貼り付けて", "集めて"],
-          "answer": "集めて",
-          "tags": ["test-11", "cset2600", "1501-1650"]
-        },
-        {
-          "id": "test11-q033",
-          "number": 33,
-          "answer_language": "ja",
-          "prompt_en": "This heating system consumes a hundred liters of oil a day.",
-          "prompt_ja": "この暖房システムは１日100リットルの石油を ( )。",
-          "choices": ["捨てる", "吸収する", "分離する", "消費する"],
-          "answer": "消費する",
-          "tags": ["test-11", "cset2600", "1501-1650"]
-        },
-        {
-          "id": "test11-q034",
-          "number": 34,
-          "answer_language": "ja",
-          "prompt_en": "The purpose of this experiment is to evaluate the effect of the new drug.",
-          "prompt_ja": "この実験の目的は新しい薬の効果を ( ) ことです。",
-          "choices": ["主張する", "達成する", "見直す", "評価する"],
-          "answer": "評価する",
-          "tags": ["test-11", "cset2600", "1501-1650"]
-        },
-        {
-          "id": "test11-q035",
-          "number": 35,
-          "answer_language": "ja",
-          "prompt_en": "I have an enormous amount of work to finish by Monday.",
-          "prompt_ja": "月曜日までに終えなければならない ( ) 量の仕事がある。",
-          "choices": ["適切な", "異常な", "膨大な", "固有の"],
-          "answer": "膨大な",
-          "tags": ["test-11", "cset2600", "1501-1650"]
-        },
-        {
-          "id": "test11-q036",
-          "number": 36,
-          "answer_language": "ja",
-          "prompt_en": "Our philosophy is to keep providing the best products.",
-          "prompt_ja": "私たちの ( ) は常に最良の製品を提供し続けるということです。",
-          "choices": ["理念", "魂", "心構え", "見通し"],
-          "answer": "理念",
-          "tags": ["test-11", "cset2600", "1501-1650"]
-        },
-        {
-          "id": "test11-q037",
-          "number": 37,
-          "answer_language": "ja",
-          "prompt_en": "A damage assessment was carefully carried our after the earthquake.",
-          "prompt_ja": "地震の後、損害 ( ) が入念に行われた。",
-          "choices": ["査定", "支出", "編成", "登録"],
-          "answer": "査定",
-          "tags": ["test-11", "cset2600", "1501-1650"]
-        },
-        {
-          "id": "test11-q038",
-          "number": 38,
-          "answer_language": "ja",
-          "prompt_en": "The government should not cut expenditure on education.",
-          "prompt_ja": "政府は教育への ( ) を削減すべきではない 。",
-          "choices": ["収入", "支出", "投資", "協力"],
-          "answer": "支出",
-          "tags": ["test-11", "cset2600", "1501-1650"]
-        },
-        {
-          "id": "test11-q039",
-          "number": 39,
-          "answer_language": "ja",
-          "prompt_en": "Male and female birds can be distinguished by several characteristics.",
-          "prompt_ja": "鳥のオスとメスはいくつかの特徴によって ( ) ことができる。",
-          "choices": ["見分ける", "配列する", "分離する", "参照する"],
-          "answer": "見分ける",
-          "tags": ["test-11", "cset2600", "1501-1650"]
-        },
-        {
-          "id": "test11-q040",
-          "number": 40,
-          "answer_language": "ja",
-          "prompt_en": "Please refer to the operation manual when you find something wrong with the machine.",
-          "prompt_ja": "機会に何か異常を発見したときは、取扱説明書を ( ) ください。",
-          "choices": ["参照して", "引用して", "識別して", "判断して"],
-          "answer": "参照して",
-          "tags": ["test-11", "cset2600", "1501-1650"]
-        },
-        {
-          "id": "test11-q041",
-          "number": 41,
-          "answer_language": "ja",
-          "prompt_en": "We succeeded in isolating the virus from the blood of the patient.",
-          "prompt_ja": "私たちはその患者の血液からウイルスを ( ) ことに成功した。",
-          "choices": ["奪う", "分離する", "減衰する", "見分ける"],
-          "answer": "分離する",
-          "tags": ["test-11", "cset2600", "1501-1650"]
-        },
-        {
-          "id": "test11-q042",
-          "number": 42,
-          "answer_language": "ja",
-          "prompt_en": "The committee rejected our proposal.",
-          "prompt_ja": "委員会は我々の提案を ( )。",
-          "choices": ["却下した", "参照した", "判断した", "引用した"],
-          "answer": "却下した",
-          "tags": ["test-11", "cset2600", "1501-1650"]
-        },
-        {
-          "id": "test11-q043",
-          "number": 43,
-          "answer_language": "ja",
-          "prompt_en": "These data imply that our experiment succeeded.",
-          "prompt_ja": "これらのデータは我々の実験が成功したことを ( )。",
-          "choices": ["主張している", "言及している", "評価している", "意味している"],
-          "answer": "意味している",
-          "tags": ["test-11", "cset2600", "1501-1650"]
-        },
-        {
-          "id": "test11-q044",
-          "number": 44,
-          "answer_language": "ja",
-          "prompt_en": "She showed a positive attitude toward the plan.",
-          "prompt_ja": "彼女はその計画に対して積極的な ( ) を示した。",
-          "choices": ["態度", "評価", "見通し", "徴候"],
-          "answer": "態度",
-          "tags": ["test-11", "cset2600", "1501-1650"]
-        },
-        {
-          "id": "test11-q045",
-          "number": 45,
-          "answer_language": "ja",
-          "prompt_en": "This PC has no external memory drives.",
-          "prompt_ja": "このパソコンには ( ) 記憶装置はついていません。",
-          "choices": ["画像", "内臓", "外部", "大容量"],
-          "answer": "外部",
-          "tags": ["test-11", "cset2600", "1501-1650"]
-        },
-        {
-          "id": "test11-q046",
-          "number": 46,
-          "answer_language": "ja",
-          "prompt_en": "There is a slight difference in color between the two prototypes.",
-          "prompt_ja": "その２つの試作品には ( ) 色の違いがある。",
-          "choices": ["決定的な", "幅広い", "最小の", "わずかな"],
-          "answer": "わずかな",
-          "tags": ["test-11", "cset2600", "1501-1650"]
-        },
-        {
-          "id": "test11-q047",
-          "number": 47,
-          "answer_language": "ja",
-          "prompt_en": "We persuaded him not to give up his job.",
-          "prompt_ja": "私たちは彼に仕事をやめないように ( )。",
-          "choices": ["説得した", "要求した", "強制した", "交渉した"],
-          "answer": "説得した",
-          "tags": ["test-11", "cset2600", "1501-1650"]
-        },
-        {
-          "id": "test11-q048",
-          "number": 48,
-          "answer_language": "ja",
-          "prompt_en": "A serious defect was found in the device.",
-          "prompt_ja": "装置に重大な ( ) が見つかった。",
-          "choices": ["不正", "裂け目", "欠陥", "汚染"],
-          "answer": "欠陥",
-          "tags": ["test-11", "cset2600", "1501-1650"]
-        },
-        {
-          "id": "test11-q049",
-          "number": 49,
-          "answer_language": "ja",
-          "prompt_en": "The foreign troops stayed in the country for peacekeeping operations.",
-          "prompt_ja": "外国の ( ) が平和維持活動のためにその国に駐留した。",
-          "choices": ["組合", "市民", "軍隊", "役人"],
-          "answer": "軍隊",
-          "tags": ["test-11", "cset2600", "1501-1650"]
-        },
-        {
-          "id": "test11-q050",
-          "number": 50,
-          "answer_language": "ja",
-          "prompt_en": "There have been conflicts between the two nations for years.",
-          "prompt_ja": "その２国間にはもう何年も ( ) が続いている。",
-          "choices": ["障害", "交渉", "戦争", "対立"],
-          "answer": "対立",
-          "tags": ["test-11", "cset2600", "1501-1650"]
+          "prompt_en": "Plastic films usually shrink when they are heated.",
+          "prompt_ja": "プラスチックのフィルムは熱するとたいてい ( )。",
+          "choices": [
+            "溶ける",
+            "変形する",
+            "縮む",
+            "燃える"
+          ],
+          "answer": "縮む",
+          "tags": [
+            "kouki-3",
+            "cset2600",
+            "1901-1950"
+          ]
         }
       ]
     }

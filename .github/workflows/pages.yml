@@ -2,7 +2,7 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: ["zenki-kimatsu"]
+    branches: ["kouki-chukan"]
   workflow_dispatch:
 
 permissions:

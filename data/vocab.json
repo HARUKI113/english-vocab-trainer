@@ -2868,6 +2868,962 @@
           ]
         }
       ]
+    },
+    {
+      "id": "kouki-4",
+      "title": "R8(AZ1)_COSET2600 単語テスト［1951番～2000番］（後期中間）",
+      "questions": [
+        {
+          "id": "kouki4-q001",
+          "number": 1,
+          "answer_language": "en",
+          "prompt_en": "The judge ( ) a fine of 400 dollars on the speeder.",
+          "prompt_ja": "裁判官はスピード違反者に400ドルの罰金を課した。",
+          "choices": [
+            "informed",
+            "imposed",
+            "declared",
+            "shrinked"
+          ],
+          "answer": "imposed",
+          "tags": [
+            "kouki-4",
+            "cset2600",
+            "1951-2000"
+          ]
+        },
+        {
+          "id": "kouki4-q002",
+          "number": 2,
+          "answer_language": "en",
+          "prompt_en": "He immediately ( ) all his colleagues of his discovery.",
+          "prompt_ja": "彼はすぐに自分の発見を同僚全員に知らせた。",
+          "choices": [
+            "interpreted",
+            "integrated",
+            "imposed",
+            "informed"
+          ],
+          "answer": "informed",
+          "tags": [
+            "kouki-4",
+            "cset2600",
+            "1951-2000"
+          ]
+        },
+        {
+          "id": "kouki4-q003",
+          "number": 3,
+          "answer_language": "en",
+          "prompt_en": "The venture corporation was ( ) of making illegal copies of software.",
+          "prompt_ja": "そのベンチャー企業はソフトウェアの違法ソフトウェアの違法コピーを作ったことで告訴された。",
+          "choices": [
+            "manipulated",
+            "disturbed",
+            "accused",
+            "declared"
+          ],
+          "answer": "accused",
+          "tags": [
+            "kouki-4",
+            "cset2600",
+            "1951-2000"
+          ]
+        },
+        {
+          "id": "kouki4-q004",
+          "number": 4,
+          "answer_language": "en",
+          "prompt_en": "It's not so easy to ( ) this machine.",
+          "prompt_ja": "この機会を操作するのはそれほど用意ではない。",
+          "choices": [
+            "integrate",
+            "manipulate",
+            "disturb",
+            "impose"
+          ],
+          "answer": "manipulate",
+          "tags": [
+            "kouki-4",
+            "cset2600",
+            "1951-2000"
+          ]
+        },
+        {
+          "id": "kouki4-q005",
+          "number": 5,
+          "answer_language": "en",
+          "prompt_en": "The company ( ) several functions into one new department.",
+          "prompt_ja": "その会社はいくつかの機能をひとつの新しい部署に統合した。",
+          "choices": [
+            "integrated",
+            "intrigued",
+            "imposed",
+            "retained"
+          ],
+          "answer": "integrated",
+          "tags": [
+            "kouki-4",
+            "cset2600",
+            "1951-2000"
+          ]
+        },
+        {
+          "id": "kouki4-q006",
+          "number": 6,
+          "answer_language": "en",
+          "prompt_en": "The ( ) bloced the ambulance from reaching the accident scene.",
+          "prompt_ja": "瓦礫のため、救急車が事故現場に到着できなかった。",
+          "choices": [
+            "incident",
+            "debris",
+            "abuse",
+            "habit"
+          ],
+          "answer": "debris",
+          "tags": [
+            "kouki-4",
+            "cset2600",
+            "1951-2000"
+          ]
+        },
+        {
+          "id": "kouki4-q007",
+          "number": 7,
+          "answer_language": "en",
+          "prompt_en": "This type of cell phone has gone out of ( ).",
+          "prompt_ja": "このタイプの携帯電話はもう流行遅れになっている。",
+          "choices": [
+            "fashion",
+            "fate",
+            "essay",
+            "classic"
+          ],
+          "answer": "fashion",
+          "tags": [
+            "kouki-4",
+            "cset2600",
+            "1951-2000"
+          ]
+        },
+        {
+          "id": "kouki4-q008",
+          "number": 8,
+          "answer_language": "en",
+          "prompt_en": "Drug ( ) is a big problem among young people.",
+          "prompt_ja": "薬物乱用は若者のあいだで大きな問題になっている。",
+          "choices": [
+            "abuse",
+            "mold",
+            "debirs",
+            "bush"
+          ],
+          "answer": "abuse",
+          "tags": [
+            "kouki-4",
+            "cset2600",
+            "1951-2000"
+          ]
+        },
+        {
+          "id": "kouki4-q009",
+          "number": 9,
+          "answer_language": "en",
+          "prompt_en": "The book about the early Internet has become almost a ( ).",
+          "prompt_ja": "初期のインターネットについて書かれた本は、もうほとんど古典になっている。",
+          "choices": [
+            "protocol",
+            "classic",
+            "controversy",
+            "tale"
+          ],
+          "answer": "classic",
+          "tags": [
+            "kouki-4",
+            "cset2600",
+            "1951-2000"
+          ]
+        },
+        {
+          "id": "kouki4-q010",
+          "number": 10,
+          "answer_language": "en",
+          "prompt_en": "A ( ) is used to shape a soft substance into a particular form.",
+          "prompt_ja": "型は柔らかい物質を特定の形状にするのに使われる。",
+          "choices": [
+            "fate",
+            "peer",
+            "tale",
+            "mold"
+          ],
+          "answer": "mold",
+          "tags": [
+            "kouki-4",
+            "cset2600",
+            "1951-2000"
+          ]
+        },
+        {
+          "id": "kouki4-q011",
+          "number": 11,
+          "answer_language": "en",
+          "prompt_en": "The book contains twelve short ( ).",
+          "prompt_ja": "この本には12話の短い物語が載っている。",
+          "choices": [
+            "fates",
+            "habits",
+            "tales",
+            "peers"
+          ],
+          "answer": "tales",
+          "tags": [
+            "kouki-4",
+            "cset2600",
+            "1951-2000"
+          ]
+        },
+        {
+          "id": "kouki4-q012",
+          "number": 12,
+          "answer_language": "en",
+          "prompt_en": "The ( ) of the space shuttle returned safely from space.",
+          "prompt_ja": "スペースシャトルの乗務員は無事に宇宙から帰還した。",
+          "choices": [
+            "cliff",
+            "tale",
+            "bush",
+            "crew"
+          ],
+          "answer": "crew",
+          "tags": [
+            "kouki-4",
+            "cset2600",
+            "1951-2000"
+          ]
+        },
+        {
+          "id": "kouki4-q013",
+          "number": 13,
+          "answer_language": "en",
+          "prompt_en": "The man is planning a solo ( ) across the Pacific Ocean.",
+          "prompt_ja": "その男は太平洋単独航海を計画している。",
+          "choices": [
+            "discipline",
+            "protocol",
+            "transition",
+            "voyage"
+          ],
+          "answer": "voyage",
+          "tags": [
+            "kouki-4",
+            "cset2600",
+            "1951-2000"
+          ]
+        },
+        {
+          "id": "kouki4-q014",
+          "number": 14,
+          "answer_language": "en",
+          "prompt_en": "A bottle with a message in it washed up on the ( ).",
+          "prompt_ja": "メッセージの入った瓶が岸に流れ着いた。",
+          "choices": [
+            "cliff",
+            "bush",
+            "impurity",
+            "shore"
+          ],
+          "answer": "shore",
+          "tags": [
+            "kouki-4",
+            "cset2600",
+            "1951-2000"
+          ]
+        },
+        {
+          "id": "kouki4-q015",
+          "number": 15,
+          "answer_language": "en",
+          "prompt_en": "The Kyoto ( ) is an international treaty concerning global warming.",
+          "prompt_ja": "京都議定書は、地球温暖化に関する国際的な条約である。",
+          "choices": [
+            "protocol",
+            "discipline",
+            "ingredient",
+            "opponent"
+          ],
+          "answer": "protocol",
+          "tags": [
+            "kouki-4",
+            "cset2600",
+            "1951-2000"
+          ]
+        },
+        {
+          "id": "kouki4-q016",
+          "number": 16,
+          "answer_language": "en",
+          "prompt_en": "( ) is regarded as the role of the family.",
+          "prompt_ja": "しつけは家庭の役割だとみなされている。",
+          "choices": [
+            "controversy",
+            "ingredient",
+            "discipline",
+            "voyage"
+          ],
+          "answer": "discipline",
+          "tags": [
+            "kouki-4",
+            "cset2600",
+            "1951-2000"
+          ]
+        },
+        {
+          "id": "kouki4-q017",
+          "number": 17,
+          "answer_language": "en",
+          "prompt_en": "This graph shows the ( ) of each country's GDP.",
+          "prompt_ja": "このグラフは各国のGDPの推移を示している。",
+          "choices": [
+            "controversy",
+            "transition",
+            "discipline",
+            "diagram"
+          ],
+          "answer": "transition",
+          "tags": [
+            "kouki-4",
+            "cset2600",
+            "1951-2000"
+          ]
+        },
+        {
+          "id": "kouki4-q018",
+          "number": 18,
+          "answer_language": "en",
+          "prompt_en": "According to the ( ), these parts have to be set in symmetry.",
+          "prompt_ja": "その図によれば、これらの部品は対象に設置しなければいけない。",
+          "choices": [
+            "opponent",
+            "protocol",
+            "diagram",
+            "transition"
+          ],
+          "answer": "diagram",
+          "tags": [
+            "kouki-4",
+            "cset2600",
+            "1951-2000"
+          ]
+        },
+        {
+          "id": "kouki4-q019",
+          "number": 19,
+          "answer_language": "en",
+          "prompt_en": "Some people cannot ( ) milk products.",
+          "prompt_ja": "乳製品を消化できない人もいる。",
+          "choices": [
+            "pursue",
+            "digest",
+            "confuse",
+            "fold"
+          ],
+          "answer": "digest",
+          "tags": [
+            "kouki-4",
+            "cset2600",
+            "1951-2000"
+          ]
+        },
+        {
+          "id": "kouki4-q020",
+          "number": 20,
+          "answer_language": "en",
+          "prompt_en": "She ( ) her entire life to helping poor people in the country.",
+          "prompt_ja": "彼女はその国の貧しい人々の救済に自分の一生を捧げた。",
+          "choices": [
+            "exhausted",
+            "digested",
+            "pursued",
+            "devoted"
+          ],
+          "answer": "devoted",
+          "tags": [
+            "kouki-4",
+            "cset2600",
+            "1951-2000"
+          ]
+        },
+        {
+          "id": "kouki4-q021",
+          "number": 21,
+          "answer_language": "en",
+          "prompt_en": "You have to ( ) two grapefruits to get one glass of juice.",
+          "prompt_ja": "１杯のジュースを作るのに、２個のグレープフルーツを搾らなければいけません。",
+          "choices": [
+            "squeeze",
+            "curled",
+            "exhausted",
+            "digested"
+          ],
+          "answer": "squeeze",
+          "tags": [
+            "kouki-4",
+            "cset2600",
+            "1951-2000"
+          ]
+        },
+        {
+          "id": "kouki4-q022",
+          "number": 22,
+          "answer_language": "en",
+          "prompt_en": "We will ( ) our fuel reserves in a day unless the pipeline opens again.",
+          "prompt_ja": "パイプラインが再開しないと、私たちはあと１日で燃料の備蓄を使い果たしてしまう。",
+          "choices": [
+            "satisfy",
+            "exhaust",
+            "criticize",
+            "devote"
+          ],
+          "answer": "exhaust",
+          "tags": [
+            "kouki-4",
+            "cset2600",
+            "1951-2000"
+          ]
+        },
+        {
+          "id": "kouki4-q023",
+          "number": 23,
+          "answer_language": "en",
+          "prompt_en": "( ) the paper in half and put it into the envelope.",
+          "prompt_ja": "その紙を半分に折って封筒にいれなさい。",
+          "choices": [
+            "Halt",
+            "Curl",
+            "Unite",
+            "Fold"
+          ],
+          "answer": "Fold",
+          "tags": [
+            "kouki-4",
+            "cset2600",
+            "1951-2000"
+          ]
+        },
+        {
+          "id": "kouki4-q024",
+          "number": 24,
+          "answer_language": "en",
+          "prompt_en": "The scientist devoted herself to studying radioactivity, which ( ) her life.",
+          "prompt_ja": "その科学者は放射線の研究に障害を捧げたが、それが彼女の命を縮めた。",
+          "choices": [
+            "exhausted",
+            "exceeded",
+            "shrtened",
+            "satisfied"
+          ],
+          "answer": "shrtened",
+          "tags": [
+            "kouki-4",
+            "cset2600",
+            "1951-2000"
+          ]
+        },
+        {
+          "id": "kouki4-q025",
+          "number": 25,
+          "answer_language": "en",
+          "prompt_en": "No single solution will ( ) both of those nations.",
+          "prompt_ja": "それらの国の双方を満足させる唯一の解決策はない。",
+          "choices": [
+            "satisfy",
+            "pursue",
+            "confuse",
+            "criticeze"
+          ],
+          "answer": "satisfy",
+          "tags": [
+            "kouki-4",
+            "cset2600",
+            "1951-2000"
+          ]
+        },
+        {
+          "id": "kouki4-q026",
+          "number": 26,
+          "answer_language": "ja",
+          "prompt_en": "You need to interpret these data in order to reach a conclusion.",
+          "prompt_ja": "結論に到達するためには、このデータを ( ) 必要がある。",
+          "choices": [
+            "限定する",
+            "整理する",
+            "解釈する",
+            "分解する"
+          ],
+          "answer": "解釈する",
+          "tags": [
+            "kouki-4",
+            "cset2600",
+            "1951-2000"
+          ]
+        },
+        {
+          "id": "kouki4-q027",
+          "number": 27,
+          "answer_language": "ja",
+          "prompt_en": "The authorities have declared that the war has ended.",
+          "prompt_ja": "当局は戦争が終結したことを ( )。",
+          "choices": [
+            "保持した",
+            "非難した",
+            "宣言した",
+            "操作した"
+          ],
+          "answer": "宣言した",
+          "tags": [
+            "kouki-4",
+            "cset2600",
+            "1951-2000"
+          ]
+        },
+        {
+          "id": "kouki4-q028",
+          "number": 28,
+          "answer_language": "ja",
+          "prompt_en": "I was intrigued by the young scientist's study.",
+          "prompt_ja": "私はその若い科学者の研究に ( )。",
+          "choices": [
+            "興味をそそられた",
+            "情報を与えた",
+            "混乱させられた",
+            "感謝した"
+          ],
+          "answer": "興味をそそられた",
+          "tags": [
+            "kouki-4",
+            "cset2600",
+            "1951-2000"
+          ]
+        },
+        {
+          "id": "kouki4-q029",
+          "number": 29,
+          "answer_language": "ja",
+          "prompt_en": "Don't disturb me when I am studying.",
+          "prompt_ja": "私が勉強しているとき ( ) しないでください。",
+          "choices": [
+            "掃除",
+            "抗議",
+            "邪魔",
+            "無視"
+          ],
+          "answer": "邪魔",
+          "tags": [
+            "kouki-4",
+            "cset2600",
+            "1951-2000"
+          ]
+        },
+        {
+          "id": "kouki4-q030",
+          "number": 30,
+          "answer_language": "ja",
+          "prompt_en": "The motion of the robot closely resembles that of humans.",
+          "prompt_ja": "そのロボットの動きは人間の動きに非常によく ( )。",
+          "choices": [
+            "一体化している",
+            "似ている",
+            "維持されている",
+            "支配されている"
+          ],
+          "answer": "似ている",
+          "tags": [
+            "kouki-4",
+            "cset2600",
+            "1951-2000"
+          ]
+        },
+        {
+          "id": "kouki4-q031",
+          "number": 31,
+          "answer_language": "ja",
+          "prompt_en": "Many students protested the university's decision to dismiss the student union.",
+          "prompt_ja": "学生自治会を解散させるという大学の決定に多くの学生達が ( ) 。",
+          "choices": [
+            "抗議した",
+            "邪魔した",
+            "非難した",
+            "団結した"
+          ],
+          "answer": "抗議した",
+          "tags": [
+            "kouki-4",
+            "cset2600",
+            "1951-2000"
+          ]
+        },
+        {
+          "id": "kouki4-q032",
+          "number": 32,
+          "answer_language": "ja",
+          "prompt_en": "This new material can retain heat much longer than the others.",
+          "prompt_ja": "この新しい素材は、他のものよりもはるかに長時間熱を ( ) 。",
+          "choices": [
+            "放出できる",
+            "吸収できる",
+            "伝えられる",
+            "保持できる"
+          ],
+          "answer": "保持できる",
+          "tags": [
+            "kouki-4",
+            "cset2600",
+            "1951-2000"
+          ]
+        },
+        {
+          "id": "kouki4-q033",
+          "number": 33,
+          "answer_language": "ja",
+          "prompt_en": "The novel is based on the an actual incident that took place in the past.",
+          "prompt_ja": "その小説は過去に起こった実際の ( ) を基にしている 。",
+          "choices": [
+            "習慣",
+            "物語",
+            "論争",
+            "事件"
+          ],
+          "answer": "事件",
+          "tags": [
+            "kouki-4",
+            "cset2600",
+            "1951-2000"
+          ]
+        },
+        {
+          "id": "kouki4-q034",
+          "number": 34,
+          "answer_language": "ja",
+          "prompt_en": "In the future, human beings may meet a similar fate to that of dinosaurs.",
+          "prompt_ja": "将来は人間も恐竜と同じような ( ) に遭うかもしれない。",
+          "choices": [
+            "危機",
+            "絶滅",
+            "運命",
+            "状態"
+          ],
+          "answer": "運命",
+          "tags": [
+            "kouki-4",
+            "cset2600",
+            "1951-2000"
+          ]
+        },
+        {
+          "id": "kouki4-q035",
+          "number": 35,
+          "answer_language": "ja",
+          "prompt_en": "I have a habit of checking my email right after waking up.",
+          "prompt_ja": "私は起床直後にメールをチェックする ( ) がある。",
+          "choices": [
+            "習慣",
+            "望み",
+            "操作",
+            "義務"
+          ],
+          "answer": "習慣",
+          "tags": [
+            "kouki-4",
+            "cset2600",
+            "1951-2000"
+          ]
+        },
+        {
+          "id": "kouki4-q036",
+          "number": 36,
+          "answer_language": "ja",
+          "prompt_en": "A snake crawled out of the bush.",
+          "prompt_ja": "ヘビが ( ) の中から這い出てきた。",
+          "choices": [
+            "洞窟",
+            "茂み",
+            "暗闇",
+            "森林"
+          ],
+          "answer": "茂み",
+          "tags": [
+            "kouki-4",
+            "cset2600",
+            "1951-2000"
+          ]
+        },
+        {
+          "id": "kouki4-q037",
+          "number": 37,
+          "answer_language": "ja",
+          "prompt_en": "You have to write an essay as part of the examination.",
+          "prompt_ja": "試験の一部として ( ) も書かなければいけません。",
+          "choices": [
+            "小論文",
+            "物語",
+            "図形",
+            "履歴書"
+          ],
+          "answer": "小論文",
+          "tags": [
+            "kouki-4",
+            "cset2600",
+            "1951-2000"
+          ]
+        },
+        {
+          "id": "kouki4-q038",
+          "number": 38,
+          "answer_language": "ja",
+          "prompt_en": "He completed the research with the support of his peers.",
+          "prompt_ja": "彼は ( ) に支えられながらその研究を完成させた。",
+          "choices": [
+            "論理",
+            "仲間",
+            "成果",
+            "企業"
+          ],
+          "answer": "仲間",
+          "tags": [
+            "kouki-4",
+            "cset2600",
+            "1951-2000"
+          ]
+        },
+        {
+          "id": "kouki4-q039",
+          "number": 39,
+          "answer_language": "ja",
+          "prompt_en": "The lighthouse stands on top of the cliff.",
+          "prompt_ja": "その灯台は ( ) の上に立っている。",
+          "choices": [
+            "半島",
+            "崖",
+            "海岸線",
+            "岩礁"
+          ],
+          "answer": "崖",
+          "tags": [
+            "kouki-4",
+            "cset2600",
+            "1951-2000"
+          ]
+        },
+        {
+          "id": "kouki4-q040",
+          "number": 40,
+          "answer_language": "ja",
+          "prompt_en": "There was a lot of controversy about the right s and wrongs of the war.",
+          "prompt_ja": "その戦争の是非に関しては多くの ( ) があった。",
+          "choices": [
+            "論争",
+            "推移",
+            "抗議",
+            "観点"
+          ],
+          "answer": "論争",
+          "tags": [
+            "kouki-4",
+            "cset2600",
+            "1951-2000"
+          ]
+        },
+        {
+          "id": "kouki4-q041",
+          "number": 41,
+          "answer_language": "ja",
+          "prompt_en": "The ingredients of food are printed on the package.",
+          "prompt_ja": "食品の ( ) はパッケージに表示されている。",
+          "choices": [
+            "栄養",
+            "原材料",
+            "不純物",
+            "危険性"
+          ],
+          "answer": "原材料",
+          "tags": [
+            "kouki-4",
+            "cset2600",
+            "1951-2000"
+          ]
+        },
+        {
+          "id": "kouki4-q042",
+          "number": 42,
+          "answer_language": "ja",
+          "prompt_en": "The presence of an impurity in a substance lowers the melting point.",
+          "prompt_ja": "物質の中に ( ) があると融点が低くなる。",
+          "choices": [
+            "触媒",
+            "不純物",
+            "破片",
+            "栄養"
+          ],
+          "answer": "不純物",
+          "tags": [
+            "kouki-4",
+            "cset2600",
+            "1951-2000"
+          ]
+        },
+        {
+          "id": "kouki4-q043",
+          "number": 43,
+          "answer_language": "ja",
+          "prompt_en": "Who is my opponent in the next tennis match?",
+          "prompt_ja": "次のテニスの試合での私の ( ) は誰ですか。",
+          "choices": [
+            "仲間",
+            "応援",
+            "対戦相手",
+            "審判"
+          ],
+          "answer": "対戦相手",
+          "tags": [
+            "kouki-4",
+            "cset2600",
+            "1951-2000"
+          ]
+        },
+        {
+          "id": "kouki4-q044",
+          "number": 44,
+          "answer_language": "ja",
+          "prompt_en": "Draw the axis of symmetry of this parabola.",
+          "prompt_ja": "この放物線の ( ) 軸を描きなさい。",
+          "choices": [
+            "遷移",
+            "統一",
+            "反転",
+            "対称"
+          ],
+          "answer": "対称",
+          "tags": [
+            "kouki-4",
+            "cset2600",
+            "1951-2000"
+          ]
+        },
+        {
+          "id": "kouki4-q045",
+          "number": 45,
+          "answer_language": "ja",
+          "prompt_en": "He is confusing illusion with reality.",
+          "prompt_ja": "彼は錯覚を現実と ( ) いる。",
+          "choices": [
+            "操作して",
+            "混同して",
+            "批判して",
+            "解釈して"
+          ],
+          "answer": "混同して",
+          "tags": [
+            "kouki-4",
+            "cset2600",
+            "1951-2000"
+          ]
+        },
+        {
+          "id": "kouki4-q046",
+          "number": 46,
+          "answer_language": "ja",
+          "prompt_en": "She has pursued her dream of becoming a computer graphics engineer.",
+          "prompt_ja": "彼女はコンピューターグラフィック技術者になる夢を ( )。",
+          "choices": [
+            "捧げてきた",
+            "追求してきた",
+            "超えてきた",
+            "満足させてきた"
+          ],
+          "answer": "追求してきた",
+          "tags": [
+            "kouki-4",
+            "cset2600",
+            "1951-2000"
+          ]
+        },
+        {
+          "id": "kouki4-q047",
+          "number": 47,
+          "answer_language": "ja",
+          "prompt_en": "The president united several parties to form a new government.",
+          "prompt_ja": "大統領はいくつかの党を ( ) 新しい政府を作った。",
+          "choices": [
+            "統一して",
+            "操作して",
+            "解体して",
+            "批判して"
+          ],
+          "answer": "統一して",
+          "tags": [
+            "kouki-4",
+            "cset2600",
+            "1951-2000"
+          ]
+        },
+        {
+          "id": "kouki4-q048",
+          "number": 48,
+          "answer_language": "ja",
+          "prompt_en": "They have no right to criticize me.",
+          "prompt_ja": "彼らには私を ( ) 権利はない。",
+          "choices": [
+            "追求する",
+            "統一する",
+            "限定する",
+            "批判する"
+          ],
+          "answer": "批判する",
+          "tags": [
+            "kouki-4",
+            "cset2600",
+            "1951-2000"
+          ]
+        },
+        {
+          "id": "kouki4-q049",
+          "number": 49,
+          "answer_language": "ja",
+          "prompt_en": "The plastic sheet curled with the heat.",
+          "prompt_ja": "プラスチックシートが熱で ( ) しまった。",
+          "choices": [
+            "溶けて",
+            "変色して",
+            "変形して",
+            "巻いて"
+          ],
+          "answer": "巻いて",
+          "tags": [
+            "kouki-4",
+            "cset2600",
+            "1951-2000"
+          ]
+        },
+        {
+          "id": "kouki4-q050",
+          "number": 50,
+          "answer_language": "ja",
+          "prompt_en": "The temperature of the capsule during its re-entry into the atmosphere exceeds 3000℃.",
+          "prompt_ja": "カプセルが大気圏に再突入するときの温度は3000℃ ( ) 。",
+          "choices": [
+            "を超える",
+            "を保持する",
+            "と認知する",
+            "と推測する"
+          ],
+          "answer": "を超える",
+          "tags": [
+            "kouki-4",
+            "cset2600",
+            "1951-2000"
+          ]
+        }
+      ]
     }
   ]
 }
